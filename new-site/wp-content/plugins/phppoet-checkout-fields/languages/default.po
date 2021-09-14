@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pcfme\n"
+"POT-Creation-Date: 2016-05-04 10:26+0530\n"
+"PO-Revision-Date: 2016-05-04 10:26+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: include\n"
+"X-Poedit-SearchPath-2: assets\n"
+"X-Poedit-SearchPath-3: plugin-update-checker\n"
+
+#: include/pcmfe_core_functions.php:82
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: include/update_checkout_fields_class.php:26
+msgid "is a required field"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:103
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:104
+#: include/admin/pcfme_admin_settings.php:344
+msgid "billing_field_"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:105
+#: include/admin/pcfme_admin_settings.php:348
+msgid "shipping_field_"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:106
+#: include/admin/pcfme_admin_settings.php:352
+msgid "additional_field_"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:107
+msgid "billing field "
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:108
+msgid "shipping field "
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:109
+msgid "additional field "
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:110
+msgid "Search and Select "
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:111
+msgid ""
+"Restoring Default fields will undo all your Changes. Are you sure you want "
+"to do this ?"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:190
+msgid "Checkout fields"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:210
+msgid "Save Changes"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:228
+msgid "Address"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:237
+msgid "Town / City"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:242
+msgid "State / County"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:247
+msgid "Postcode / Zip"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:386
+msgid "Hide/Remove This Core Field"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:392
+msgid "Field Key"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:398
+#: include/admin/forms/pcfme_show_new_form.php:33
+msgid "Field Type"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:401
+#: include/admin/forms/pcfme_show_new_form.php:36
+msgid "Text"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:402
+#: include/admin/forms/pcfme_show_new_form.php:37
+msgid "Textarea"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:403
+#: include/admin/forms/pcfme_show_new_form.php:38
+msgid "Password"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:404
+#: include/admin/forms/pcfme_show_new_form.php:39
+msgid "Checkbox"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:405
+#: include/admin/forms/pcfme_show_new_form.php:40
+msgid "Select"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:406
+msgid "multiselect"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:407
+#: include/admin/forms/pcfme_show_new_form.php:42
+msgid "Radio Select"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:408
+#: include/admin/forms/pcfme_show_new_form.php:43
+msgid "Date Picker"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:416
+#: include/admin/forms/pcfme_show_new_form.php:49
+msgid "Label"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:424
+msgid "Width"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:428
+#: include/admin/forms/pcfme_show_new_form.php:60
+msgid "Full Width"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:429
+#: include/admin/forms/pcfme_show_new_form.php:61
+msgid "First Half"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:430
+#: include/admin/forms/pcfme_show_new_form.php:62
+msgid "Second Half"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:439
+#: include/admin/forms/pcfme_show_new_form.php:72
+msgid "Required"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:445
+#: include/admin/forms/pcfme_show_new_form.php:78
+msgid "Clearfix"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:451
+#: include/admin/forms/pcfme_show_new_form.php:84
+msgid "Placeholder "
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:458
+#: include/admin/forms/pcfme_show_new_form.php:91
+msgid "Options"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:461
+#: include/admin/forms/pcfme_show_new_form.php:94
+msgid "Separated by comma. For Example: option1,option2"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:481
+#: include/admin/forms/pcfme_show_new_form.php:101
+msgid "Visibility"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:484
+#: include/admin/forms/pcfme_show_new_form.php:104
+msgid "Always Visibile"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:485
+#: include/admin/forms/pcfme_show_new_form.php:105
+msgid "Conditional - Product Specific"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:486
+#: include/admin/forms/pcfme_show_new_form.php:106
+msgid "Conditional - Category Specific"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:493
+#: include/admin/forms/pcfme_show_new_form.php:113
+msgid "Select Products"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:496
+#: include/admin/forms/pcfme_show_new_form.php:116
+msgid "Choose Products"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:505
+#: include/admin/forms/pcfme_show_new_form.php:125
+msgid "Select Categories"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:508
+#: include/admin/forms/pcfme_show_new_form.php:128
+msgid "Choose Categories"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:517
+#: include/admin/forms/pcfme_show_new_form.php:137
+msgid "Validate"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:520
+#: include/admin/forms/pcfme_show_new_form.php:140
+msgid "state"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:521
+#: include/admin/forms/pcfme_show_new_form.php:141
+msgid "postcode"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:522
+#: include/admin/forms/pcfme_show_new_form.php:142
+msgid "email"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:523
+#: include/admin/forms/pcfme_show_new_form.php:143
+msgid "phone"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:529
+#: include/admin/forms/pcfme_show_new_form.php:149
+msgid "Chose Options"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:536
+#: include/admin/forms/pcfme_show_new_form.php:156
+msgid "Disable Past Date Selection In Datepicker"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:541
+#: include/admin/forms/pcfme_show_new_form.php:161
+msgid "Show field detail on order edition page"
+msgstr ""
+
+#: include/admin/pcfme_admin_settings.php:546
+msgid "Show field detail on woocommerce order email"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_additional_fields_form.php:41
+msgid "Add additional Field"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_billing_fields_form.php:51
+msgid "Add Billing Field"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_billing_fields_form.php:52
+msgid "Restore Billing Fields"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_extra_fields_form.php:8
+msgid "Envato Item Purchase Code"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_extra_fields_form.php:11
+msgid "How to find it ?"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_extra_fields_form.php:12
+msgid ""
+"Valid envato item purchase code is required to recieve automatic updates."
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_extra_fields_form.php:17
+msgid "Include variations in chose products multiselect"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_shipping_fields_form.php:47
+msgid "Add Shipping Field"
+msgstr ""
+
+#: include/admin/forms/pcfme_admin_shipping_fields_form.php:48
+msgid "Restore Default Fields"
+msgstr ""
+
+#: include/admin/forms/pcfme_show_new_form.php:17
+msgid "Placeholder Text"
+msgstr ""
+
+#: include/admin/forms/pcfme_show_new_form.php:41
+msgid "Multi Select"
+msgstr ""
+
+#: include/admin/forms/pcfme_show_new_form.php:56
+msgid "Class"
+msgstr ""
+
+#: include/admin/forms/pcfme_show_new_form.php:166
+msgid "Show field detail on woocommerce order emails"
+msgstr ""

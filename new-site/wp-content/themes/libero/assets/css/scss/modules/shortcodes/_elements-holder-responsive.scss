@@ -1,0 +1,220 @@
+/* ==========================================================================
+   Elements Holder Responsive start style
+   ========================================================================== */
+.mkd-elements-holder {
+
+	&.mkd-responsive-mode-1280.mkd-two-columns,
+	&.mkd-responsive-mode-1280.mkd-three-columns,
+	&.mkd-responsive-mode-1280.mkd-four-columns,
+	&.mkd-responsive-mode-1280.mkd-five-columns,
+	&.mkd-responsive-mode-1280.mkd-six-columns {
+
+		.mkd-elements-holder-item {
+			@media only screen and (max-width: 1280px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkd-responsive-mode-1024.mkd-two-columns,
+	&.mkd-responsive-mode-1024.mkd-three-columns,
+	&.mkd-responsive-mode-1024.mkd-four-columns,
+	&.mkd-responsive-mode-1024.mkd-five-columns,
+	&.mkd-responsive-mode-1024.mkd-six-columns {
+
+		.mkd-elements-holder-item {
+			@media only screen and (max-width: 1024px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkd-responsive-mode-768.mkd-two-columns,
+	&.mkd-responsive-mode-768.mkd-three-columns,
+	&.mkd-responsive-mode-768.mkd-four-columns,
+	&.mkd-responsive-mode-768.mkd-five-columns,
+	&.mkd-responsive-mode-768.mkd-six-columns {
+
+		.mkd-elements-holder-item {
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkd-responsive-mode-600.mkd-two-columns,
+	&.mkd-responsive-mode-600.mkd-three-columns,
+	&.mkd-responsive-mode-600.mkd-four-columns,
+	&.mkd-responsive-mode-600.mkd-five-columns,
+	&.mkd-responsive-mode-600.mkd-six-columns {
+
+		.mkd-elements-holder-item {
+			@media only screen and (max-width: 600px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+	}
+
+	&.mkd-responsive-mode-480.mkd-two-columns,
+	&.mkd-responsive-mode-480.mkd-three-columns,
+	&.mkd-responsive-mode-480.mkd-four-columns,
+	&.mkd-responsive-mode-480.mkd-five-columns,
+	&.mkd-responsive-mode-480.mkd-six-columns {
+
+		.mkd-elements-holder-item {
+			@media only screen and (max-width: 480px) {
+				width: 100%;
+				display: inline-block;
+				height: auto;
+			}
+		}
+
+	}
+
+	.mkd-elements-holder-item-content{
+		@media only screen and (max-width: 480px) {
+			padding: 0 10px;
+		}
+	}
+
+}
+@media only screen and (max-width: 1280px) {
+	.mkd-elements-holder.mkd-responsive-mode-1280.mkd-one-column-alignment-left .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: left;
+
+		.mkd-icon-list-item{
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-1280.mkd-one-column-alignment-right .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: right;
+
+		.mkd-icon-list-item{
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-1280.mkd-one-column-alignment-center .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: center;
+
+		.mkd-icon-list-item{
+			margin: auto;
+		}
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.mkd-elements-holder.mkd-responsive-mode-1024.mkd-one-column-alignment-left .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: left;
+
+		.mkd-icon-list-item{
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-1024.mkd-one-column-alignment-right .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: right;
+
+		.mkd-icon-list-item{
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-1024.mkd-one-column-alignment-center .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: center;
+
+		.mkd-icon-list-item{
+			margin: auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.mkd-elements-holder.mkd-responsive-mode-768.mkd-one-column-alignment-left .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: left;
+
+		.mkd-icon-list-item{
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-768.mkd-one-column-alignment-right .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: right;
+
+		.mkd-icon-list-item{
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-768.mkd-one-column-alignment-center .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: center;
+
+		.mkd-icon-list-item{
+			margin: auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.mkd-elements-holder.mkd-responsive-mode-600.mkd-one-column-alignment-left .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: left;
+
+		.mkd-icon-list-item{
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-600.mkd-one-column-alignment-right .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: right;
+
+		.mkd-icon-list-item{
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-600.mkd-one-column-alignment-center .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: center;
+
+		.mkd-icon-list-item{
+			margin: auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.mkd-elements-holder.mkd-responsive-mode-480.mkd-one-column-alignment-left .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: left;
+
+		.mkd-icon-list-item{
+			margin-left: 0;
+			margin-right: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-480.mkd-one-column-alignment-right .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: right;
+
+		.mkd-icon-list-item{
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+	.mkd-elements-holder.mkd-responsive-mode-480.mkd-one-column-alignment-center .mkd-elements-holder-item .mkd-elements-holder-item-content {
+		text-align: center;
+
+		.mkd-icon-list-item{
+			margin: auto;
+		}
+	}
+}
+
+/* ==========================================================================
+   End of Elements Holder Responsive style
+   ========================================================================== */

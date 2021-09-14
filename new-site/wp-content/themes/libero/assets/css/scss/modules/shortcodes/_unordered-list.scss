@@ -1,0 +1,98 @@
+/* ==========================================================================
+# Unordered List Style - begin
+========================================================================== */
+
+.mkd-unordered-list ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+    list-style-type: none;
+    
+    >li{
+        padding-left: 29px;
+        position: relative;
+        font-family: inherit;
+        line-height: 27px;
+        font-size: 18px;
+
+		&:before {
+			display: inline-block;
+			position: absolute;
+			left: 6px;
+			top: 9px;
+			padding: 0;
+			text-align: center;
+			width: 6px;
+			height: 6px;
+			background-color: $first-main-color;
+			content: '';
+			border-radius: 25px;
+		}
+
+		a{
+			color: $default-text-color;
+		}
+
+		a:hover{
+			color: $first-main-color;
+		}
+    }    
+}
+.mkd-unordered-list.mkd-line  ul{
+    
+    >li{
+        &:before {
+            height: 27px;
+            width: 18px;
+            line-height: 27px;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: -1px;
+            padding: 0;
+            color: $first-main-color;
+            background-color: transparent;
+            text-align: center;
+            content: '-';
+        }
+    }
+    
+    
+}
+
+.mkd-unordered-list.mkd-arrow  ul{
+    
+    >li{
+        &:before {
+            height: 27px;
+            width: auto;
+            line-height: 27px;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: -1px;
+            padding: 0;
+            color: $first-main-color;
+            background-color: transparent;
+            text-align: center;
+            content: '\35';
+            font-family: 'ElegantIcons'
+        }
+    }
+    
+    
+}
+
+.mkd-unordered-list.mkd-animate-list ul li{
+    opacity: 0;
+    top: -40px;
+}
+
+.touch .mkd-no-animations-on-touch .mkd-unordered-list.mkd-animate-list  ul li{
+    opacity: 1;
+    top: 0;
+}
+
+/* ==========================================================================
+# Unordered List Style - end
+========================================================================== */

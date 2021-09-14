@@ -1,0 +1,44 @@
+/* ==========================================================================
+# Ordered List Style - begin
+========================================================================== */
+.mkd-ordered-list ol {
+	counter-reset: li;
+	display: block;
+	list-style-type: none;
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: 0 0 30px;
+    li{
+        font-family: inherit;
+        line-height: 27px;
+        font-size: 18px;
+
+		a{
+			color: $default-text-color;
+		}
+
+		a:hover{
+			color: $first-main-color;
+		}
+    }
+    >li:before{
+        color:$first-main-color;
+        content: counter(li, decimal-leading-zero);
+        counter-increment: li;
+        padding-right: 20px;
+        width: 14px;
+        display: inline-block;
+    }
+}
+.mkd-ordered-list ul{
+    counter-reset: li;
+	display: block;
+	list-style-type: none;
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: 0 0 30px;
+}
+
+/* ==========================================================================
+# Ordered List Style - end
+========================================================================== */

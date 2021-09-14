@@ -1,0 +1,117 @@
+
+.mkd-icon-shortcode {
+    $transition-duration: 0.15s;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    &.circle,
+    &.square {
+        position: relative;
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+
+        @include mkdTransition(
+                background-color $transition-duration ease-in-out,
+                border-color $transition-duration ease-in-out
+        );
+
+        .mkd-background{
+            background-color: $first-main-color;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            box-sizing: border-box;
+            @include mkdTransform(scale(1));
+            -webkit-transition: -webkit-transform $transition-duration ease, background-color $transition-duration ease-in-out, border-color $transition-duration ease-in-out;
+            transition: transform $transition-duration ease, background-color $transition-duration ease-in-out, border-color $transition-duration ease-in-out;
+        }
+
+        a {
+            display: block;
+            line-height: inherit;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .mkd-icon-element {
+            color: #fff;
+            line-height: inherit;
+            position: relative;
+            z-index: 1;
+        }
+
+        &.mkd-icon-linked:hover .mkd-background{
+            @include mkdTransform(scale(1.15));
+        }
+
+        .mkd-sidebar &.mkd-icon-linked:hover .mkd-background{
+            @include mkdTransform(none);
+        }
+
+		&.mkd-icon-linked{
+			.mkd-icon-element{
+				-webkit-backface-visibility: hidden;
+				transform: rotate(0.01deg);
+				display: inline-block;
+				width: 100%;
+			}
+		}
+    }
+
+    &.circle {
+        @include mkdBorderRadius(50%);
+
+        .mkd-background{
+            @include mkdBorderRadius(50%);
+        }
+
+        div:not(.mkd-iwt-icon-holder) > & a {
+            position: relative;
+        }
+    }
+
+    .mkd-icon-element {
+        @include mkdTransition(color $transition-duration ease-in-out);
+        vertical-align: text-bottom;
+    }
+}
+
+.mkd-icon-animation-holder {
+    @include mkdTransform(scale(0));
+    @include mkdTransition(transform 0.15s ease-in-out);
+    display: inline-block;
+
+    &.mkd-icon-animation-show {
+        @include mkdTransform(scale(1));
+    }
+}
+
+.mkd-icon-tiny {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+.mkd-icon-small {
+    font-size: 1.9em;
+}
+
+.mkd-icon-medium {
+    font-size: 3em;
+}
+
+.mkd-icon-large {
+    font-size: 4em;;
+}
+
+.mkd-icon-huge {
+    font-size: 5em;
+}

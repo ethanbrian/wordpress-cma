@@ -1,0 +1,52 @@
+
+@include phone-landscape {
+
+	.mkd-social-share-holder.mkd-dropdown .mkd-social-share-dropdown{
+		top: 100%;
+		left: 50%;
+
+		ul li{
+			@include mkdTransform(translateX(-50%));
+		}
+	}
+
+	.mkd-social-share-holder.mkd-dropdown:hover .mkd-social-share-dropdown{
+		ul {    
+		    top: 0;    
+		    opacity: 1;
+		}
+
+		ul li{
+
+			&:first-child{
+				top: 0px;
+			}
+
+			@for $i from 2 through 7 {
+				&:nth-child(#{$i}) { top: 66px * ($i - 1); left: 0; }
+			}
+		}
+	}
+
+	.mkd-blog-holder {
+		.mkd-social-share-dropdown {
+			width: 100%;
+
+			ul {
+				left: 0 !important;  //override initial left offset for desktop   
+				top: -20px;
+			}
+
+			ul li {
+				width: 100%;
+			}
+		}
+	}
+
+	.mkd-portfolio-social {
+		.mkd-social-share-dropdown ul {
+		    left: 0 !important;  //override initial left offset for desktop   
+		    top: -10px;
+		  }
+	}
+}

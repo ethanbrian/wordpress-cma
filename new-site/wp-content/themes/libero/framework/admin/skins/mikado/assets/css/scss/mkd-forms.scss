@@ -1,0 +1,123 @@
+@import "mixins";
+@import "variables";
+
+.mkd-page {
+    .mkd-field-description {
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
+
+.mkd-page {
+    input.mkd-form-element,
+    select.mkd-form-element,
+    textarea.mkd-form-element {
+        @include mkd-box-shadow(none);
+        @include mkd-transition(border-color 0.15s ease-out);
+        border-color: #ddd;
+        font-size: 13px;
+        outline: none;
+
+        &:focus {
+            border-color: #ccc;
+            @include mkd-box-shadow(inset 0 0 1px #ddd);
+        }
+    }
+
+    input[type='text'].mkd-form-element,
+    input[type='email'].mkd-form-element,
+    input[type='password'].mkd-form-element,
+    input[type='number'].mkd-form-element,
+    select.mkd-form-element,
+    textarea.mkd-form-element {
+        @include mkd-border-radius(0);
+
+        &.mkd-form-element-xsmall {
+            width: 100px;
+        }
+
+        &.mkd-form-element-small {
+            width: 155px;
+        }
+
+        &.mkd-form-element-medium {
+            width: 255px;
+        }
+
+        &.mkd-form-element-large {
+            width: 500px;
+        }
+    }
+
+    textarea.mkd-form-element {
+        resize: none;
+    }
+
+    input[type='text'].mkd-form-element,
+    input[type='email'].mkd-form-element,
+    input[type='password'].mkd-form-element,
+    input[type='number'].mkd-form-element,
+    select.mkd-form-element {
+        height: 34px;
+        line-height: 1.42857143;
+    }
+
+    input[type='text'].mkd-form-element,
+    input[type='email'].mkd-form-element,
+    input[type='password'].mkd-form-element,
+    input[type='number'].mkd-form-element,
+    select.mkd-form-element,
+    textarea.mkd-form-element {
+        padding: 6px 12px;
+    }
+
+    input[type="radio"].mkd-form-element,
+    input[type="checkbox"].mkd-form-element {
+        margin-top: 1px;
+		outline: none;
+		
+		@media only screen and (max-width: $second-break-point) {
+			width: 16px;
+			height: 16px;
+		}
+
+		&:checked:before {
+			@media only screen and (max-width: $second-break-point) {
+				font: 400 21px/1 dashicons;
+			}
+		}
+    }
+
+	input[type="checkbox"].mkd-form-element {
+		&:checked:before {
+			@media only screen and (max-width: $second-break-point) {
+				margin: -3px 0 0 -4px;
+			}
+		}
+	}
+
+	input[type="radio"].mkd-form-element {
+		&:checked:before {
+			@media only screen and (max-width: $second-break-point) {
+				margin: 3px;
+			}
+		}
+	}
+
+
+    .input-group {
+        margin-bottom: 15px;
+
+        .input-group-addon {
+            @include mkd-border-radius(0);
+        }
+    }
+
+}
+
+#wpbody select.mkd-form-element {
+	@media only screen and (max-width: $second-break-point) {
+		font-size: 13px;
+		height: 34px;
+	}
+}

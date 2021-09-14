@@ -1,0 +1,182 @@
+***CHANGELOG***
+Version 2.4.1 (02 july 2021)
+- Version 2.4.1 (02 july 2021) - Ability to change field key.
+- Enhancement - Improvement in backend UI.
+- Enhancement - Improved checkbox styling for order comments in backend. 
+- Enhancement - Added copy to clipboard icon for field key. 
+- Enhancement - Added frontend icon on settings tab.  
+Version 2.3.4 - 25 june 2021
+- Version 2.3.4 - Fix - hide child conditional field when parent field is not visible. 
+- Version 2.3.3 - Fix - hides additional information when order comments is hidden by product specific visibilty.
+- Version 2.3.2 - Fix - hides additional information upon hiding order notes.
+- Version 2.3.1 - Enhancement - checkbox css on backend.
+                - Fix - Core address field label were not visible on order email,conformation and edition page.
+- Enhancement - Option to change datetimepicker and daterangepicker language.
+- Enhancement - Option to change start day in datetimepicker and daterangepicker.
+- Enhancement - Improvement in backend button CSS. 
+- Enhancement - Added link to frontend on admin page. 
+- Enhancement - Updated momentjs library to latest version. 
+- Enhancement - Wrapped all frontend js file into jquery no conflict mode. 
+- Enhancement - Updated select2,jquery-tageditor libraries to latest version. 
+- Enhancement - Replaced all instances of _e and __ with esc_html__. 
+Version 2.2.6 - 20 april 2021
+- Version 2.2.6 (20 april 2021) - Fix - debug error upon plugin activation.
+- Version 2.2.5 (28 february 2021) - Fix - additional fields not getting saved with checkout.
+- Version 2.2.4 (14 december 2020) - Fix - debug errors with php 8.
+- Version 2.2.3 (14 december 2020) - Fix - first half/second half not working on core address fields.
+- Version 2.2.2 (20 november 2020) - Enhancement - added option to exclude days in datepicker.
+- Version 2.2.1 (20 november 2020) - Enhancement - added more datepicker formats.
+- Enahncement - fix- added guest visibility to role specific when roles are empty.
+- Enhancement - added timepicker interval option.
+- Enhancement - added timepicker allowed times. 
+Version 2.1.3 - 10 september 2020
+- Version 2.1.3 (10 september 2020) - Fix - core address field order not changing.
+- Version 2.1.2 (02 september 2020) - Fix - core address field order not changing.
+- Version 2.1.1 (02 september 2020) - Fix - core address field label not changing.
+- Enhancement - Show fields conditionally based on total cart quantity. 
+- Enhancement - Show fields conditionally based on cart quantity of specific product or variation. 
+- Enhancement - Option to choose datepicker format. 
+Version 2.0.8 - 23 august 2020
+* Version 2.0.8 (23 august 2020) - Fix - Debug error on checkout page. 
+* Version 2.0.7 (22 august 2020) - Fix - Removed label field for billing_address_2 and shipping_address_2.
+* Version 2.0.6 (22 august 2020) - Fix - Required attribute not working for core address fields.
+* Version 2.0.5 (21 august 2020) - Fix - Display full month text on datepicker output. 
+                                   Fix - Debug error related to datepicker. 
+* Version 2.0.4 (19 august 2020) - Fix - jquery conflict issue in backend arised after WP 5.5 update.
+* Version 2.0.3 (18 august 2020) - Fix - jquery conflict issue in backend arised after WP 5.5 update.
+* Version 2.0.2 (18 august 2020) - Added - Format option for datepicker field.
+* Version 2.0.1 (18 july 2020) - Fix for shipping field order issue.
+* Fix - Use of space for conditional fields
+* Fix - Improvement in frontend JS
+Version 1.9.0 - 20 February 2019
+* Version 1.9.5(20 February 2019)- Fix - Debug error for order comments.
+* Version 1.9.4(14 February 2019)- Added - Labels to core address fields.
+* Version 1.9.3(23 November 2019)- Added - Settings to manage order notes.
+* Version 1.9.2(23 November 2019)- Added - Role specific conditional visibility.
+* Version 1.9.1(11 November 2019)- Fix - use default value in select/radio field.
+* Added - Paragraph text field
+* Enhancement - Increased input text leangh to 100 in backend.
+* Enhancement - Increase select/multiselect field options text value limit.
+
+Version 1.8.4 - 20 september 2019
+* Version 1.8.4 (20 september 2019) - Fix - Field specific conditional visiblity does not work with variations.
+* Version 1.8.3 (05 september 2019) - Add - option to change fields location on thankyou page.
+* Version 1.8.2 (30 august 2019) - Fix - debug errors.
+* Version 1.8.1 (06 july 2019) - Bugfix - fixed datetimepicker formats.
+* Fix - Conditional field specific visibility issue when space is used in options.
+* Added multiple condition support for field specific conditional visibility.
+* Fix - Bug in reordering fields.
+* Added 4 new field support - Datetime picker , time picker , daterange picker , datetime range picker.
+Version 1.7.0 - 27 june 2019
+* Version 1.7.4(27 june 2019) -  Updated plugin meta data.
+* Version 1.7.3(27 june 2019) -  Fix-debug error on order meta page.
+* Version 1.7.2(16 june 2019) -  Fix-debug error on order meta page.
+* Version 1.7.1(21 march 2019) - Fix-billing state required notice for EU countries.
+* Fix - Reordering fields not working.
+* Fix - Debug notice related to fields priority.
+Version 1.6.0 - 21 may 2018
+* Version 1.6.2 (22 may 2018)- Fixed bug related to previous update.
+* Version 1.6.1 (22 may 2018)- Fixed debug errors.
+* Replaced chosen with select2 in backend.
+* Replaced existing product multiselect with ajax multiselect.
+* Removed settings tab. 
+
+  
+Version 1.5.0 - 12 december 2017
+* Added Heading field.
+* Removed Purchase code field in settings section.
+* Fix - minor admin side bug.  
+Version 1.4.0 - 20 april 2017
+* Fixed WooCommerce 3.0 compatibility issues.
+version 1.3.0 - 15 september 2016
+* Version 1.3.5 (04 october 2016)- Replaced comma,space with pipe,space as separater in options field. 
+* Version 1.3.4 (27 september 2016)- Fixed bug with Extra CSS section in newly added billing/shipping fields. 
+* Version 1.3.3 (24 september 2016)- Changed plugin update notification text. 
+* Version 1.3.2 (22 september 2016)- Fixed lowercase issue with select options on backend. 
+* Version 1.3.1 (16 september 2016)- Manage fields under My Account/Edit Address page.
+                                  - Added Extra CSS option for each field. 
+		                  - Show fields data on view order and order confirmation page.
+* Added        - Conditional field specific visibility.Hide/Show fields based on value of other fields. 
+* Added        - Three new field type : Email , Telephone and Number. 
+* Added        - Tag editor for select,multiselect,radio options. 
+* Improvement  - Admin UI CSS/JS
+* Removed      - Validate on additional fields.
+* Fix          - Jquery drag and drop conflict issue.
+* Added        - Showing submitted field details in WooCommerce PDF Invoices & Packing Slips.
+
+version 1.2.0 - 06 november 2015
+
+* version 1.2.6 - Overrides core woocommerce radio field html on checkout page.
+* version 1.2.5 - Fixed bug with select2 placeholder.
+* version 1.2.4 - Added default po/mo files. 
+* version 1.2.3 - Fixed issue with WP Multisite. 
+* version 1.2.2 - Improvement in automatic plugin update,fixed bug related to 1.2.0. 
+* version 1.2.1 - Fixed two bugs related to 1.2.0 update. 
+* Improvement in orderedition field display. 
+* Separated option for orderedition fields and order email fields. 
+* Added category and product specific field visibility.
+
+Version 1.1.0 - 16 October 2015
+
+* Version 1.1.1 - Some changes in automatic plugin update code to improve performance.
+* Fixed bug that prevents custom fields into order emails.
+
+Version 1.0.9 - 15 October 2015
+
+* Fixed debug error related to datepicker field.
+* Disabled label change option for core address fields.
+* Improvement in automatic plugin update feature.
+
+Version 1.0.8 - 2 October 2015
+
+* Added automatic updates.
+
+Version 1.0.7 - 20 September 2015
+
+* fixed bug related to required validation.
+
+Version 1.0.6 - 15 February 2015
+
+* replaced chosen with select2 on frontend.
+
+
+Version 1.0.5 - 14 February 2015
+
+* fixed compatibility issues with woocommerce 2.3.3.
+* Added option to disable selection of past dates in datepicker.
+* Fixed bug that shows wrong field key for additional fields.
+* Fixed bug related to shop manager role on order edition page.
+
+
+Version 1.0.4 - 21 January 2015
+
+* fixed bug related to datepicker arrows.
+* displays array into comma separated string into order edition page.
+* Fixed bug that prevents additional fields display on order edition page.
+* Fixed bug related to additional fields required validation.
+
+
+Version 1.0.3 - 09 January 2015
+
+* Added less opacity for hidden core fields. 
+* minor tweak in backend css and js code. 
+
+
+Version 1.0.2 - 24 December 2014
+
+* Support for Additional Fields
+* Admin side Visual Preview
+* Fixed Few minor bugs
+* Major Change/Improvement on Admin side as well as frontend side code.
+* Verified functionality of all features. 
+* Added Chosen select for single dropdown select
+
+Version 1.0.1 - 15 December 2014
+
+* Fixed one minor bug
+* Shows custom fields details along with order email
+
+Version 1.0.0 - 12 December 2014
+
+* Initial release
+

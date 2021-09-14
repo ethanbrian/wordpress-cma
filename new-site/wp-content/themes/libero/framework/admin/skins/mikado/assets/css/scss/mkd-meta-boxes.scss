@@ -1,0 +1,23 @@
+.mkd-meta-box {
+	table.mkd-meta-box-holder {
+		width: 100%;
+
+		tr.mkd-page-form-section {
+			th {
+				width: 250px;
+
+				p {
+					font-weight: 400;
+					color: #9e9e9e;
+				}
+			}
+
+			.mkd-field-desc {
+				h4 {
+					margin-bottom: 1.5em;
+				}
+
+			}
+		}
+	}
+}

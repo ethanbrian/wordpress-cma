@@ -1,0 +1,145 @@
+/* ==========================================================================
+# Service table style - begin
+========================================================================== */
+.mkd-service-table{
+	position: relative;
+	text-align: center;
+
+	&.mkd-service-has-icon{
+		margin-top: 30px;
+	}
+
+	.mkd-sidebar &.mkd-service-has-icon,
+	.wpb_widgetised_column &.mkd-service-has-icon{
+		&:first-child{
+			margin-top: 0;
+		}
+
+		.mkd-service-titles-holder{
+			border-bottom: 3px solid $first-main-color;
+
+			h4{
+				margin-bottom: 0;
+			}
+
+			h5{
+				line-height: 22px;
+			}
+		}
+
+		li{
+			border-bottom: none;
+		}
+
+		li:before{
+			display: none;
+		}
+
+		.mkd-service-link{
+			border: none;
+			height: 47px;
+			line-height: 47px;
+
+			span{
+				font-size: 14px;
+				text-transform: none;
+			}
+		}
+	}
+
+	.mkd-service-table-icon{
+		position: absolute;
+		display: inline-block;
+		top: 0;
+		left: 50%;
+		@include mkdTransform(translate(-50%,-50%));
+	}
+
+	.mkd-service-titles-holder{
+		padding: 30px 10px 20px;
+		background-color: $second-main-color;
+
+		h4{
+			line-height: 22px;
+			color: #fff;
+		}
+
+		h5{
+			line-height: 26px;
+			color: #fff;
+		}
+	}
+
+	.mkd-service-table-content{
+
+		ul{
+			list-style-type: none;
+		}
+
+		li{
+			background-color: #f1f1f1;
+			margin-top: 1px;
+			font-size: 14px;
+			text-transform: uppercase;
+			padding: 0 10px;
+			height: 43px;
+			line-height: 43px;
+		}
+	}
+
+	.mkd-service-link{
+		height: 58px;
+		line-height: 58px;
+		background-color: $second-main-color;
+		margin-top: 2px;
+		position: relative;
+		overflow: hidden;
+
+		span{
+			position: relative;
+			z-index: 44;
+			color: #fff;
+			font-size: 12px;
+			text-transform: uppercase;
+			text-decoration: underline;	
+		}
+
+		a {
+		    position: absolute;
+		    height: 100%;
+		    width:100%;
+		    left: 0;
+		    top: 0;
+		    z-index: 33;
+		    letter-spacing: 1px;
+		}
+
+		.mkd-service-link-icon{
+			font-size: 14px;
+			margin-left: 5px;
+			vertical-align: text-top;
+			text-decoration: none;
+		}
+
+		&:after {
+		    content: '';
+		    position: absolute;
+		    top: calc(100% - 3px);
+		    left: 0;
+		    height: 100%;
+		    width: 100%;
+		    background-color: $first-main-color;
+		    z-index: 10;
+		    @include mkdTransition(top .2s ease-out);
+		    -webkit-backface-visibility:hidden; //webkit browsers pixel fix
+		}
+
+		&:hover:after {
+			top:0;
+		}
+	}
+	
+}
+/* ==========================================================================
+# Service table style - end
+========================================================================== */

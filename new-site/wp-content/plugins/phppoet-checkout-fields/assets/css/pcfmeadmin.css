@@ -1,0 +1,146 @@
+.form-table th {
+  width:auto;
+  padding: 0 0 0 0;
+}
+.form-table td {
+  font-size: 11px;
+}
+.form-table tbody {
+  cursor: default;
+}
+
+.form-table .tableheading {
+ float:left;
+ font-size:24px;
+}
+.form-table td {
+
+  padding: 0 0 0 0;
+}
+
+.noticerow {
+  display:none;
+}
+.bs-example{
+  margin: 100px 50px;
+}
+.accordionheading {
+ font-weight:bold;
+}
+
+
+.pcfme-sortable-list {
+  cursor:move;
+}
+
+
+
+.settings_label {
+ font-size: 14px;
+ 
+}
+.glyphicon-remove-circle {
+ cursor:default;
+ font-size: 15px;
+ 
+}
+
+.glyphicon-edit {
+  cursor:default;
+  font-size: 15px;
+  
+}
+
+.heading-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.buttondiv {
+ width:85%;
+ margin-top:10px;
+ margin-bottom:30px;
+}
+
+.additional-buttondiv {
+  width:70%;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+.pcmfe-required {
+  color: red;
+  font-weight: 700;
+  border: 0;
+}
+
+
+.pcfme_field_key {
+  cursor:copy;
+}
+
+
+
+.add-condition-button {
+  margin-top:10px !important;
+}
+
+.conditional-row{
+  margin-bottom:5px;
+}
+
+#responsediv {
+  display:none; font-size:20px; background-color:#ffffe0; border-color: #e6db55;  border-width: 1px; border-style: solid; width :auto; height:30px;
+}
+
+#add-billing-field,#add-shipping-field,#add-additional-field {
+  float: left;
+}
+#restore-billing-fields,#restore-shipping-fields {
+  float: right;
+  margin-right: 10px;
+}
+
+#pcfme_frontend_link {
+  float: right;
+  margin-right: 20px;
+}
+.pcfme-sortable-list input[type="checkbox"],.pcfme_extra_settings input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
+.pcfme-sortable-list input[type="checkbox"]:checked::before,.pcfme_extra_settings input[type="checkbox"]:checked::before {
+  width: 18px;
+  height: 18px;
+}
+
+.pcfme_extra_settings #pcfme_frontend_link {
+  margin-top: -36px;
+}
+.pcfme-sortable-list span.pcfme_field_key,.pcfme_extra_settings span.pcfme_field_key{
+  color: #FFFFFF !important;
+  background-color: #985434 !important;
+  padding: 5px;
+}
+.pcfme_copy_key_icon {
+  font-size: 16px;
+}
+.pcfme_edit_icon {
+  top: 5px !important;
+  left: 10px;
+  font-size: 18px;
+}
+
+.pcfme_disabled {
+    cursor: default;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: .3;
+}
+
+span.glyphicon.glyphicon-trash.pcfme_trash_icon {
+    font-size: 19px;
+    top: 5px;
+    color: #81080a;
+}

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1400px) and (min-width: $ipad-landscape){
+	.mkd-footer-top .mkd-four-columns{
+		.mkd-instagram-feed.mkd-col-4 li{
+			width: 33.33%;
+		}
+	}
+}
+
+@media only screen and (max-width: $ipad-landscape){
+    .mkd-instagram-feed.mkd-col-9 li {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: $ipad-portrait){
+    .mkd-instagram-feed.mkd-col-4 li {
+        width: 50%;
+    }
+
+    .mkd-instagram-feed.mkd-col-6 li {
+        width: 33.33%;
+    }
+
+	.mkd-footer-top .mkd-four-columns{
+		.mkd-instagram-feed.mkd-col-4 li{
+			width: 33.33%;
+		}
+	}
+}
+
+@media only screen and (max-width: $phone-portrait){
+    .mkd-instagram-feed.mkd-col-4 li,
+    .mkd-instagram-feed.mkd-col-3 li,
+    .mkd-instagram-feed.mkd-col-6 li,
+    .mkd-instagram-feed.mkd-col-9 li {
+        width: 100%;
+    }
+}

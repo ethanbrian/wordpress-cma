@@ -1,0 +1,65 @@
+/* ==========================================================================
+# Counter style - begin
+========================================================================== */
+
+.mkd-counter-holder {
+	display: block;
+	opacity: 0;
+	@include mkdTransition(opacity 0.3s ease-in);
+	padding: 20px 0;
+
+	.mkd-counter,
+	.mkd-counter-currency{
+		font-size: 75px;
+		font-weight: 900;
+		line-height: 1em;
+		color: $first-main-color;
+		overflow: hidden;
+		height: 1em;
+	}
+
+	.mkd-counter.random{
+		display: inline-block !important; //because of the style added by js
+	}
+
+	.mkd-counter-title {
+		margin-top: 8px;
+	}
+
+	.mkd-counter-text {
+		margin-top: 7px;
+		font-size: 14px;
+	}
+
+	.mkd-counter-number-holder{
+		font-size: 0;
+		> span{
+			vertical-align: middle;
+		}
+
+		.mkd-icon-element{
+			vertical-align: middle;
+			margin-right: 14px;
+		}
+	}
+}
+
+.mkd-counter-holder-show {
+	opacity: 1;
+}
+
+.mkd-counter-holder.left {
+	text-align: left;
+}
+
+.mkd-counter-holder.right {
+	text-align: right;
+}
+
+.mkd-counter-holder.center {
+	text-align: center;
+}
+
+/* ==========================================================================
+# Counter style - end
+========================================================================== */

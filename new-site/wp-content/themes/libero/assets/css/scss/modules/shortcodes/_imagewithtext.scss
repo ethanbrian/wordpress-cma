@@ -1,0 +1,29 @@
+.mkd-imagewt {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+
+	.mkd-imagewt-image-holder{
+		display: table-cell;
+		vertical-align: top;
+	}
+
+	.mkd-imagewt-content-holder{
+		display: table-cell;
+		vertical-align: top;
+	}
+
+	.mkd-imagewt-subtitle{
+		margin-bottom: 12px;
+		line-height: 26px;
+	}
+
+	.mkd-imagewt-title{
+		line-height: 26px;
+	}
+
+	.mkd-imagewt-btn{
+		margin-top: 24px;
+	}
+
+}

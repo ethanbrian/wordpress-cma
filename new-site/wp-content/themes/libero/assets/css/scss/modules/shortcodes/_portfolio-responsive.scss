@@ -1,0 +1,50 @@
+@media only screen and (max-width: $ipad-landscape){
+    .mkd-portfolio-list-holder-outer.mkd-ptf-four-columns article,
+    .mkd-portfolio-list-holder-outer.mkd-ptf-five-columns article,
+    .mkd-portfolio-list-holder-outer.mkd-ptf-six-columns article{
+        width: 32%;
+    }  
+    .mkd-portfolio-list-holder-outer.mkd-ptf-pinterest-five-columns,
+    .mkd-portfolio-list-holder-outer.mkd-ptf-pinterest-four-columns{
+        article,
+        .mkd-portfolio-list-masonry-grid-sizer{
+            width: 32%;
+        }
+    }
+    .mkd-portfolio-list-holder-outer.mkd-ptf-masonry{
+    
+        .mkd-portfolio-list-masonry-grid-sizer,
+        article.mkd-default-masonry-item,
+        article.mkd-large-height-masonry-item{
+            width: 49%;
+        }
+        .mkd-large-width-masonry-item,
+        .mkd-large-width-height-masonry-item{
+            width: 100%;
+        }
+    }
+   
+}
+
+@media only screen and (max-width: $phone-portrait){
+    .mkd-portfolio-list-holder-outer article,
+    .mkd-portfolio-list-holder-outer .mkd-portfolio-list-masonry-grid-sizer{
+        width: 100% !important; // !important is set to override all other stronger selectors
+    } 
+    .mkd-portfolio-filter-holder{
+        .mkd-portfolio-filter-holder-inner ul li{
+            width: 50%;
+            span{
+                width: 100%;
+                @include mkdBoxSizing(border-box);
+            }
+
+            &:nth-child(2n){
+            	span{
+            		border-left-width: 0px;
+            	}
+            }
+        }   
+        
+    }
+}

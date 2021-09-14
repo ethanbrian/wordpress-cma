@@ -1,0 +1,1073 @@
+@import 'variables';
+@import 'mixins';
+
+/* ==========================================================================
+   #Comments styles - start
+   ========================================================================== */
+
+.mkd-comment-holder {
+	padding-top: 46px;
+	margin: 0 0 0;
+	clear: both; //because of the content clearing on pages
+
+	.mkd-comment-number-icon{
+		color: $first-main-color;
+		font-size: 19px;
+		padding-right: 7px;
+	}
+
+	h4{
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.mkd-comment-image {
+		display: block;
+		width: 93px;
+		height: 93px;
+		border: 1px solid $border-main-color;
+		background-color: #fff;
+		padding: 8px;
+		@include mkdBoxSizing(border-box);
+		float: left;
+	}
+	.mkd-comment:not(.mkd-pingback-comment) .mkd-comment-text {
+		padding: 0 0 0 105px;
+
+		.mkd-comment-text-inner{
+			border: 1px solid $border-main-color;
+			position: relative;
+			min-height: 93px;
+			background-color: #fff;
+
+			&:before{
+				content: ' ';
+				position: absolute;
+				top: 15px;
+				left: -5px;
+				width: 8px;
+				height: 8px;
+				border: 1px solid $border-main-color;
+				border-width: 0 0 1px 1px;
+				background-color: inherit;
+				@include mkdTransform(rotate(45deg));
+			}
+		}
+
+		.mkd-comment-info {
+			display: inline-block;
+			width: 100%;
+			vertical-align: middle;
+			@include mkdBoxSizing(border-box);
+			padding: 10px 10px 10px 20px;
+			border-bottom: 1px solid $border-main-color
+		}
+
+		.replay,
+		.comment-reply-link,
+		.comment-edit-link,
+		.mkd-comment-date{
+			float: right;
+			margin-left: 10px;
+			padding-left: 10px;
+			border-left: 1px solid $border-main-color
+		}
+
+		.comment-reply-link,
+		.comment-edit-link{
+			text-transform: uppercase;
+		}
+
+		.comment-reply-link:before{
+			content: "\e050";
+			font-family: 'simple-line-icons';
+			padding-right: 5px;
+		}
+
+		.comment-edit-link:before{
+			content: "\e05f";
+			font-family: 'simple-line-icons';
+			padding-right: 5px;
+		}
+
+		.mkd-comment-info > *:last-child{
+			border: none;
+		}
+
+		.mkd-comment-name{
+			float: left;
+		}
+
+		.mkd-text-holder{
+			padding: 18px 10px 26px 20px;
+		}
+	}
+
+}
+.mkd-comment-list {
+	list-style: none;
+	position: relative;
+	z-index: 150;
+	padding: 0;
+	margin: 30px 0 0;
+
+	li {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		line-height: 18px;
+	}
+
+	> li {
+		margin: 0 0 15px;
+	}
+
+	.children {
+		margin: 15px 0 0 0;
+		padding: 0 0 0 70px;
+
+		> li{
+			margin: 0 0 15px;
+		}
+	}
+
+	.comment-respond{
+		padding: 0 20px;
+	}
+}
+
+.mkd-comment-pager{
+	font-size: 0;
+	text-align: right;
+	margin-top: 30px;
+
+	a,
+	span{
+		display: inline-block;
+		padding: 0 20px;
+		height: 44px;
+		line-height: 44px;
+		margin: 0;
+		color: #262626;
+		background-color: #fff;
+		border: 1px solid;
+		border-color: $border-main-color;
+		border-right-width: 0;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	a:last-child,
+	span:last-child{
+		border-right-width: 1px;
+	}
+
+	a:hover{
+		color: $first-main-color;
+	}
+}
+
+.mkd-comment-form{
+	padding-top: 26px;
+	margin-bottom: 40px;
+}
+
+.comment-respond{
+	.comment-reply-title{
+		font-size: 16px;
+		line-height: 1.5em;
+		text-transform: uppercase;
+		font-weight: 900;
+		margin-bottom: 18px;
+		color: #222222;
+		a{
+			font-size: 12px;
+		}
+
+		&:before{
+			content: "\e07d";
+			font-family: 'simple-line-icons';
+			padding-right: 10px;
+			font-size: 19px;
+			color: $first-main-color;
+			font-weight: 400;
+		}
+	}
+
+	.logged-in-as{
+		margin-bottom: 10px;
+	}
+}
+
+.mkd-comment-text{
+
+	.comment-respond{
+		margin: 20px 0;
+	}
+}
+
+%input-style{
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 19px 20px;
+	border: 1px solid #e8e8e8;
+	outline: 0;
+	font-family: inherit;
+	font-size: 13px;
+	background-color: #f2f2f2;
+	color: #727578;
+	@include placeholder(#727578);
+	@include mkdBoxSizing(border-box);	
+}
+
+.wpcf7-form-control{
+	&.wpcf7-text,
+	&.wpcf7-number,
+	&.wpcf7-date,
+	&.wpcf7-textarea,
+	&.wpcf7-select,
+	&.wpcf7-quiz{
+		@extend %input-style;
+		color: #606060;
+		padding: 12px 14px;
+		margin-bottom: 11px;
+		background-color: #fff;
+		@include placeholder(#606060);
+
+		&:focus::-webkit-input-placeholder{
+			color: transparent;
+		}
+
+		&:focus:-moz-placeholder{
+			color: transparent;
+		}
+
+		&:focus::-moz-placeholder{
+			color: transparent;
+		}
+
+		&:focus:-ms-input-placeholder{
+			color: transparent;
+		}
+	}
+}
+
+.wpcf7-form-control.wpcf7-textarea{
+	height: 136px;
+	vertical-align: top;
+	max-width: 100%;
+}
+
+#respond textarea,
+#respond input[type='text'],
+.post-password-form input[type='password']{
+	@extend %input-style;
+}
+
+#submit_comment,
+.comment-respond input[type='submit'],
+input.wpcf7-form-control.wpcf7-submit,
+.post-password-form input[type='submit']{
+	display: inline-block;
+	width: auto;
+	height: 43px;
+	line-height: 41px;
+	padding: 0 17px;
+	border: 1px solid darken($second-main-color, 2%);
+	font-size: 11px;
+	font-weight: 900;
+	font-family: inherit;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 1px;
+	background-color: $second-main-color;
+	cursor: pointer;
+	@include mkdTransition(all 0.15s ease-out);
+	@include mkdBorderRadius(2px);
+
+	&:hover{
+		background-color: lighten($second-main-color, 14.5%);
+	}
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+	border-radius: 3px;
+}
+
+.wpcf7-form{
+	.mkd-cf7-two-columns-50-50{
+		display: table;
+		width: 100%;
+
+		%cf7-column{
+			display: table-cell;
+			width: 50%;
+			@include mkdBoxSizing(border-box);
+		}
+
+		.mkd-column:first-child{
+			@extend %cf7-column;
+			padding-right: 7.5px;
+		}
+
+		.mkd-column:last-child{
+			@extend %cf7-column;
+			padding-left: 7.5px;
+		}
+	}
+
+
+	.mkd-cf7-two-columns-nwsltr{
+		display: table;
+		width: 100%;
+
+		.mkd-column p{
+			position: relative;
+		}
+
+		.mkd-column:first-child{
+			display: table-cell;
+			padding-right: 7.5px;
+		}
+
+		.mkd-column:last-child{
+			display: table-cell;
+			width: 1%;
+			padding-left: 7.5px;
+		}
+
+		.ajax-loader{
+			position: absolute;
+			top: 50%;
+			@include mkdTransform(translateY(-50%));
+		}
+	}
+
+	input.wpcf7-form-control.wpcf7-submit.mkd-cf7-newsltr-sbmt{
+		background-color: $second-main-color;
+		border-color: $second-main-color;
+		color: #fff;
+		height: 44px;
+		line-height: 42px;
+
+		&:hover{
+			color: $second-main-color;
+			background-color: #fff;
+		}
+	}
+}
+
+/* ==========================================================================
+   #Comments styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #Pagination styles - start
+   ========================================================================== */
+
+.mkd-pagination {
+
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	margin-bottom: 70px;
+
+	li {
+		float: left;
+		text-align: center;
+		display: block;
+
+		a,
+		&.active span {
+			position: relative;
+			display: inline-block;
+			width:44px;
+			height: 44px;
+			line-height: 44px;
+			margin: 0;
+			color: #262626;
+			background-color: #fff;
+			border: 1px solid;
+			border-color: $border-main-color;
+			border-right-width: 0;
+			font-size: 13px;
+			vertical-align: middle;
+			text-decoration: none;
+			cursor: pointer;
+			white-space: nowrap;
+			outline: none;
+			text-shadow: none;
+			@include mkdTransition(color 0.15s ease-out, background-color 0.15s ease-out);
+			@include mkdBoxSizing(content-box);
+			float: left;
+		}
+
+
+		&:last-child > a,
+		&:last-child > span{
+			border-right-width: 1px;
+		}
+
+		span.current {
+			color: $first-main-color;
+			background-color: #f7f7f7;
+		}
+
+		a:hover,
+		span:hover,
+		&.active span,
+		span.current:hover {
+			color: $first-main-color;
+			background-color: #f7f7f7;
+		}
+
+		.next span,
+		.prev span{
+			font-size: 15px;
+			line-height: 43px;
+		}
+	}
+}
+
+
+/* ==========================================================================
+   #Pagination styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #Print styles - start
+   ========================================================================== */
+	.mkd-print-holder{
+		display: inline-block;
+		margin: 0px 13px;
+	}
+	.mkd-print-page .mkd-icon-printer{
+		display: block;
+		font-size: 26px;
+		color: #474747;
+		margin-bottom: 10px;
+	}
+
+	.mkd-printer-title{
+		font-size: 12px;
+		color: #727578;
+		margin: 0px;
+	}
+
+/* ==========================================================================
+   #Print styles - end
+   ========================================================================== */
+/* ==========================================================================
+   #Owl Slider (Blog single, Portfolio single) - begin
+   ========================================================================== */
+.mkd-owl-slider {
+    .owl-item {
+        img {
+            display: block;
+            position: relative;
+        }
+    }
+
+	.owl-buttons {
+
+		.owl-prev {
+			position: absolute;
+			top: 50%;
+			@include mkdTransform(translateY(-50%));
+			left: 0;
+		}
+
+		.owl-next {
+			position: absolute;
+			top: 50%;
+			@include mkdTransform(translateY(-50%));
+			right: 0;
+		}
+
+		.mkd-prev-icon,
+		.mkd-next-icon {
+			display: inline-block;
+			width: 55px;
+			height: 55px;
+			border: 0;
+			text-align: center;
+            background-color: #fff;
+
+			i {
+				font-size: 21px;
+				line-height: 55px;
+				color: #474747;
+			}
+
+			&:hover i{
+				color: $first-main-color;
+			}
+
+		}
+
+	}
+
+	.owl-pagination {
+		text-align: center;
+
+		.owl-page {
+			display: inline-block;
+		}
+
+		.owl-page span {
+			display: inline-block;
+			width: 12px;
+			height: 12px;
+			margin: 3px;
+			filter: Alpha(Opacity=50);
+			opacity: 0.5;
+			-webkit-border-radius: 20px;
+			-moz-border-radius: 20px;
+			border-radius: 20px;
+			background: #e3e3e3;
+		}
+
+		.owl-page.active span {
+			opacity: 1;
+		}
+
+	}
+
+}
+
+/* ==========================================================================
+   #Owl Slider (Blog single, Portfolio single) - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #404 styles - start
+   ========================================================================== */
+
+.error404{
+	.mkd-content-inner>.mkd-container{
+		margin-top: 245px;
+	}
+}
+.mkd-404-page{
+	padding: 0;
+}
+.mkd-page-not-found{
+	margin: 0 0 255px;
+	text-align: center;
+
+	h2{
+		margin-bottom: 35px;
+		font-size: 121px;
+		line-height: 110px;
+	}
+
+	h3{
+		margin-bottom: 42px;
+	}
+
+	.mkd-404-btn.mkd-btn.mkd-btn-solid{
+		background-color: #3e475d;
+	}
+}
+
+/* ==========================================================================
+   #404 styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #Back to Top styles - start
+   ========================================================================== */
+#mkd-back-to-top{
+    position: fixed;
+    width:44px;
+    right: -78px;
+    bottom: 78px;
+    margin: 0;
+    z-index: 10000;
+    @include mkdTransition(opacity 0.15s ease-out, visibility 0.15s ease-out, right .3s ease-out);
+    opacity: 0;
+    visibility: hidden;
+
+    &:hover { 
+    	> span > i {
+    	@include mkdTransform(rotate(720deg) translateZ(0) scale(1.1));	
+    	-webkit-transition: -webkit-transform .3s ease-out;
+    	transition: transform .3s ease-out;
+    	}
+    	
+    	> span:after {
+		   @include mkdTransform(scale(1.2));
+		}
+    }
+}
+#mkd-back-to-top.off{
+    opacity: 0;
+    visibility: hidden;
+    right: -78px;
+}
+    
+#mkd-back-to-top.on{
+    opacity: 1;
+    visibility: visible;
+    right: 32px;
+}
+
+#mkd-back-to-top > span {
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align:center;
+	display: block;
+	color: $first-main-color;
+	font-size: 16px;
+	background-color: #fff;
+	box-shadow: 0 0 1px 1px #e7e7e7;
+	@include mkdTransition(color 0.15s ease-out);
+	@include mkdBorderRadius(50%);
+	@include mkdBoxSizing(border-box);
+
+	&:after{
+		position: absolute;
+		top:-3px;
+		left:-3px;
+		width: 40px;
+		height: 40px;
+		content: '';
+		z-index: -1;
+		box-shadow: 0 0 1px 1px #e7e7e7;
+		@include mkdBorderRadius(50%);
+		@include mkdTransition(all .3s cubic-bezier(0, 0, 0.26, 2.21));
+	}
+}
+
+#mkd-back-to-top > span > i {
+	display:inline-block;
+	width: 100%;
+	position: relative;
+	@include mkdTransformOrigin(50% 50%);
+    -webkit-transition: -webkit-transform .3s ease-in .05s;
+    transition: transform .3s ease-in .05s;
+}
+
+#mkd-back-to-top span span {
+	display: block;
+	line-height: inherit;
+	margin-left: -2px;
+}
+
+
+/* ==========================================================================
+   #Back to Top styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #Self Hosted Video styles - start
+   ========================================================================== */
+.mkd-self-hosted-video-holder{
+	.mkd-video-wrap{
+		.mejs-container,
+		.mejs-overlay-play{
+			height: 100% !important; /*!important because of the inline style*/
+			width: 100% !important; /*!important because of the inline style*/
+		}
+	}
+}
+
+/* ==========================================================================
+   #Self Hosted Video styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #Sidebar styles - start
+   ========================================================================== */
+
+.mkd-sidebar,
+.wpb_widgetised_column{
+	padding-bottom: 30px;
+
+	h4{
+		font-size: 18px;
+		margin-bottom: 22px;
+	}
+
+	.widget{
+		margin-top: 28px;
+	}
+
+	.widget:first-child{
+		margin-top: 0;
+	}
+
+	.widget h3{
+		margin-bottom: 18px;
+	}
+
+	.widget_tag_cloud{
+		a{
+			color: $default-text-color;
+			@include tagCloud();
+		}
+
+		a:last-child{
+			margin: 0;
+		}
+	}
+
+	.wpcf7-form-control.wpcf7-textarea{
+		height: 81px;
+	}
+
+	.widget_rss,
+	.widget_text,
+	.widget_pages,
+	.widget_meta,
+	.widget_archive,
+	.widget_nav_menu,
+	.widget_recent_entries,
+	.widget_recent_comments,
+	.widget_product_categories,
+	.widget_categories{
+
+        label.screen-reader-text{
+            display: block;
+        }
+
+        ul li{
+			list-style-type: none;
+			position: relative;
+			padding: 4px 0;
+			color: #222222;
+			border-bottom: 1px solid #e9e9e9;
+
+			&:before{
+				position: absolute;
+				width: 6px;
+				height: 6px;
+				content: '\45';
+				font-size: 9px;
+				font-family: 'ElegantIcons';
+			}
+
+			> a{
+				color: #222222;
+				text-transform: uppercase;
+			}
+
+			> a:first-child{
+				padding-left: 20px;
+			}
+
+			> span:first-child{
+				padding-left: 20px;
+			}
+
+			&:hover > a{
+				color: $first-main-color;
+			}
+
+			.children,
+			.sub-menu{
+				margin-top: 4px;
+				margin-bottom: -4px;
+				border-top: 1px solid $border-main-color;
+			}
+
+		}
+
+		ul li:last-child{
+			border: none;
+		}
+
+		select,
+		select option{
+			border: 1px solid $border-main-color;
+			background-color: #fff;
+			color: $default-text-color;
+			@include selectAndOption();
+		}
+
+
+		label{
+			display: block;
+			margin-bottom: 5px;	
+		}
+	}
+
+	.widget_categories{
+		ul{
+			margin-top: -15px;
+		}
+	}
+
+	.widget_calendar{
+		caption{
+			margin-bottom: 10px;
+		}
+
+		#prev{
+			text-align: left;
+		}
+
+		#next{
+			text-align: right;
+		}
+	}
+
+	.widget_rss{
+		.rsswidget{
+			font-weight: 700;
+			display: block;
+		}
+
+		.rssSummary{
+			text-transform: none;
+		}
+	}
+
+	.widget_search form{
+		padding-bottom: 26px;
+	}
+
+	.widget.mkd-holder-widget{
+		position: relative;
+		text-align: center;
+
+		&.mkd-holder-has-icon:not(:first-child){
+			margin-top: 56px;
+		}
+
+		.mkd-holder-icon{
+			position: absolute;
+			display: inline-block;
+			top: 0;
+			left: 50%;
+			@include mkdTransform(translate(-50%,-50%) rotate(0.01deg));
+		}
+
+		.mkd-holder-titles{
+			padding: 30px 10px 20px;
+			background-color: $second-main-color;
+			border-bottom: 3px solid $first-main-color;
+
+			h4{
+				line-height: 22px;
+				color: #fff;
+				margin-bottom: 0;
+			}
+
+			h5{
+				line-height: 22px;
+				color: #fff;
+			}
+		}
+
+		.mkd-holder-content{
+			background-color: #f1f1f1;
+		}
+
+		.mkd-holder-link{
+			height: 47px;
+			line-height: 47px;
+			background-color: $second-main-color;
+
+			span{
+				color: #fff;
+				font-size: 14px;
+			}
+
+			a span{
+				text-decoration: underline;			
+			}
+		}
+	}
+}
+/* ==========================================================================
+   #Sidebar styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #Audio & Video bar styles - start
+   ========================================================================== */
+.mkd-blog-audio-holder{
+	.mejs-container{
+		height: 60px !important; //important because of the inline style
+		background-color: #f7f7f7;
+	}
+}
+
+.mejs-container .mejs-inner{
+	.mejs-controls{
+		height: 60px;
+		background-color: #f7f7f7;
+
+		.mejs-button button{
+			margin: 22px;			
+		}
+
+		.mejs-fullscreen-button button{
+			margin: 22px 0;
+		}
+
+		.mejs-play button{
+			background-image: url(img/audio/play.png);
+			background-position: center;
+		}
+
+		.mejs-pause button{
+			background-image: url(img/audio/pause.png);
+			background-position: center;
+		}
+
+		.mejs-mute button{
+			background-image: url(img/audio/sound.png);
+			background-position: center;
+			margin: 22px 0;
+		}
+
+		.mejs-unmute button{
+			background-image: url(img/audio/mute.png);
+			background-position: center;
+			margin: 22px 0;
+		}
+
+		.mejs-time{
+			color: #283033;
+			height: 10px;
+			padding: 25px;
+		}
+
+		.mejs-time-rail > span{
+			margin: 29px 0;
+		}
+
+		.mejs-horizontal-volume-slider div{
+			top: 30px;
+		}
+
+		.mejs-time-rail span,
+		.mejs-horizontal-volume-slider div{
+			height: 1px;
+		}
+
+		.mejs-time-loaded,
+		.mejs-time-total,
+		.mejs-horizontal-volume-total{
+			background-color: #dddddd;
+		}
+
+		.mejs-time-current,
+		.mejs-horizontal-volume-current{
+			background-color: #283033;
+		}
+
+		.mejs-time-rail,
+		.mejs-horizontal-volume-slider{
+			height: 60px;
+			padding-top: 0;
+		}
+
+		.mejs-time-current:after,
+		.mejs-horizontal-volume-current:after{
+			content: '';
+			position: absolute;
+			left: 100%;
+			top: 50%;
+			height: 15px;
+			width: 4px;
+			background-color: #283033;
+			@include mkdTransform(translateY(-50%));
+		}
+	}
+}
+/* ==========================================================================
+   #Audio & Video bar styles - end
+   ========================================================================== */
+
+/* ==========================================================================
+   #WPML styles - start
+   ========================================================================== */
+
+.widget{
+
+	#lang_sel {
+		float: left;
+		padding: 0 0 0 0px;
+		position: relative;
+		z-index: 999;
+		text-align: left;
+		font-family: inherit;
+		height: auto;
+
+		ul{
+			list-style: none;
+		}
+
+		ul ul{
+			width: 115px;
+			position: absolute;
+			height: auto;
+			top: 100%;
+			left: 0;
+			border: 0;
+			z-index: 1000;
+			background-color: #f7f7f7;
+			padding: 0 10px 5px 10px !important;
+			visibility: hidden;
+			@include mkdBoxSizing(border-box);
+		}
+
+		> ul > li:hover ul{
+			visibility: visible
+		}
+
+		> ul > li{
+			height: 75px;
+			line-height: 73px;
+			padding-left: 5px;
+		}
+
+		li{
+			width: 95px;
+			position: relative;
+			line-height: 36px;
+		}
+
+		img{
+			position: absolute;
+			right: 5px;
+			top: 50%;
+			@include mkdTransform(translateY(-50%));
+		}
+
+		a{
+			color: $default-text-color;
+			display: inline-block;
+			vertical-align: top;
+			border: none;
+			background-color: transparent;
+			padding: 0;
+			line-height: inherit;
+			font-size: 12px;
+			background-image: none;
+		}
+
+		*:hover > a,
+		ul ul *:hover > a,
+		a:hover{
+			color: $first-main-color;
+			background-color: transparent;
+		}
+
+		> ul > li > a:after{
+			font-family: 'ElegantIcons';
+			font-size: 13px;
+			content: '\33';
+		}
+	}
+
+}
+
+
+/* ==========================================================================
+   #WPML styles - end
+   ========================================================================== */

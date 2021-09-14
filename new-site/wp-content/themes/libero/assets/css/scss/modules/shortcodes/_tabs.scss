@@ -1,0 +1,167 @@
+/* ==========================================================================
+# Tabs style - begin
+========================================================================== */
+.mkd-tabs {
+
+    .mkd-tabs-nav {
+        display: block;
+        position: relative;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        vertical-align: middle;
+
+
+        li.ui-state-default a span.mkd-icon-frame {
+            color: #222222;
+            @include mkdTransition(all 0.15s ease-out);
+        }
+
+        li a {
+            display: block;
+            text-align: center;
+            box-sizing: border-box;
+            color: #222222;
+            border: 1px solid $border-main-color;
+            font-weight: 400;
+            @include mkdTransition(color 0.15s ease-out, background-color 0.15s ease-out, border-color 0.15s ease-out);
+            font-size: 24px;
+            font-family: 'Dynalight', cursive;
+            line-height: 1em;
+            background-color: #f2f2f2;
+            padding: 12px 15px;
+        }
+
+        li a i{
+            font-size: 15px;
+        }
+
+        li.ui-state-active a span.mkd-icon-frame,
+        li.ui-state-hover a span.mkd-icon-frame,
+        li.ui-state-active a,
+        li.ui-state-hover a {
+            color: $first-main-color;
+            background-color: #fff;
+        }
+
+        .mkd-tab-container {
+            box-sizing: border-box;
+            position: relative;
+            background-size: cover;
+        }
+    }
+
+    .mkd-tab-container {
+        padding: 20px;
+        border: 1px solid $border-main-color;
+        background-color: #ffffff;
+        background-size: cover;
+        @include mkdBoxSizing(border-box);
+    }
+
+
+}
+/* Horizontal tabs styles
+   ========================================================================== */
+.mkd-tabs.mkd-horizontal {
+
+    .mkd-tabs-nav {
+        li {
+
+            float: left;
+            margin-right: 5px;
+        }
+
+        li a {
+
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+        }
+
+        li.ui-state-active a{
+            border-bottom-color: transparent;
+        }
+    }
+
+    .mkd-tab-container {
+        margin-top: -1px;
+    }
+
+}
+
+/* Vertical tabs styles
+   ========================================================================== */
+.mkd-tabs.mkd-vertical {
+
+    .mkd-tabs-nav {
+        float: left;
+        width: 29.93527508090615%;
+        @include mkdBoxSizing(border-box);
+
+        li {
+            display: block;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        li a {
+
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+        }
+
+        li.ui-state-active a{
+            border-right-color: transparent;
+        }
+    }
+
+    .mkd-tab-container {
+        float: left;
+        margin-left: -1px;
+        width: 70.06472491909385%;
+    }
+
+}
+
+/* Tabs with icon and text styles start
+   ========================================================================== */
+
+
+.mkd-tabs.mkd-tab-text-icon .mkd-tabs-nav li a {
+
+    .mkd-tab-text-after-icon {
+        padding-left: 8px;
+        @include mkdTransition(initial);
+    }
+}
+
+/* Tabs with icon styles - start
+   ========================================================================== */
+
+.mkd-tabs.mkd-tab-icon .mkd-tabs-nav li a {
+    i,
+    span {
+        @include mkdTransition(initial);
+    }
+
+    .mkd-icon-frame {
+        display: inline-block;
+    }
+
+}
+
+.mkd-tabs.mkd-vertical.mkd-tab-icon .mkd-tabs-nav {
+    width: 50px;
+}
+
+.mkd-tabs.mkd-vertical.mkd-tab-icon .mkd-tab-container {
+    width: 100%;
+    padding-left: 17px;
+    margin-left: 49px;
+    float: none;
+}
+
+/* ==========================================================================
+# Tabs style - end
+========================================================================== */

@@ -1,0 +1,92 @@
+/* ==========================================================================
+# Call to action style - begin
+========================================================================== */
+
+.mkd-call-to-action {
+	position: relative;
+	display: block;
+	@include mkdBoxSizing(border-box);
+	background-color: #f2f2f2;
+
+	.mkd-call-to-action-row-75-25,
+	.mkd-call-to-action-row-50-50,
+	.mkd-call-to-action-row-66-33 {
+		display: table;
+		@include mkdBoxSizing(border-box);
+		width: 100%;
+	}
+
+	.mkd-call-to-action-row-75-25 .mkd-call-to-action-column1 {
+		width: 75%;
+	}
+
+	.mkd-call-to-action-row-75-25 .mkd-call-to-action-column2 {
+		width: 25%;
+	}
+
+	.mkd-call-to-action-row-50-50 .mkd-call-to-action-column1,
+	.mkd-call-to-action-row-50-50 .mkd-call-to-action-column2 {
+		width: 50%;
+	}
+
+	.mkd-call-to-action-row-66-33 .mkd-call-to-action-column1 {
+		width: 66%;
+	}
+
+	.mkd-call-to-action-row-66-33 .mkd-call-to-action-column2 {
+		width: 34%;
+	}
+
+	.mkd-call-to-action-column2 {
+		text-align: right;
+	}
+
+	.mkd-call-to-action-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.mkd-call-to-action-text{
+		font-size: 17px;
+		font-weight: 300;
+		text-align: left;
+	}
+}
+
+.mkd-call-to-action.with-icon {
+
+	.mkd-text-wrapper .mkd-call-to-action-icon-holder {
+		position: absolute;
+		height: 100%;
+		top:0;
+	}
+
+	.mkd-text-wrapper .mkd-call-to-action-text {
+		padding: 0 20px 0 45px;
+	}
+
+	.mkd-text-wrapper .mkd-call-to-action-icon {
+		display:table;
+		height:100%;
+
+		.mkd-call-to-action-icon-inner {
+			display:table-cell;
+			height:100%;
+			vertical-align:middle;
+
+			i,
+			span{
+				color: $first-main-color;
+				font-size: 33px;
+				display: inline-block;
+				vertical-align: bottom;
+			}
+
+		}
+	}
+
+}
+
+/* ==========================================================================
+# Call to action style - end
+========================================================================== */

@@ -1,0 +1,72 @@
+/* ==========================================================================
+# Call to action responsive style - begin
+========================================================================== */
+
+.mkd-call-to-action {
+
+	.mkd-call-to-action-row-75-25 .mkd-call-to-action-column1 {
+
+		@media only screen and (min-width: $ipad-portrait) and (max-width: $ipad-landscape) {
+			width: 65%;
+		}
+
+	}
+
+	.mkd-call-to-action-row-75-25 .mkd-call-to-action-column2 {
+
+		@media only screen and (min-width: $ipad-portrait) and (max-width: $ipad-landscape) {
+			width: 35%;
+		}
+
+	}
+
+}
+
+@include ipad-portrait {
+	.mkd-call-to-action{
+
+		.mkd-call-to-action-row-75-25,
+		.mkd-call-to-action-row-66-33,
+		.mkd-call-to-action-row-50-50{
+			padding-left: 5% !important; //important because of the inline style
+			padding-right: 5% !important;
+		}
+
+		.mkd-call-to-action-cell{
+			display: block;
+			text-align: center !important;
+			width: 100% !important;			
+		}
+
+		.mkd-text-wrapper .mkd-call-to-action-text {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		&.with-icon {
+				padding: 0;
+
+			.mkd-text-wrapper .mkd-call-to-action-icon-holder {
+					position: relative;
+					width: 100%;
+					text-align: center;
+					margin-bottom: 5px;
+			}
+
+			.mkd-text-wrapper .mkd-call-to-action-text{
+				padding: 0 20px;				
+			}
+
+			.mkd-text-wrapper .mkd-call-to-action-icon {
+				display: inline-block;
+			}
+
+		}
+
+	}
+}
+
+
+/* ==========================================================================
+# Call to action responsive style - end
+========================================================================== */

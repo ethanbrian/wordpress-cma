@@ -1,0 +1,20 @@
+#adminmenu #toplevel_page_magic_tooltips_for_contact_form_7 .menu-icon-generic div.wp-menu-image {
+	background:url(../img/icon.png);
+	background-size:15px 15px;
+}
+
+#adminmenu #toplevel_page_magic_tooltips_for_contact_form_7 .menu-icon-generic div.wp-menu-image:before {
+    content: "" !important;
+    font-size: 1.3em !important;
+    background:url(../img/icon.png) 2px 10px no-repeat;
+	background-size:17px 17px;
+}
+
+// #mtfcf7-tooltip-generator-form h3, #mtfcf7-tooltip-generator-form h2 {display: none;}
+
+#mtfcf7-options-form h3, #mtfcf7-options-form h2 {display: none}
+
+#mtfcf7-options-form input[type='text'] {width: 500px;}
+
+#mtfcf7-options-form .mm-tick {color:#008000;font-size: 18px;font-weight: bold;}
+#mtfcf7-options-form .mm-error {color:#ff0000;font-size: 18px;font-weight: bold;}

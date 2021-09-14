@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Interactive Icon responsive start styles
+   ========================================================================== */
+
+.mkd-interactive-icon {
+	&.mkd-right-border-added{
+		&.mkd-right-border-hide-1280{
+			@media only screen and (max-width: 1280px){
+				border-right:none;
+			}
+		}
+		&.mkd-right-border-hide-1024{
+			@include ipad-landscape{
+				border-right:none;
+			}			
+		}
+
+		&.mkd-right-border-hide-768{
+			@include ipad-portrait{
+				border-right:none;
+			}
+		}
+
+		&.mkd-right-border-hide-600{
+			@include phone-landscape{
+				border-right:none;
+			}
+		}
+
+		&.mkd-right-border-hide-480{
+			@include phone-portrait{
+				border-right:none;
+			}
+		}
+	}
+
+	&.mkd-bottom-border-added{
+		&.mkd-bottom-border-show-1280{
+			@media only screen and (max-width: 1280px){
+				border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+			}
+		}
+
+		&.mkd-bottom-border-show-1024{
+			@include ipad-landscape{
+				border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+			}
+		}
+
+		&.mkd-bottom-border-show-768{
+			@include ipad-portrait{
+				border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+			}
+		}
+
+		&.mkd-bottom-border-show-600{
+			@include phone-landscape{
+				border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+			}
+		}
+
+		&.mkd-bottom-border-show-480{
+			@include phone-portrait{
+				border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+			}
+		}
+	}
+}
+
+
+
+
+/* ==========================================================================
+   Interactive Icon responsive end styles
+   ========================================================================== */

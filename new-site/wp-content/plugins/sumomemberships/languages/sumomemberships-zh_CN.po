@@ -1,0 +1,1481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SUMO Memberships\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 19:25-0400\n"
+"PO-Revision-Date: 2019-09-23 19:25-0400\n"
+"Last-Translator: FantasticPlugins <contact@fantasticplugins.com>\n"
+"Language-Team: FantasticPlugins <contact@fantasticplugins.com>\n"
+"Language: php\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __(;_e(;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../include\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: ../include/class_admin_menu_settings.php:44
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ../include/class_admin_menu_settings.php:86
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../include/class_admin_menu_settings.php:121
+msgid "Save changes"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:108
+#: ../include/class_admin_metaboxes.php:111
+msgid "Plan updated successfully."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:109
+msgid "Custom field updated."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:110
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:113
+msgid "Plan created successfully."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:114
+msgid "Plan saved."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:115
+msgid "Plan submitted."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:117
+msgid "Plan draft updated."
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:141
+#: ../include/class_admin_metaboxes.php:1863
+msgid "Disable"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:145
+#: ../include/class_admin_metaboxes.php:1860
+msgid "Enable"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:199
+msgid "Purchasing the following Product will provide access to this plan :"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:203
+#: ../include/tabs/class_bulk_update_tab.php:697
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:238
+msgid "Membership Duration Type :"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:244
+msgid "Unlimited Duration"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:248
+msgid "Limited Duration"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:257
+#: ../include/class_admin_metaboxes.php:1719
+#: ../include/class_admin_metaboxes.php:2410
+#: ../include/tabs/class_bulk_update_tab.php:299
+msgid "Day"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:257
+#: ../include/class_admin_metaboxes.php:1719
+#: ../include/class_admin_metaboxes.php:2410
+msgid "Days"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:261
+#: ../include/class_admin_metaboxes.php:1723
+#: ../include/class_admin_metaboxes.php:2414
+#: ../include/tabs/class_bulk_update_tab.php:300
+msgid "Week"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:261
+#: ../include/class_admin_metaboxes.php:1723
+#: ../include/class_admin_metaboxes.php:2414
+msgid "Weeks"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:265
+#: ../include/class_admin_metaboxes.php:1727
+#: ../include/class_admin_metaboxes.php:2418
+#: ../include/tabs/class_bulk_update_tab.php:301
+msgid "Month"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:265
+#: ../include/class_admin_metaboxes.php:1727
+#: ../include/class_admin_metaboxes.php:2418
+msgid "Months"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:269
+#: ../include/class_admin_metaboxes.php:1731
+#: ../include/class_admin_metaboxes.php:2422
+#: ../include/tabs/class_bulk_update_tab.php:302
+msgid "Year"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:269
+#: ../include/class_admin_metaboxes.php:1731
+#: ../include/class_admin_metaboxes.php:2422
+msgid "Years"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:347
+msgid "User Purchase History"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:351
+msgid "None"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:352
+msgid "Minimum Number of Successful Orders"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:353
+msgid "Minimum Amount spent on Site"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:359
+msgid "User Purchase History Period"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:363
+msgid "From Beginning"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:364
+msgid "Specific Period"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:370
+#: ../include/tabs/class_previous_order_tab.php:60
+msgid "From"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:378
+#: ../include/tabs/class_previous_order_tab.php:62
+msgid "To"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:386
+msgid "No. of Orders Placed"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:394
+msgid "Total Amount Spent "
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:899
+msgid "Add Plan"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:913
+#: ../include/class_admin_metaboxes.php:1279
+#: ../include/class_admin_metaboxes.php:1636
+#: ../include/class_membership_cpt.php:203
+#: ../include/class_my_account_page.php:187
+msgid "Plan Name"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:938
+#: ../include/class_admin_metaboxes.php:1300
+msgid "Plan Status"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:962
+#: ../include/class_admin_metaboxes.php:1305
+#: ../include/class_admin_metaboxes.php:2655
+#: ../include/class_membership_cpt.php:276
+#: ../include/sumo-memberships-personal-data-handler.php:73
+msgid "Paused"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:968
+#: ../include/class_admin_metaboxes.php:1304
+#: ../include/class_admin_metaboxes.php:2654
+#: ../include/class_membership_cpt.php:278
+#: ../include/sumo-memberships-personal-data-handler.php:71
+msgid "Active"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:974
+#: ../include/sumo-memberships-personal-data-handler.php:75
+msgid "Expired"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:978
+#: ../include/class_admin_metaboxes.php:1306
+#: ../include/class_admin_metaboxes.php:2656
+#: ../include/sumo-memberships-personal-data-handler.php:77
+msgid "Cancelled"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:991
+#: ../include/class_admin_metaboxes.php:1312
+#: ../include/class_admin_metaboxes.php:1636
+msgid "Member Since"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:999
+#: ../include/class_admin_metaboxes.php:1320
+#: ../include/class_my_account_page.php:233
+msgid "Expires On"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1131
+msgid "Transfer To"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1177
+#: ../include/class_admin_metaboxes.php:1216
+#: ../include/class_admin_metaboxes.php:2790
+msgid "Search Users"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1195
+#: ../include/class_my_account_page.php:393
+msgid "Link Users"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1242
+#: ../include/class_membership_shortcodes.php:90
+#: ../include/class_membership_shortcodes.php:154
+#: ../templates/link_users_info.php:21
+msgid "Name"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1243
+#: ../include/class_membership_cpt.php:190
+#: ../include/tabs/class_email_tab.php:209 ../templates/link_users_info.php:22
+msgid "Email"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1255
+#: ../templates/link_users_info.php:35
+msgid "Remove"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1283
+msgid "Choose Plan"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1371
+#: ../include/class_admin_metaboxes.php:1551
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1372
+#: ../include/class_admin_metaboxes.php:1552
+msgid "Delete note"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1381
+msgid "Add note"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1386
+msgid "Add"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1576
+msgid "Export emails as CSV"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1636
+#: ../include/class_membership_cpt.php:189
+msgid "Member Name"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1636
+msgid "Email ids"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1636
+msgid "Expires on"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1691
+#: ../include/tabs/class_bulk_update_tab.php:269
+msgid "Accessible by All Users"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1694
+#: ../include/tabs/class_bulk_update_tab.php:272
+#: ../include/tabs/class_restricted_urls_tab.php:93
+msgid "Members with Particular Plans"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1697
+#: ../include/tabs/class_bulk_update_tab.php:275
+#: ../include/tabs/class_restricted_urls_tab.php:97
+msgid "Users without Particular Plans"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1700
+#: ../include/tabs/class_bulk_update_tab.php:278
+#: ../include/tabs/class_restricted_urls_tab.php:101
+msgid "All Members"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1703
+#: ../include/tabs/class_bulk_update_tab.php:281
+#: ../include/tabs/class_restricted_urls_tab.php:105
+msgid "All Non Members"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1708
+#: ../include/tabs/class_bulk_update_tab.php:289
+msgid "Any Plan :"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1710
+#: ../include/class_admin_metaboxes.php:2401
+#: ../include/tabs/class_bulk_update_tab.php:291
+msgid "Immediately"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1713
+#: ../include/class_admin_metaboxes.php:2404
+#: ../include/tabs/class_bulk_update_tab.php:293
+msgid "Scheduled"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:1857
+msgid "Display Alternate Content when this Page is Restricted"
+msgstr ""
+
+#: ../include/class_admin_metaboxes.php:2745
+#: ../include/class_admin_metaboxes.php:2783
+msgid "Choose User to Add Member"
+msgstr ""
+
+#: ../include/class_membership_apis.php:26
+msgid ""
+"Site Admin has Updated the Plan from [sumo_previous_plan_name] to "
+"[sumo_new_plan_name]."
+msgstr ""
+
+#: ../include/class_membership_apis.php:53
+msgid ""
+"Site Admin has Updated the Plan Status from [sumo_previous_plan_status] to "
+"[sumo_new_plan_status]."
+msgstr ""
+
+#: ../include/class_membership_apis.php:123
+msgid "Site Admin has granted access to [sumo_plan_name]."
+msgstr ""
+
+#: ../include/class_membership_apis.php:139
+msgid "Site Admin has paused the [sumo_plan_name]"
+msgstr ""
+
+#: ../include/class_membership_apis.php:144
+msgid "Site Admin has cancelled the [sumo_plan_name]"
+msgstr ""
+
+#: ../include/class_membership_apis.php:149
+msgid "Site Admin has [sumo_plan_status] the [sumo_plan_name]"
+msgstr ""
+
+#: ../include/class_membership_apis.php:171
+msgid "Site Admin has Removed the [sumo_plan_name]"
+msgstr ""
+
+#: ../include/class_membership_apis.php:191
+msgid ""
+"[sumo_plan_name] is currently [sumo_plan_status] (based on Subscription "
+"#[sumo_subscription_no] Status)."
+msgstr ""
+
+#: ../include/class_membership_apis.php:212
+msgid "User has [sumo_plan_action] the [sumo_plan_name]"
+msgstr ""
+
+#: ../include/class_membership_apis.php:233
+msgid "[sumo_plan_name] has been [sumo_plan_status]"
+msgstr ""
+
+#: ../include/class_membership_apis.php:254
+msgid "[sumo_plan_name] has been [sumo_plan_status] based on the Order Status"
+msgstr ""
+
+#: ../include/class_membership_apis.php:278
+msgid ""
+"Linked plan [sumo_linked_plan_name] has been [plan_status] upto parent plan "
+"duration"
+msgstr ""
+
+#: ../include/class_membership_apis.php:320
+msgid ""
+"Expiry has been updated for [sumo_plan_name] from "
+"[sumo_previous_plan_expiry_date] to [sumo_new_plan_expiry_date] based on the "
+"Order Status"
+msgstr ""
+
+#: ../include/class_membership_apis.php:395
+msgid "Access to [plan_name] has been Provided."
+msgstr ""
+
+#: ../include/class_membership_apis.php:398
+#: ../include/class_membership_apis.php:401
+#: ../include/class_membership_apis.php:404
+msgid "-"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:36
+msgid "Add New Membership Plan"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:37
+msgid "New Membership"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:38
+msgid "Edit Membership"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:39
+msgid "View Membership"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:40
+#: ../include/sumo-memberships-personal-data-handler.php:88
+#: ../include/tabs/class_membership_plan_tab.php:18
+msgid "Membership Plans"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:41
+msgid "Search Membership"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:42
+msgid "Parent Membership:"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:43
+msgid "No Membership Levels Found."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:44
+msgid "No Membership Levels found in Trash."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:49
+#: ../include/class_membership_cpt.php:98
+#: ../include/class_membership_cpt.php:139
+msgid "Description."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:85
+#: ../include/class_membership_cpt.php:126
+msgid "Add Member"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:86
+msgid "New Member"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:87
+msgid "Edit Member"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:88
+msgid "View Member"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:89
+#: ../include/class_membership_cpt.php:180
+#: ../include/tabs/class_members_tab.php:18
+msgid "Members"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:90
+msgid "Search Members"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:91
+msgid "Parent Member:"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:92
+msgid "No Members Found."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:93
+msgid "No Members found in Trash."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:127
+msgid "New Log"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:128
+msgid "Edit Log"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:129
+msgid "View Log"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:130
+msgid "All Log"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:131
+msgid "Search Log"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:132
+msgid "Parent Log:"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:133
+msgid "No Logs Found."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:134
+msgid "No Logs found in Trash."
+msgstr ""
+
+#: ../include/class_membership_cpt.php:176
+msgid "Membership Plan ID"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:177
+msgid "Membership Plan Name"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:178
+msgid "Membership Plan Slug"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:179
+msgid "Membership Duration"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:191
+msgid "Membership Plan / Status"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:192
+msgid "Membership Plan / Member Since"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:193
+msgid "Membership Plan / Expires on"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:202
+msgid "User Name"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:204
+msgid "Event"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:205
+msgid "Date"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:435
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:435
+msgid "Edit"
+msgstr ""
+
+#: ../include/class_membership_cpt.php:451
+#: ../include/sumo-memberships-personal-data-handler.php:80
+msgid "Plan name"
+msgstr ""
+
+#: ../include/class_membership_restrictions.php:1071
+msgid "Purchasing this product will provide access to "
+msgstr ""
+
+#: ../include/class_membership_restrictions.php:1102
+msgid "Purchasing this Variation will provide access to "
+msgstr ""
+
+#: ../include/class_membership_shortcodes.php:89
+#: ../include/class_membership_shortcodes.php:153
+msgid "S.no"
+msgstr ""
+
+#: ../include/class_membership_shortcodes.php:91
+#: ../include/class_membership_shortcodes.php:155
+msgid "Avatar"
+msgstr ""
+
+#: ../include/class_membership_shortcodes.php:92
+#: ../include/class_membership_shortcodes.php:156
+msgid "Plans"
+msgstr ""
+
+#: ../include/class_my_account_page.php:240
+msgid "Never Expires"
+msgstr ""
+
+#: ../include/class_my_account_page.php:254
+msgid "Status"
+msgstr ""
+
+#: ../include/class_my_account_page.php:258
+msgid "Disabled by Admin"
+msgstr ""
+
+#: ../include/class_my_account_page.php:281
+msgid "Pause"
+msgstr ""
+
+#: ../include/class_my_account_page.php:287
+msgid "Resume"
+msgstr ""
+
+#: ../include/class_my_account_page.php:434
+msgid "Allow Access to Linked Users"
+msgstr ""
+
+#: ../include/class_my_account_page.php:437
+msgid "Select User"
+msgstr ""
+
+#: ../include/class_my_account_page.php:611
+msgid "You Don't have any Memberships"
+msgstr ""
+
+#: ../include/sumo-memberships-personal-data-handler.php:34
+msgid "User Id"
+msgstr ""
+
+#: ../include/sumo-memberships-personal-data-handler.php:39
+msgid "Membership User Data"
+msgstr ""
+
+#: ../include/sumo-memberships-personal-data-handler.php:81
+msgid "Created on"
+msgstr ""
+
+#: ../include/sumo-memberships-personal-data-handler.php:82
+msgid "Expiry date"
+msgstr ""
+
+#: ../include/sumo-memberships-personal-data-handler.php:83
+msgid "Staus"
+msgstr ""
+
+#: ../include/sumo-memberships-personal-data-handler.php:116
+#, php-format
+msgid "Membership plan %s removed."
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:9
+msgid ""
+"This includes the basics of what personal data your store may be collecting, "
+"storing and sharing. Depending on what settings are enabled and which "
+"additional plugins are used, the specific information shared by your store "
+"will vary."
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:10
+msgid "What the Plugin Does"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:11
+msgid ""
+"- Access to specific Pages, Posts, Products can be restricted to specific "
+"Membership Plans"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:12
+msgid ""
+"- The user will not have access to the restricted content until they "
+"purchase the associated Membership plan"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:13
+msgid ""
+"- Once the Membership Plan is purchased, the user will have access to the "
+"restricted content."
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:14
+msgid "What we collect and store"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:15
+msgid "User ID"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:16
+msgid "We use the user id to "
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:17
+msgid "- Identify the user"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:18
+msgid "- Associate the Purchased Membership Plan with the user"
+msgstr ""
+
+#: ../include/sumo-memberships-privacy.php:28
+msgid "SUMO Memberships"
+msgstr ""
+
+#: ../include/tabs/class_advanced_tab.php:27
+msgid "Advanced"
+msgstr ""
+
+#: ../include/tabs/class_advanced_tab.php:40
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../include/tabs/class_advanced_tab.php:45
+msgid "Memberships Restrictions for Custom Post Type"
+msgstr ""
+
+#: ../include/tabs/class_advanced_tab.php:52
+msgid "Experimental Settings"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:27
+#: ../include/tabs/class_bulk_update_tab.php:335
+msgid "Bulk Update"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:231
+msgid "Post Type"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:264
+msgid "Available for"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:566
+#: ../include/tabs/class_bulk_update_tab.php:690
+msgid "Select Products"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:570
+msgid "All Products"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:571
+msgid "Include Products"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:572
+msgid "Exclude Products"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:573
+msgid "All Categories"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:574
+msgid "Include Categories"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:575
+msgid "Exclude Categories"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:576
+msgid "All Tags"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:577
+msgid "Include Tags"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:578
+msgid "Exclude Tags"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:592
+#: ../include/tabs/class_bulk_update_tab.php:783
+msgid "Select Pages"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:596
+msgid "All Pages"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:597
+msgid "Include Pages"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:598
+msgid "Exclude Pages"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:610
+#: ../include/tabs/class_bulk_update_tab.php:804
+msgid "Select Posts"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:614
+msgid "All Post"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:615
+msgid "Include Posts"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:616
+msgid "Exclude Posts"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:657
+msgid "Bulk Updation for Product Restrictions"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:711
+msgid "Select Categories"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:747
+msgid "Select Tags"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:790
+msgid "Search for a page&hellip;"
+msgstr ""
+
+#: ../include/tabs/class_bulk_update_tab.php:811
+msgid "Search for a post&hellip;"
+msgstr ""
+
+#: ../include/tabs/class_content_restriction_tab.php:21
+msgid "Content Restriction by Shortcodes"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:222
+msgid "Membership Email Settings"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:227
+msgid "Membership Access Provided Email Settings"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:232
+msgid "Send Membership Access Provided Reminder Emails"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:241
+#: ../include/tabs/class_email_tab.php:276
+#: ../include/tabs/class_email_tab.php:324
+#: ../include/tabs/class_email_tab.php:359
+#: ../include/tabs/class_email_tab.php:388
+#: ../include/tabs/class_email_tab.php:417
+#: ../include/tabs/class_email_tab.php:446
+#: ../include/tabs/class_email_tab.php:475
+#: ../include/tabs/class_email_tab.php:504
+#: ../include/tabs/class_email_tab.php:533
+#: ../include/tabs/class_email_tab.php:562
+#: ../include/tabs/class_email_tab.php:591
+#: ../include/tabs/class_email_tab.php:620
+msgid "Email Subject"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:251
+#: ../include/tabs/class_email_tab.php:286
+#: ../include/tabs/class_email_tab.php:334
+#: ../include/tabs/class_email_tab.php:369
+#: ../include/tabs/class_email_tab.php:398
+#: ../include/tabs/class_email_tab.php:427
+#: ../include/tabs/class_email_tab.php:456
+#: ../include/tabs/class_email_tab.php:485
+#: ../include/tabs/class_email_tab.php:514
+#: ../include/tabs/class_email_tab.php:543
+#: ../include/tabs/class_email_tab.php:572
+#: ../include/tabs/class_email_tab.php:601
+#: ../include/tabs/class_email_tab.php:630
+msgid "Email Message"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:262
+msgid "Membership Expired Email Settings"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:267
+msgid "Send Membership Expired Reminder Emails"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:297
+msgid "Membership Expiration Reminder Email Settings"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:302
+msgid "Send Membership Expiration Reminder Emails"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:311
+msgid "Send Membership Expiration Emails"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:313
+msgid "day(s) before due date"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:345
+msgid "Transfer Membership Email Settings"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:350
+msgid "Enable Email for Admin when Transfer Request submitted"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:379
+msgid "Enable Email for Plan Sender when Transfer Request submitted"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:408
+msgid "Enable Email for Admin when Transfer Request Approved"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:437
+msgid "Enable Email for Plan Sender when Transfer Request Approved"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:466
+msgid "Enable Email for Plan Receiver when Transfer Request Approved"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:495
+msgid "Enable Email for Admin when Transfer Request Rejected"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:524
+msgid "Enable Email for Plan Receiver when Transfer Request Rejected"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:553
+msgid "Enable Email for Admin when Transfer plan made by Admin Manually"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:582
+msgid "Enable Email for Plan Sender when Transfer plan made by Admin Manually"
+msgstr ""
+
+#: ../include/tabs/class_email_tab.php:611
+msgid ""
+"Enable Email for Plan Receiver when Transfer plan made by Admin Manually"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:29
+msgid "General"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:69
+msgid "Product Restriction Settings"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:74
+#: ../include/tabs/class_general_tab.php:113
+msgid "Restriction Type"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:81
+msgid ""
+"Choose whether to make the product not purchasable or to apply the Content "
+"Restriction settings."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:83
+msgid "Product Should not be Purchasable"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:84
+msgid "Apply Content Restriction Settings"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:88
+msgid "Hide Restricted Products in Shop Page and Category Page"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:95
+msgid ""
+"When Enabled, the Restricted products will be hidden in Shop Page and "
+"Category Page"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:99
+msgid "Content Restriction Settings"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:104
+msgid ""
+"Give/Revoke access for Previously purchased members when a Plan is Linked/"
+"Unlinked with Another Plan"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:121
+msgid "Limited Restriction"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:122
+msgid "Complete Restriction"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:123
+msgid "Redirection"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:125
+msgid ""
+"If \"Complete Restriction\" is chosen, a 404 Page will be displayed when the "
+"restircted content is accessed. If \"Limited Content\" is chosen, only the "
+"title and few words of the of the original content will be displayed when "
+"the  restircted content is accessed. If \"Redirection\" is chosen, the User "
+"will be redirected to a custom page when the restircted content is accessed."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:128
+msgid "Display Excerpt Content"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:137
+msgid "Number of Words to Display"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:149
+msgid "Hide \"Apply for job\" button for \"job_listing\" post type on frontend"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:158
+msgid "Redirect to"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:167
+msgid "Hide Restricted Pages and Posts from Menu"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:177
+msgid "Default Membership Plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:185
+msgid "Disable Transfer Membership Plan option for Default Membership Plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:194
+msgid "Disable Link Users option for Default Membership Plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:204
+msgid "Frontend Membership Customization Settings"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:209
+msgid "Enable Membership Customization in MyAccount Page"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:215
+msgid "When enabled, Memberships Customization is avail at MyAccount Page."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:218
+msgid "Allow Members to Show Linked plans in My account Page"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:225
+msgid "Linked Plans can be displayed for each plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:228
+msgid "Allow Members to Pause their Membership plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:234
+msgid ""
+"When enabled, members can pause their memberships plans from \"My Memberships"
+"\" section."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:237
+msgid "Allow Members to Transfer their Membership plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:243
+msgid ""
+"When enabled, members can transfer their memberships plans from \"My "
+"Memberships\" section."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:246
+msgid "Allow Members to link users with their plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:254
+#: ../include/tabs/class_general_tab.php:268
+msgid "Allow"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:255
+#: ../include/tabs/class_general_tab.php:269
+msgid "Don't Allow"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:257
+msgid "When allowed, Members can link other users to access their plans"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:260
+msgid "Transfer of Membership plans with linked users"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:271
+#: ../include/tabs/class_general_tab.php:288
+msgid ""
+"When allowed, Members can Transfer their plans when the plan have linked "
+"users"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:275
+msgid "Order Status Settings"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:280
+msgid "Membership Plan access will be available when Order Status becomes"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:292
+msgid "Shortcodes"
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:297
+#, php-format
+msgid "Use shortcode %s to display My Membership table in Frontend."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:302
+#, php-format
+msgid ""
+"Use shortcode %s to display all the users who are associated with one/more "
+"membership plans."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:307
+#, php-format
+msgid ""
+"Use shortcode %s to display all the users who are associated with the "
+"selected membership plans. You can find the %s by the following steps %s.  "
+"Use the <b>plan id</b> between the double quotes <b>(” “)</b> in the "
+"shortcode.  Also, you can display one or more plans by using comma<b>(,)</b> "
+"separator to add another plan id in the shortcode."
+msgstr ""
+
+#: ../include/tabs/class_general_tab.php:352
+msgid "Select Default Membership Plans"
+msgstr ""
+
+#: ../include/tabs/class_help_tab.php:19 ../include/tabs/class_help_tab.php:52
+msgid "Help"
+msgstr ""
+
+#: ../include/tabs/class_help_tab.php:46
+msgid "Documentation"
+msgstr ""
+
+#: ../include/tabs/class_help_tab.php:49
+msgid ""
+"The documentation file can be found inside the documentation folder  which "
+"you will find when you unzip the downloaded zip file."
+msgstr ""
+
+#: ../include/tabs/class_help_tab.php:55
+msgid ""
+"If you need Help, please <a href=\"http://support.fantasticplugins.com\" "
+"target=\"_blank\" > register and open a support ticket</a>"
+msgstr ""
+
+#: ../include/tabs/class_masterlog_tab.php:18
+msgid "Master Log"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:23
+msgid "Messages"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:36
+msgid "Product Restriction Messages"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:41
+msgid ""
+"Product Viewing Restriction - Requires Membership Purchase (for Logged In "
+"Users)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:51
+msgid "Product Viewing Restriction - Requires Membership Purchase (for Guests)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:61
+msgid "Product Viewing Restriction - Requires Membership (for Logged In Users)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:71
+msgid "Product Viewing Restriction - Requires Membership (for Guests)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:81
+msgid ""
+"Product Purchase Restriction - Requires Membership Purchase (for Logged In "
+"Users)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:91
+msgid ""
+"Product Purchase Restriction - Requires Membership Purchase (for Guests)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:101
+msgid ""
+"Product Purchase Restriction - Requires Membership (for Logged In Users)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:111
+msgid "Product Purchase Restriction - Requires Membership (for Guests)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:121
+msgid "Product Purchase Restriction"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:132
+msgid "Content Restriction Messages"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:137
+msgid ""
+"Content Restriction - Requires Membership Purchase (for Logged In Users)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:147
+msgid "Content Restriction - Requires Membership Purchase (for Guests)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:157
+msgid "Content Restriction - Requires Membership (for Logged In Users)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:167
+msgid "Content Restriction - Requires Membership (for Guests)"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:177
+msgid "Content Restriction"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:188
+msgid "User Sign Up Message"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:193
+msgid "Default Plans Information on User Sign Up"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:204
+msgid "Error Message"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:209
+msgid "Guest Error Message"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:220
+msgid "My Account Page Membership Customization Message"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:225
+msgid "My Membership Table Title"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:235
+msgid "Plan Name Column"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:245
+msgid "Expiry Column"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:255
+msgid "Status Column"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:265
+msgid "Show/Hide Plan Name Column in My Membership Table"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:274
+#: ../include/tabs/class_message_tab.php:288
+#: ../include/tabs/class_message_tab.php:302
+msgid "Show"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:275
+#: ../include/tabs/class_message_tab.php:289
+#: ../include/tabs/class_message_tab.php:303
+msgid "Hide"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:279
+msgid "Show/Hide Expires On Column in My Membership Table"
+msgstr ""
+
+#: ../include/tabs/class_message_tab.php:293
+msgid "Show/Hide Status Column in My Membership Table"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:21
+msgid "Check Previous Orders"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:34
+msgid ""
+"Check Old WooCommerce Orders to provide membership acces for old customers"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:49
+msgid "Time Duration"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:52
+msgid "All time"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:53
+msgid "Specific"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:58
+msgid "Specific Time"
+msgstr ""
+
+#: ../include/tabs/class_previous_order_tab.php:68
+msgid "Check for Previous Orders"
+msgstr ""
+
+#: ../include/tabs/class_reset_tab.php:31
+#: ../include/tabs/class_reset_tab.php:44
+msgid "Reset"
+msgstr ""
+
+#: ../include/tabs/class_reset_tab.php:52
+msgid "Reset Master Log"
+msgstr ""
+
+#: ../include/tabs/class_reset_tab.php:109
+msgid " Settings Tab"
+msgstr ""
+
+#: ../include/tabs/class_restricted_urls_tab.php:29
+msgid "URL Restriction by Redirection"
+msgstr ""
+
+#: ../include/tabs/class_restricted_urls_tab.php:42
+msgid "Url Restriction Settings"
+msgstr ""
+
+#: ../include/tabs/class_restricted_urls_tab.php:60
+msgid "URL"
+msgstr ""
+
+#: ../include/tabs/class_restricted_urls_tab.php:61
+msgid "Redirect For"
+msgstr ""
+
+#: ../include/tabs/class_restricted_urls_tab.php:62
+msgid "Redirect To"
+msgstr ""
+
+#: ../include/tabs/class_restricted_urls_tab.php:89
+msgid "All Users"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:43
+#: ../include/tabs/class_transfer_plans.php:54
+msgid "Transfer Requests"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:90
+#: ../include/tabs/class_transfer_plans.php:140
+msgid "From User"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:91
+#: ../include/tabs/class_transfer_plans.php:141
+msgid "Plan"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:92
+#: ../include/tabs/class_transfer_plans.php:142
+msgid "To User"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:93
+#: ../include/tabs/class_transfer_plans.php:143
+msgid "Approve"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:94
+#: ../include/tabs/class_transfer_plans.php:144
+msgid "Discard"
+msgstr ""
+
+#: ../include/tabs/class_transfer_plans.php:114
+#: ../include/tabs/class_transfer_plans.php:123
+msgid "<br>"
+msgstr ""
+
+#: ../sumomemberships.php:109
+msgid "Orders found and provided Membership Access"
+msgstr ""
+
+#: ../sumomemberships.php:110
+msgid "No Orders found"
+msgstr ""
+
+#: ../templates/link_users_info.php:11
+msgid "Select Users"
+msgstr ""
+
+#: ../templates/link_users_info.php:13
+msgid "Link"
+msgstr ""
+
+#: ../templates/link_users_info.php:16
+msgid "Linked Users"
+msgstr ""
+
+#: ../templates/link_users_info.php:43
+msgid "No Users linked with this plan"
+msgstr ""

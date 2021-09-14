@@ -1,0 +1,29 @@
+@include phone-landscape {
+	.mkd-image-slider:not(.with-thumbs) .mkd-caption-holder p {
+		padding: 0 20%;
+	}
+
+	.mkd-image-slider.with-thumbs {
+		.mkd-caption-holder p {
+			display: none;
+		}
+
+		span.flex-caption{
+			font-size: 14px;
+		}
+	}
+
+	.mkd-image-slider:not(.with-thumbs) {
+
+		.mkd-caption-holder {
+			display: none;
+		}
+		 .mkd-slider-navigation {
+		 	bottom: 50%;
+		 	@include mkdTransform(translateY(50%));
+		 	a {
+		 		background: rgba(255,255,255,.7)
+		 	}
+		 }
+	}
+}

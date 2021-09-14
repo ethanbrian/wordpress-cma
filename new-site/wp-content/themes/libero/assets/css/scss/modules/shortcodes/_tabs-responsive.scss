@@ -1,0 +1,42 @@
+@media only screen and (max-width: $ipad-landscape) {
+    .mkd-tabs.mkd-vertical.mkd-tab-text-icon .mkd-tabs-nav li a .mkd-tab-text-after-icon {
+        padding-left: 30px;
+        line-height: 1.7em;
+        margin-top: -25px;
+    }
+}
+
+
+@media only screen and (max-width: $ipad-portrait) {
+    .mkd-tabs.mkd-horizontal .mkd-tabs-nav li a {
+        border-left: 1px solid #dbdbdb;
+    }
+}
+
+
+@media only screen and (max-width: $phone-landscape) {
+    .mkd-tabs .mkd-tabs-nav li,
+    .mkd-tabs.mkd-horizontal .mkd-tabs-nav li{
+        float: none;
+        display: block;
+    }
+
+    .mkd-tabs.mkd-vertical .mkd-tabs-nav,
+    .mkd-tabs.mkd-vertical .mkd-tab-container {
+        width: 100%;
+    }
+
+    .mkd-tabs.mkd-vertical .mkd-tabs-nav li a {
+        text-align: center;
+    }
+
+    .mkd-tabs.mkd-vertical .mkd-tab-container {
+        border-left: 1px solid #dbdbdb;
+    }
+
+    .mkd-tabs.mkd-vertical.mkd-tab-text-icon .mkd-tabs-nav li a .mkd-tab-text-after-icon {
+        padding-left: 10px;
+        display: inline-block;
+        margin-top: 0;
+    }
+}

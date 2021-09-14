@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Elements Holder start style
+   ========================================================================== */
+
+.mkd-elements-holder {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+
+	&.mkd-two-columns {
+
+		.mkd-elements-holder-item {
+			width: 50%;
+		}
+	}
+
+	&.mkd-two-columns {
+
+		.mkd-elements-holder-item {
+			width: 50%;
+		}
+	}
+
+	&.mkd-three-columns {
+
+		.mkd-elements-holder-item {
+			width: 33%;
+		}
+	}
+
+	&.mkd-four-columns {
+
+		.mkd-elements-holder-item {
+			width: 25%;
+		}
+	}
+
+	&.mkd-five-columns {
+
+		.mkd-elements-holder-item {
+			width: 20%;
+		}
+	}
+
+	&.mkd-six-columns {
+
+		.mkd-elements-holder-item {
+			width: 16%;
+		}
+	}
+
+	.mkd-elements-holder-item {
+
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+		background-size: cover;
+
+		&.mkd-vertical-alignment-top {
+			vertical-align: top;
+		}
+
+		&.mkd-vertical-alignment-bottom {
+			vertical-align: bottom;
+		}
+
+		&.mkd-horizontal-alignment-left {
+			text-align: left;
+		}
+
+		&.mkd-horizontal-alignment-center {
+			text-align: center;
+		}
+
+		&.mkd-horizontal-alignment-right {
+			text-align: right;
+		}
+
+		.mkd-elements-holder-item-inner {
+			width: 100%;
+		}
+
+		.wpb_content_element{
+			margin: 0;
+		}
+	}
+
+	&.mkd-elements-items-float {
+
+		&.mkd-three-columns {
+
+			.mkd-elements-holder-item {
+				width: 33.33333333333333%;
+			}
+		}
+
+		&.mkd-six-columns {
+
+			.mkd-elements-holder-item {
+				width: 16.66666666666667%;
+			}
+		}
+
+		.mkd-elements-holder-item {
+			float:left;
+		}
+	}
+
+	.mkd-elements-holder-item-content{
+		padding: 0 20px;
+	}
+
+}
+/* ==========================================================================
+   End of Elements Holder style
+   ========================================================================== */

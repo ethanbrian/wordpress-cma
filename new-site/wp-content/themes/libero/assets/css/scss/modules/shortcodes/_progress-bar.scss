@@ -1,0 +1,113 @@
+
+/* ==========================================================================
+   Progress bar shortcode start styles
+   ========================================================================== */
+.mkd-progress-bar{
+    position: relative;
+    margin: 0 0 10px;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    padding-right: 24px;
+    
+    .mkd-progress-title-holder{
+        position: relative;
+        margin: 5px 0 15px;
+        
+        .mkd-progress-title{
+            display: inline-block;
+            z-index: 100;
+        }
+    }    
+    .mkd-progress-number-wrapper  {
+        font-family: 'Roboto', serif;
+        text-align: right;
+        position: absolute;
+        left: 0;
+        z-index: 10;
+        opacity: 0;
+        color: #fff;
+        bottom: 0;
+        
+        .mkd-progress-number {
+            font-size: 13px;
+            font-weight: 400;
+            color: #222;
+            display: inline-block;
+            text-align: center;
+            float: right;
+            height: 21px; 
+            line-height: 24px;
+        }
+        .mkd-progress-number .mkd-percent:after{
+            content: '%';
+            margin-left: 0.1em;
+            font-size: 1em;
+        }
+        
+    }
+    .mkd-progress-number-wrapper.mkd-floating{
+        width: 100%;
+        height: 100%;
+
+
+
+        .mkd-progress-number{
+            position:absolute;
+            @include mkdTransform(translateX(-50%));
+
+        }
+
+        &.mkd-floating-outside .mkd-progress-number{
+            bottom: -10px;
+            background-image: url("img/progress_bar_percent.png");
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+            width: 41px;
+            height: 30px;
+        }
+
+        &.mkd-floating-inside .mkd-progress-number{
+            bottom: -1px;
+            @include mkdTransform(translateX(-120%));
+            height: 15px;
+            line-height: 15px;
+            color: #fff;
+
+            .mkd-percent{
+                display: inline-block;
+            }
+        }
+        
+    }
+
+    .mkd-progress-number-wrapper.mkd-static {
+        width: 100%;
+        margin-left: 0;
+
+        .mkd-progress-number {
+
+            margin-bottom: -10px;
+        }
+    }
+    
+    .mkd-progress-content-outer{
+        background-color: rgba(0,0,0,0.35);
+        position: relative;
+        overflow: hidden;
+        height: 15px;
+        
+        .mkd-progress-content{
+            max-width: 100%;
+            overflow: hidden;
+            background-color: $first-main-color;
+            height: 15px;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            width: 0;
+        }
+    }
+}
+/* ==========================================================================
+   Progress bar shortcode end styles
+   ========================================================================== */

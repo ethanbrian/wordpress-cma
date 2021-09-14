@@ -1,0 +1,118 @@
+/* ==========================================================================
+   Interactive Icon start styles
+   ========================================================================== */
+.mkd-interactive-icon {
+    display: table;
+    width: 100%;
+    opacity: 0; //add opacity via JS
+
+    a {
+        display: block;
+    }
+
+    .mkd-interactive-icon-inner {
+        overflow: hidden;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    &.mkd-right-border-added {
+        border-right: 1px solid rgba(252, 252, 252, 0.2);
+    }
+
+    &.mkd-bottom-border-added.mkd-bottom-border-show-always{
+    	border-bottom: 1px solid rgba(252, 252, 252, 0.2);
+    }
+
+    .mkd-interactive-icon-image {
+        text-align: center;
+        -webkit-transition: opacity .15s ease-out .15s, -webkit-transform .3s;
+        transition: opacity .15s ease-out .15s, transform .3s;
+        @include mkdTransform(scale(1));
+    }
+
+    .mkd-interactive-icon-title {
+        @include mkdBoxSizing(border-box);
+        padding: 10px 0;
+        position: relative;
+        text-align: center;
+        -webkit-transition: -webkit-transform .2s ease-out;
+        transition: transform .2s ease-out;
+
+        h4 {
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+
+    .mkd-interactive-icon-hover-content {
+        position: absolute;
+        left: 50%;
+        @include mkdTransform(translateX(-50%));
+        width: 80%;
+
+        .mkd-interactive-icon-separator {
+            position: absolute;
+            height: 3px;
+            width: 18px;
+            @include mkdTransform(scale(0,1));
+            background-color: $first-main-color;
+            top: -8px;
+            left: calc(50% - 9px);
+            opacity: 0;
+            -webkit-transition: -webkit-transform .05s ease-out .1s;
+            transition: transform .05s ease-out .1s;
+        }
+
+        .mkd-interactive-icon-text {
+            @include mkdBoxSizing(border-box);
+            padding: 6px 20px 10px;
+            text-align: center;
+            color: #fff;
+            opacity: 0;
+            -webkit-font-smoothing: antialiased;
+            @inlude mkdTransition(opacity .1s ease-out);
+        }
+
+        .mkd-interactive-icon-small.icon-holder {
+            display: block;
+            text-align: center;
+            position: relative;
+            bottom: 5px;
+            color: #fff;
+            opacity: 0;
+            -webkit-font-smoothing: antialiased;
+            @inlude mkdTransition(opacity .1s ease-out);
+        }
+    }
+
+    /*Hover effects*/
+
+    &:hover {
+        .mkd-interactive-icon-image {
+            opacity: 0;
+            -webkit-transition: opacity .2s ease-out, -webkit-transform .2s ease-out;
+            transition: opacity .2s ease-out, transform .2s ease-out;
+            @include mkdTransform(scale(.4));
+        }
+        .mkd-interactive-icon-title {
+            -webkit-transition: -webkit-transform .5s ease .05s, top .2s ease-out .4s;
+            transition: transform .5s ease .05s, top .2s ease-out .4s;
+        }
+        .mkd-interactive-icon-separator {
+            opacity: 1;
+            @include mkdTransform(scale(1,1));
+            -webkit-transition: -webkit-transform .3s ease-out .3s;
+            transition: transform .3s ease-out .3s;
+        }
+        .mkd-interactive-icon-text,
+        .mkd-interactive-icon-small.icon-holder {
+            opacity: 1;
+            @include mkdTransition(opacity .3s ease-in .3s);
+        }
+    }
+}
+/* ==========================================================================
+   Interactive Icon end styles
+   ========================================================================== */

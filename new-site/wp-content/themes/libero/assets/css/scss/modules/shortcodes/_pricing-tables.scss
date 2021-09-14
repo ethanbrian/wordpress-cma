@@ -1,0 +1,138 @@
+/* ==========================================================================
+# Pricing table style - begin
+========================================================================== */
+
+.mkd-pricing-tables.mkd-two-columns .mkd-price-table{
+	width: 48.75%;
+}
+
+.mkd-pricing-tables.mkd-three-columns .mkd-price-table{
+	width: 31.666666666666668%;
+}
+
+.mkd-pricing-tables.mkd-four-columns .mkd-price-table{
+	width: 23.125%;
+}
+.mkd-price-table{
+    position: relative;
+	width: 100%;
+	padding: 0;
+	margin-left: 2.5%;
+	float: left;
+    
+    &:first-child{
+        margin-left: 0;
+    }
+}    
+    
+.mkd-price-table .mkd-price-table-inner{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+
+    ul{
+        list-style: none outside none;
+        margin: 0;
+    }
+
+    ul li{
+        text-align: center;
+        margin: 0;
+        padding: 16px 20px 18px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    ul li.mkd-table-title,
+    ul li.mkd-table-prices{
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    ul li.mkd-table-title{
+        padding: 16px 20px 12px;
+        position: relative;
+    }
+
+    ul li.mkd-table-title .mkd-title-content {
+        display: block;
+    }
+
+    ul li.mkd-table-content,
+    ul li.mkd-table-content ul{
+        padding:0;
+    }
+
+    ul li:last-child,
+    ul li.mkd-table-content ul li:last-child{
+        border-bottom: none;
+    }
+
+    ul li.mkd-table-prices {
+        padding: 27px 5px 33px;
+        background-color: #f7f7f7;
+        
+        .mkd-price-in-table {
+            
+            text-align: center;
+        }   
+        .mkd-value {
+            font-size: 18px;
+            line-height: 18px;
+            position: relative;
+            vertical-align:top;
+            bottom: 0;
+        }
+        .mkd-price {
+            font-size: 53px;
+            line-height: 40px;
+            padding: 0 3px;
+            vertical-align: middle;
+            color: $first-main-color;
+            letter-spacing: -1px;
+        }
+        .mkd-mark {
+            position: relative;
+            vertical-align:bottom;
+        }
+    }
+
+    ul li.mkd-price-button{
+    	padding: 8px 20px;
+    }
+}
+
+.mkd-price-table.mkd-active{
+	.mkd-active-text{
+		width: 38px;
+		text-align: center;
+		background-color: $second-main-color;
+		font-family: 'Dynalight', cursive;
+		color: #fff;
+		font-size: 15px;
+		line-height:26px;
+		position: absolute;
+		top: -1px;
+		right: 10px;
+		z-index:9;
+
+		.mkd-active-text-inner{
+			display:block;
+			padding:6px 0 2px;
+		}
+
+		&:after{
+			content: '';
+			width: 0; 
+			height: 0;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			border-left: 19px solid transparent;
+			border-right: 19px solid transparent;
+
+			border-top: 10px solid $second-main-color;
+		}
+	}
+}
+/* ==========================================================================
+# Pricing table style - end
+========================================================================== */

@@ -1,0 +1,24 @@
+@include ipad-landscape{
+	.mkd-portfolio-single-holder{
+		.mkd-two-columns-75-25 .mkd-column2{
+			margin-top: 30px;
+		}
+
+		.mkd-related-projects .mkd-portfolio-list-holder{
+			article.mix{
+				margin-bottom: 2%;
+				width: 49%;
+			}
+		}
+	}
+}
+@include phone-portrait{
+	.mkd-portfolio-single-holder{
+		.mkd-portfolio-single-nav{
+			.mkd-next-label,
+			.mkd-prev-label{
+				display: none;
+			}
+		}
+	}
+}

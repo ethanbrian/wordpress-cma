@@ -1,0 +1,29 @@
+@include phone-landscape {
+	.mkd-video-box{
+		.mkd-video-box-text{
+			p{
+				display: none;
+			}
+
+			.mkd-video-box-title{
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+@include phone-portrait{
+	.mkd-video-box{
+		.mkd-video-image {
+			.mkd-video-box-button-holder .mkd-video-box-button{
+				background-color: transparent;
+				border-color: transparent;
+
+				&:before,
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}

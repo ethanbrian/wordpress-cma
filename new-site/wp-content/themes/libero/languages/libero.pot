@@ -1,0 +1,5246 @@
+# Copyright (C) 2019 Mikado Themes
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Libero 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/libero\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-12-25T16:23:15+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: libero\n"
+
+#. Theme Name of the theme
+#: framework/admin/skins/mikado/templates/content-import.php:25
+msgid "Libero"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://libero.mikado-themes.com/"
+msgstr ""
+
+#. Description of the theme
+msgid "A Theme for Lawyers and Law Firms"
+msgstr ""
+
+#. Author of the theme
+msgid "Mikado Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/mikado-themes"
+msgstr ""
+
+#: 404.php:14
+msgid "404"
+msgstr ""
+
+#: 404.php:22
+msgid "Oops, something happened, this page is missing!"
+msgstr ""
+
+#. Template Name of the theme
+#: framework/modules/blog/options-map/map.php:38
+msgid "Blog: Standard Whole Post"
+msgstr ""
+
+#. Template Name of the theme
+#: framework/modules/blog/options-map/map.php:37
+msgid "Blog: Standard"
+msgstr ""
+
+#: comments.php:5
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:5
+msgid " Comment "
+msgstr ""
+
+#: comments.php:5
+msgid " Comments "
+msgstr ""
+
+#: comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:33
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments.php:47
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:48
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: comments.php:49
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:50
+#: framework/modules/blog/templates/parts/post-info-comments.php:4
+msgid "Comment"
+msgstr ""
+
+#: comments.php:51
+msgid "Your Message Here..."
+msgstr ""
+
+#: comments.php:55
+msgid "Your Full Name"
+msgstr ""
+
+#: comments.php:56
+msgid "Your E-mail Address"
+msgstr ""
+
+#: comments.php:58
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: framework/admin/meta-boxes/blog/map.php:12
+#: framework/modules/blog/options-map/map.php:10
+msgid "Blog"
+msgstr ""
+
+#: framework/admin/meta-boxes/blog/map.php:21
+msgid "Blog Category"
+msgstr ""
+
+#: framework/admin/meta-boxes/blog/map.php:22
+msgid "Choose category of posts to display (leave empty to display all categories)"
+msgstr ""
+
+#: framework/admin/meta-boxes/blog/map.php:32
+msgid "Number of Posts"
+msgstr ""
+
+#: framework/admin/meta-boxes/blog/map.php:33
+msgid "Enter the number of posts to display"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:8
+msgid "Carousel"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:17
+msgid "Carousel Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:18
+msgid "Choose carousel image (min width needs to be 215px)"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:27
+msgid "Carousel Hover Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:28
+msgid "Choose carousel hover image (min width needs to be 215px)"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:37
+#: framework/admin/meta-boxes/post-format-audio/map.php:17
+#: framework/admin/meta-boxes/post-format-link/map.php:17
+msgid "Link"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:38
+msgid "Enter the URL to which you want the image to link to (e.g. http://www.example.com)"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:47
+msgid "Target"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:48
+msgid "Specify where to open the linked document"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:51
+msgid "Self"
+msgstr ""
+
+#: framework/admin/meta-boxes/carousels/map.php:52
+msgid "Blank"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:6
+#: framework/admin/options/contentbottom/map.php:10
+msgid "Content Bottom"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:16
+#: framework/admin/options/contentbottom/map.php:27
+msgid "Enable Content Bottom Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:17
+#: framework/admin/options/contentbottom/map.php:28
+msgid "This option will enable Content Bottom area on pages"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:20
+#: framework/admin/meta-boxes/content-bottom/map.php:66
+#: framework/admin/meta-boxes/general/map.php:43
+#: framework/admin/meta-boxes/header/map.php:36
+#: framework/admin/meta-boxes/title/map.php:21
+#: framework/admin/meta-boxes/title/map.php:98
+#: framework/admin/meta-boxes/title/map.php:244
+#: framework/admin/meta-boxes/title/map.php:260
+#: framework/admin/meta-boxes/title/map.php:298
+#: framework/admin/meta-boxes/title/map.php:328
+#: framework/admin/meta-boxes/title/map.php:392
+#: framework/admin/skins/mikado/templates/content-import.php:80
+#: framework/lib/mkd.layout.php:1061
+#: framework/lib/mkd.layout.php:1099
+#: framework/lib/mkd.layout.php:1199
+#: framework/lib/mkd.layout.php:1252
+#: framework/lib/mkd.layout.php:1358
+#: framework/lib/mkd.layout.php:1411
+#: framework/lib/mkd.layout.php:1464
+#: framework/lib/mkd.layout.php:1517
+#: framework/lib/mkd.layout.php:1570
+#: framework/lib/mkd.layout.php:1623
+#: framework/modules/title/options-map/map.php:209
+#: framework/modules/visualcomposer/visual-composer-config.php:287
+#: framework/modules/visualcomposer/visual-composer-config.php:300
+#: framework/modules/visualcomposer/visual-composer-config.php:364
+#: framework/modules/visualcomposer/visual-composer-config.php:377
+#: framework/modules/visualcomposer/visual-composer-config.php:417
+#: framework/modules/visualcomposer/visual-composer-config.php:505
+#: framework/modules/visualcomposer/visual-composer-config.php:518
+msgid "No"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:21
+#: framework/admin/meta-boxes/content-bottom/map.php:67
+#: framework/admin/meta-boxes/general/map.php:42
+#: framework/admin/meta-boxes/header/map.php:37
+#: framework/admin/meta-boxes/title/map.php:22
+#: framework/admin/meta-boxes/title/map.php:99
+#: framework/admin/meta-boxes/title/map.php:245
+#: framework/admin/meta-boxes/title/map.php:261
+#: framework/admin/meta-boxes/title/map.php:299
+#: framework/admin/meta-boxes/title/map.php:327
+#: framework/admin/meta-boxes/title/map.php:391
+#: framework/admin/skins/mikado/templates/content-import.php:79
+#: framework/lib/mkd.layout.php:1059
+#: framework/lib/mkd.layout.php:1097
+#: framework/lib/mkd.layout.php:1197
+#: framework/lib/mkd.layout.php:1250
+#: framework/lib/mkd.layout.php:1356
+#: framework/lib/mkd.layout.php:1409
+#: framework/lib/mkd.layout.php:1462
+#: framework/lib/mkd.layout.php:1515
+#: framework/lib/mkd.layout.php:1568
+#: framework/lib/mkd.layout.php:1621
+#: framework/modules/title/options-map/map.php:210
+#: framework/modules/visualcomposer/visual-composer-config.php:288
+#: framework/modules/visualcomposer/visual-composer-config.php:301
+#: framework/modules/visualcomposer/visual-composer-config.php:365
+#: framework/modules/visualcomposer/visual-composer-config.php:378
+#: framework/modules/visualcomposer/visual-composer-config.php:418
+#: framework/modules/visualcomposer/visual-composer-config.php:506
+#: framework/modules/visualcomposer/visual-composer-config.php:519
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:51
+#: framework/admin/options/page/map.php:46
+#: framework/modules/blog/options-map/map.php:62
+#: framework/modules/blog/options-map/map.php:154
+msgid "Sidebar to Display"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:52
+msgid "Choose a Content Bottom sidebar to display"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:63
+#: framework/admin/options/contentbottom/map.php:62
+msgid "Display in Grid"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:64
+#: framework/admin/options/contentbottom/map.php:63
+msgid "Enabling this option will place Content Bottom in grid"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:78
+#: framework/admin/meta-boxes/title/map.php:193
+#: framework/admin/options/contentbottom/map.php:71
+#: framework/modules/contactform7/options-map/map.php:245
+#: framework/modules/contactform7/options-map/map.php:559
+#: framework/modules/contactform7/options-map/map.php:914
+#: framework/modules/contactform7/options-map/map.php:1228
+#: framework/modules/contactform7/options-map/map.php:1583
+#: framework/modules/contactform7/options-map/map.php:1897
+#: framework/modules/header/options-map/header-map.php:254
+#: framework/modules/header/options-map/header-map.php:437
+#: framework/modules/header/options-map/header-map.php:494
+#: framework/modules/header/options-map/header-map.php:1429
+#: framework/modules/search/options-map/map.php:433
+#: framework/modules/sidearea/options-map/map.php:463
+#: framework/modules/title/options-map/map.php:147
+msgid "Background Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/content-bottom/map.php:79
+#: framework/admin/options/contentbottom/map.php:72
+msgid "Choose a background color for Content Bottom area"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:6
+#: framework/modules/footer/options-map/map.php:12
+#: framework/modules/footer/options-map/map.php:19
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:16
+msgid "Disable Footer for this Page"
+msgstr ""
+
+#: framework/admin/meta-boxes/footer/map.php:17
+msgid "Enabling this option will hide footer on this page"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:6
+#: framework/admin/options/general/map.php:12
+msgid "General"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:17
+#: framework/admin/options/general/map.php:142
+#: framework/admin/options/general/map.php:187
+msgid "Page Background Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:18
+msgid "Choose background color for page content"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:28
+msgid "Slider Shortcode"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:29
+msgid "Paste your slider shortcode here"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:38
+#: framework/admin/options/page/map.php:56
+#: framework/modules/blog/options-map/map.php:163
+#: framework/modules/portfolio/options-map/map.php:85
+msgid "Show Comments"
+msgstr ""
+
+#: framework/admin/meta-boxes/general/map.php:39
+#: framework/admin/options/page/map.php:57
+msgid "Enabling this option will show comments on your page"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:6
+#: framework/modules/header/options-map/header-map.php:10
+#: framework/modules/header/options-map/header-map.php:19
+msgid "Header"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:15
+#: framework/modules/header/options-map/header-map.php:85
+msgid "Header Skin"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:16
+#: framework/modules/header/options-map/header-map.php:86
+msgid "Choose a header style to make header elements (logo, main menu, side menu button) in that predefined style"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:20
+#: framework/modules/header/options-map/header-map.php:89
+#: framework/modules/sidearea/options-map/map.php:557
+#: framework/modules/visualcomposer/visual-composer-config.php:257
+msgid "Light"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:21
+#: framework/modules/header/options-map/header-map.php:90
+#: framework/modules/sidearea/options-map/map.php:558
+#: framework/modules/visualcomposer/visual-composer-config.php:258
+msgid "Dark"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:32
+#: framework/modules/header/options-map/header-map.php:101
+msgid "Enable Header Style on Scroll"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:33
+#: framework/modules/header/options-map/header-map.php:102
+msgid "Enabling this option, header will change style depending on row settings for dark/light style"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:46
+msgid "Top Menu Area Background Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:47
+msgid "Choose a background color for header top menu area"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:58
+msgid "Bottom Menu Area Background color"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:59
+msgid "Set background color for header bottom menu area"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:67
+msgid "Sticky Background Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:68
+#: framework/modules/header/options-map/header-map.php:255
+msgid "Set background color for sticky header"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:76
+#: framework/modules/header/options-map/header-map.php:262
+msgid "Sticky Header Transparency"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:77
+msgid "Choose a transparency for sticky header background color (0 = fully transparent, 1 = opaque)"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:89
+msgid "Scroll amount for sticky header appearance"
+msgstr ""
+
+#: framework/admin/meta-boxes/header/map.php:90
+msgid "Define scroll amount for sticky header appearance"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:7
+msgid "Portfolio Settings"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:14
+#: framework/modules/portfolio/options-map/map.php:22
+msgid "Portfolio Type"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:15
+#: framework/modules/portfolio/options-map/map.php:24
+msgid "Choose a default type for Single Project pages"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:18
+#: framework/admin/meta-boxes/sidebar/map.php:21
+#: framework/admin/meta-boxes/title/map.php:544
+#: framework/lib/mkd.layout.php:795
+#: framework/lib/mkd.layout.php:825
+#: framework/modules/header/options-map/header-map.php:569
+#: framework/modules/title/options-map/map.php:421
+#: framework/modules/visualcomposer/visual-composer-config.php:256
+#: framework/modules/woocommerce/options-map/map.php:70
+msgid "Default"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:19
+#: framework/modules/portfolio/options-map/map.php:27
+msgid "Portfolio small images"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:20
+#: framework/modules/portfolio/options-map/map.php:28
+msgid "Portfolio small slider"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:21
+#: framework/modules/portfolio/options-map/map.php:29
+msgid "Portfolio big images"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:22
+#: framework/modules/portfolio/options-map/map.php:30
+msgid "Portfolio big slider"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:23
+#: framework/modules/portfolio/options-map/map.php:31
+msgid "Portfolio custom"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:24
+#: framework/modules/portfolio/options-map/map.php:32
+msgid "Portfolio full width custom"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:25
+#: framework/modules/portfolio/options-map/map.php:33
+msgid "Portfolio gallery"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:38
+msgid "Back To Link"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:39
+msgid "Choose \"Back To\" page to link from portfolio Single Project page"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:47
+msgid "Portfolio External Link"
+msgstr ""
+
+#: framework/admin/meta-boxes/portfolio-settings/map.php:48
+msgid "Enter URL to link from Portfolio List page"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-audio/map.php:8
+msgid "Audio Post Format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-audio/map.php:18
+msgid "Enter audion link"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-gallery/map.php:8
+msgid "Gallery Post Format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-gallery/map.php:16
+msgid "Gallery Images"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-gallery/map.php:17
+msgid "Choose your gallery images"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-link/map.php:8
+msgid "Link Post Format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-link/map.php:18
+msgid "Enter link"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-quote/map.php:8
+msgid "Quote Post Format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-quote/map.php:17
+msgid "Quote Text"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-quote/map.php:18
+msgid "Enter Quote text"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:8
+msgid "Video Post Format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:17
+#: framework/lib/mkd.layout.php:2773
+msgid "Video Type"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:18
+msgid "Choose video type"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:22
+#: framework/lib/mkd.layout.php:2210
+#: framework/lib/mkd.layout.php:2371
+#: framework/lib/mkd.layout.php:2585
+#: framework/lib/mkd.layout.php:2777
+msgid "Youtube"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:23
+#: framework/lib/mkd.layout.php:2211
+#: framework/lib/mkd.layout.php:2372
+#: framework/lib/mkd.layout.php:2586
+#: framework/lib/mkd.layout.php:2778
+msgid "Vimeo"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:24
+msgid "Self Hosted"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:65
+#: framework/lib/mkd.layout.php:2216
+#: framework/lib/mkd.layout.php:2377
+#: framework/lib/mkd.layout.php:2591
+#: framework/lib/mkd.layout.php:2783
+msgid "Video ID"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:66
+msgid "Enter Video ID"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:77
+msgid "Video Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:78
+msgid "Upload video image"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:88
+msgid "Video WEBM"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:89
+msgid "Enter video URL for WEBM format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:99
+msgid "Video MP4"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:100
+msgid "Enter video URL for MP4 format"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:110
+msgid "Video OGV"
+msgstr ""
+
+#: framework/admin/meta-boxes/post-format-video/map.php:111
+msgid "Enter video URL for OGV format"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:8
+#: framework/admin/options/page/map.php:66
+#: includes/sidebar/sidebar.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:17
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:18
+msgid "Choose the sidebar layout"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:22
+#: framework/admin/options/page/map.php:33
+#: framework/modules/blog/options-map/map.php:49
+#: framework/modules/blog/options-map/map.php:141
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:23
+#: framework/admin/options/page/map.php:34
+#: framework/modules/blog/options-map/map.php:50
+#: framework/modules/blog/options-map/map.php:142
+msgid "Sidebar 1/3 Right"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:24
+#: framework/admin/options/page/map.php:35
+#: framework/modules/blog/options-map/map.php:51
+#: framework/modules/blog/options-map/map.php:143
+msgid "Sidebar 1/4 Right"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:25
+#: framework/admin/options/page/map.php:36
+#: framework/modules/blog/options-map/map.php:52
+#: framework/modules/blog/options-map/map.php:144
+msgid "Sidebar 1/3 Left"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:26
+#: framework/admin/options/page/map.php:37
+#: framework/modules/blog/options-map/map.php:53
+#: framework/modules/blog/options-map/map.php:145
+msgid "Sidebar 1/4 Left"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:35
+msgid "Choose Widget Area in Sidebar"
+msgstr ""
+
+#: framework/admin/meta-boxes/sidebar/map.php:36
+msgid "Choose Custom Widget area to display in Sidebar"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:17
+#: framework/admin/meta-boxes/title/map.php:6
+#: framework/admin/options/error404/map.php:24
+#: framework/modules/sidearea/options-map/map.php:582
+#: framework/modules/title/options-map/map.php:10
+#: framework/modules/title/options-map/map.php:467
+msgid "Title"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:18
+msgid "Enter testimonial title"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:28
+msgid "Author"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:29
+msgid "Enter author name"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:38
+msgid "Job Position"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:39
+msgid "Enter job position"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:48
+#: framework/admin/options/error404/map.php:42
+#: framework/admin/options/fonts/map.php:605
+#: framework/modules/sidearea/options-map/map.php:699
+msgid "Text"
+msgstr ""
+
+#: framework/admin/meta-boxes/testimonials/map.php:49
+msgid "Enter testimonial text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:16
+#: framework/modules/title/options-map/map.php:28
+msgid "Show Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:17
+msgid "Disabling this option will turn off page title area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:54
+#: framework/modules/title/options-map/map.php:53
+msgid "Title Area Type"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:55
+#: framework/modules/title/options-map/map.php:54
+msgid "Choose title type"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:59
+#: framework/modules/title/options-map/map.php:57
+msgid "Standard"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:60
+#: framework/modules/title/options-map/map.php:58
+msgid "Breadcrumb"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:93
+#: framework/modules/title/options-map/map.php:89
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:94
+#: framework/modules/title/options-map/map.php:90
+msgid "This option will display Breadcrumbs in Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:109
+#: framework/modules/title/options-map/map.php:100
+msgid "Animations"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:110
+#: framework/modules/title/options-map/map.php:101
+msgid "Choose an animation for Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:114
+#: framework/modules/title/options-map/map.php:104
+msgid "No Animation"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:115
+#: framework/modules/title/options-map/map.php:106
+msgid "Text right to left"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:116
+#: framework/modules/title/options-map/map.php:107
+msgid "Text left to right"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:126
+#: framework/modules/title/options-map/map.php:117
+msgid "Vertical Alignment"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:127
+#: framework/modules/title/options-map/map.php:118
+msgid "Specify title vertical alignment"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:131
+#: framework/modules/title/options-map/map.php:121
+msgid "From Bottom of Header"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:132
+#: framework/modules/title/options-map/map.php:122
+msgid "From Window Top"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:142
+#: framework/modules/title/options-map/map.php:132
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:143
+#: framework/modules/title/options-map/map.php:133
+msgid "Specify title horizontal alignment"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:147
+#: framework/admin/options/page/map.php:149
+#: framework/modules/footer/options-map/map.php:99
+#: framework/modules/sidearea/options-map/map.php:437
+#: framework/modules/title/options-map/map.php:136
+#: framework/modules/visualcomposer/visual-composer-config.php:276
+#: framework/modules/visualcomposer/visual-composer-config.php:557
+msgid "Left"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:148
+#: framework/admin/options/page/map.php:150
+#: framework/modules/footer/options-map/map.php:100
+#: framework/modules/sidearea/options-map/map.php:436
+#: framework/modules/title/options-map/map.php:137
+#: framework/modules/visualcomposer/visual-composer-config.php:277
+#: framework/modules/visualcomposer/visual-composer-config.php:558
+msgid "Center"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:149
+#: framework/admin/options/page/map.php:151
+#: framework/modules/footer/options-map/map.php:101
+#: framework/modules/sidearea/options-map/map.php:438
+#: framework/modules/title/options-map/map.php:138
+#: framework/modules/visualcomposer/visual-composer-config.php:278
+#: framework/modules/visualcomposer/visual-composer-config.php:559
+msgid "Right"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:158
+msgid "Title Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:159
+msgid "Choose a color for title text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:169
+msgid "Title Font Size"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:170
+msgid "Enter title font size"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:183
+msgid "Breadcrumb Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:184
+msgid "Choose a color for breadcrumb text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:194
+#: framework/modules/title/options-map/map.php:148
+msgid "Choose a background color for Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:204
+msgid "Hide Background Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:205
+msgid "Enable this option to hide background image in Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:228
+#: framework/admin/options/general/map.php:197
+#: framework/modules/sidearea/options-map/map.php:474
+#: framework/modules/title/options-map/map.php:157
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:229
+#: framework/modules/title/options-map/map.php:159
+msgid "Choose an Image for Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:239
+#: framework/modules/title/options-map/map.php:169
+msgid "Background Image as Pattern"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:240
+msgid "Choose whether to make background image behave as pattern"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:255
+#: framework/modules/title/options-map/map.php:180
+msgid "Background Responsive Image"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:256
+#: framework/modules/title/options-map/map.php:181
+msgid "Enabling this option will make Title background image responsive"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:293
+#: framework/modules/title/options-map/map.php:205
+msgid "Background Image in Parallax"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:294
+#: framework/modules/title/options-map/map.php:206
+msgid "Enabling this option will make Title background image parallax"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:300
+#: framework/modules/title/options-map/map.php:211
+msgid "Yes, with zoom out"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:308
+#: framework/modules/header/options-map/header-map.php:154
+#: framework/modules/header/options-map/header-map.php:205
+#: framework/modules/title/options-map/map.php:219
+msgid "Height"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:309
+#: framework/modules/title/options-map/map.php:220
+msgid "Set a height for Title Area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:322
+#: framework/modules/title/options-map/map.php:233
+msgid "Enable Border Bottom"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:323
+#: framework/modules/title/options-map/map.php:234
+msgid "Enable this option to add border bottom on title area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:352
+#: framework/modules/sidearea/options-map/map.php:986
+#: framework/modules/title/options-map/map.php:258
+msgid "Border Bottom Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:353
+#: framework/modules/title/options-map/map.php:259
+msgid "Choose border bottom color for title area"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:362
+msgid "Subtitle Text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:363
+msgid "Enter your subtitle text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:374
+msgid "Subtitle Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:375
+msgid "Choose a color for subtitle text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:386
+#: framework/modules/title/options-map/map.php:269
+msgid "Enable Icon"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:387
+#: framework/modules/title/options-map/map.php:270
+msgid "Enable icon to be rendered above title text"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:448
+#: framework/modules/title/options-map/map.php:325
+#: includes/nav-menu/edit_custom_walker.php:240
+msgid "Icon Pack"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:449
+#: framework/modules/title/options-map/map.php:326
+msgid "Choose icon pack"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:489
+#: framework/lib/mkd.icons/mkd.icons.php:75
+#: framework/lib/mkd.icons/mkd.icons.php:130
+#: framework/modules/title/options-map/map.php:366
+#: includes/nav-menu/edit_custom_walker.php:257
+msgid "Icon"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:490
+#: framework/modules/title/options-map/map.php:367
+msgid "Choose icon to be displayed above title"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:501
+#: framework/modules/title/options-map/map.php:378
+msgid "Icon Style"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:502
+#: framework/modules/title/options-map/map.php:379
+msgid "Define icon style"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:517
+#: framework/modules/search/options-map/map.php:180
+#: framework/modules/sidearea/options-map/map.php:186
+#: framework/modules/title/options-map/map.php:394
+msgid "Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:527
+#: framework/modules/contactform7/options-map/map.php:283
+#: framework/modules/contactform7/options-map/map.php:597
+#: framework/modules/contactform7/options-map/map.php:952
+#: framework/modules/contactform7/options-map/map.php:1266
+#: framework/modules/contactform7/options-map/map.php:1621
+#: framework/modules/contactform7/options-map/map.php:1935
+#: framework/modules/title/options-map/map.php:404
+msgid "Border Color"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:542
+#: framework/modules/title/options-map/map.php:419
+msgid "Size"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:545
+#: framework/modules/title/options-map/map.php:422
+msgid "Tiny"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:546
+#: framework/modules/title/options-map/map.php:423
+msgid "Small"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:547
+#: framework/modules/title/options-map/map.php:424
+msgid "Medium"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:548
+#: framework/modules/title/options-map/map.php:425
+msgid "Large"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:549
+#: framework/modules/title/options-map/map.php:426
+msgid "Very Large"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:560
+#: framework/modules/title/options-map/map.php:437
+msgid "Custom Size"
+msgstr ""
+
+#: framework/admin/meta-boxes/title/map.php:573
+#: framework/modules/title/options-map/map.php:450
+msgid "Shape Size"
+msgstr ""
+
+#: framework/admin/options/contentbottom/map.php:19
+msgid "Content Bottom Area"
+msgstr ""
+
+#: framework/admin/options/contentbottom/map.php:52
+msgid "Widget Area to display"
+msgstr ""
+
+#: framework/admin/options/contentbottom/map.php:53
+msgid "Choose a Content Bottom widget area to display"
+msgstr ""
+
+#: framework/admin/options/elements/map.php:12
+msgid "Elements"
+msgstr ""
+
+#: framework/admin/options/elements/map.php:36
+#: framework/modules/visualcomposer/visual-composer-config.php:235
+#: framework/modules/visualcomposer/visual-composer-config.php:484
+msgid "Parallax"
+msgstr ""
+
+#: framework/admin/options/elements/map.php:44
+msgid "Parallax on touch devices"
+msgstr ""
+
+#: framework/admin/options/elements/map.php:45
+msgid "Enabling this option will allow parallax on touch devices"
+msgstr ""
+
+#: framework/admin/options/elements/map.php:53
+msgid "Parallax Min Height"
+msgstr ""
+
+#: framework/admin/options/elements/map.php:54
+msgid "Set a minimum height for parallax images on small displays (phones, tablets, etc.)"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:9
+msgid "404 Error Page"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:16
+msgid "404 Page Option"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:25
+msgid "Enter title for 404 page"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:33
+msgid "Title Background Image"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:34
+msgid "Choose background image for title area"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:43
+msgid "Enter text for 404 page"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:51
+msgid "Back to Home Button Label"
+msgstr ""
+
+#: framework/admin/options/error404/map.php:52
+msgid "Enter label for Back to Home button"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:12
+msgid "Fonts"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:24
+msgid "Headings"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:31
+msgid "H1 Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:32
+msgid "Define styles for H1 heading"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:45
+#: framework/admin/options/fonts/map.php:140
+#: framework/admin/options/fonts/map.php:235
+#: framework/admin/options/fonts/map.php:330
+#: framework/admin/options/fonts/map.php:425
+#: framework/admin/options/fonts/map.php:520
+#: framework/admin/options/fonts/map.php:625
+#: framework/modules/contactform7/options-map/map.php:38
+#: framework/modules/contactform7/options-map/map.php:148
+#: framework/modules/contactform7/options-map/map.php:466
+#: framework/modules/contactform7/options-map/map.php:707
+#: framework/modules/contactform7/options-map/map.php:817
+#: framework/modules/contactform7/options-map/map.php:1135
+#: framework/modules/contactform7/options-map/map.php:1376
+#: framework/modules/contactform7/options-map/map.php:1486
+#: framework/modules/contactform7/options-map/map.php:1804
+#: framework/modules/header/options-map/header-map.php:297
+#: framework/modules/header/options-map/header-map.php:615
+#: framework/modules/header/options-map/header-map.php:815
+#: framework/modules/header/options-map/header-map.php:972
+#: framework/modules/header/options-map/header-map.php:1129
+#: framework/modules/header/options-map/header-map.php:1275
+#: framework/modules/header/options-map/header-map.php:1449
+#: framework/modules/header/options-map/header-map.php:1557
+#: framework/modules/header/options-map/header-map.php:1665
+#: framework/modules/search/options-map/map.php:238
+#: framework/modules/search/options-map/map.php:460
+#: framework/modules/search/options-map/map.php:572
+#: framework/modules/sidearea/options-map/map.php:314
+#: framework/modules/sidearea/options-map/map.php:600
+#: framework/modules/sidearea/options-map/map.php:717
+#: framework/modules/sidearea/options-map/map.php:843
+#: framework/modules/title/options-map/map.php:481
+#: framework/modules/title/options-map/map.php:575
+#: framework/modules/title/options-map/map.php:669
+msgid "Text Color"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:53
+#: framework/admin/options/fonts/map.php:148
+#: framework/admin/options/fonts/map.php:243
+#: framework/admin/options/fonts/map.php:338
+#: framework/admin/options/fonts/map.php:433
+#: framework/admin/options/fonts/map.php:528
+#: framework/admin/options/fonts/map.php:633
+#: framework/modules/contactform7/options-map/map.php:54
+#: framework/modules/contactform7/options-map/map.php:156
+#: framework/modules/contactform7/options-map/map.php:482
+#: framework/modules/contactform7/options-map/map.php:723
+#: framework/modules/contactform7/options-map/map.php:825
+#: framework/modules/contactform7/options-map/map.php:1151
+#: framework/modules/contactform7/options-map/map.php:1392
+#: framework/modules/contactform7/options-map/map.php:1494
+#: framework/modules/contactform7/options-map/map.php:1820
+#: framework/modules/header/options-map/header-map.php:329
+#: framework/modules/header/options-map/header-map.php:673
+#: framework/modules/header/options-map/header-map.php:863
+#: framework/modules/header/options-map/header-map.php:1020
+#: framework/modules/header/options-map/header-map.php:1177
+#: framework/modules/header/options-map/header-map.php:1323
+#: framework/modules/header/options-map/header-map.php:1465
+#: framework/modules/header/options-map/header-map.php:1573
+#: framework/modules/header/options-map/header-map.php:1681
+#: framework/modules/search/options-map/map.php:258
+#: framework/modules/search/options-map/map.php:480
+#: framework/modules/search/options-map/map.php:582
+#: framework/modules/sidearea/options-map/map.php:334
+#: framework/modules/sidearea/options-map/map.php:610
+#: framework/modules/sidearea/options-map/map.php:727
+#: framework/modules/sidearea/options-map/map.php:853
+#: framework/modules/title/options-map/map.php:489
+#: framework/modules/title/options-map/map.php:583
+#: framework/modules/title/options-map/map.php:677
+msgid "Font Size"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:64
+#: framework/admin/options/fonts/map.php:159
+#: framework/admin/options/fonts/map.php:254
+#: framework/admin/options/fonts/map.php:349
+#: framework/admin/options/fonts/map.php:444
+#: framework/admin/options/fonts/map.php:539
+#: framework/admin/options/fonts/map.php:644
+#: framework/modules/contactform7/options-map/map.php:65
+#: framework/modules/contactform7/options-map/map.php:167
+#: framework/modules/contactform7/options-map/map.php:734
+#: framework/modules/contactform7/options-map/map.php:836
+#: framework/modules/contactform7/options-map/map.php:1403
+#: framework/modules/contactform7/options-map/map.php:1505
+#: framework/modules/header/options-map/header-map.php:751
+#: framework/modules/header/options-map/header-map.php:876
+#: framework/modules/header/options-map/header-map.php:1033
+#: framework/modules/header/options-map/header-map.php:1190
+#: framework/modules/header/options-map/header-map.php:1336
+#: framework/modules/header/options-map/header-map.php:1476
+#: framework/modules/header/options-map/header-map.php:1584
+#: framework/modules/header/options-map/header-map.php:1692
+#: framework/modules/search/options-map/map.php:271
+#: framework/modules/sidearea/options-map/map.php:347
+#: framework/modules/sidearea/options-map/map.php:623
+#: framework/modules/sidearea/options-map/map.php:740
+#: framework/modules/sidearea/options-map/map.php:866
+#: framework/modules/title/options-map/map.php:500
+#: framework/modules/title/options-map/map.php:594
+#: framework/modules/title/options-map/map.php:688
+msgid "Line Height"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:75
+#: framework/admin/options/fonts/map.php:170
+#: framework/admin/options/fonts/map.php:265
+#: framework/admin/options/fonts/map.php:360
+#: framework/admin/options/fonts/map.php:455
+#: framework/admin/options/fonts/map.php:550
+#: framework/admin/options/fonts/map.php:655
+#: framework/modules/contactform7/options-map/map.php:108
+#: framework/modules/contactform7/options-map/map.php:211
+#: framework/modules/contactform7/options-map/map.php:525
+#: framework/modules/contactform7/options-map/map.php:777
+#: framework/modules/contactform7/options-map/map.php:880
+#: framework/modules/contactform7/options-map/map.php:1194
+#: framework/modules/contactform7/options-map/map.php:1446
+#: framework/modules/contactform7/options-map/map.php:1549
+#: framework/modules/contactform7/options-map/map.php:1863
+#: framework/modules/header/options-map/header-map.php:740
+#: framework/modules/header/options-map/header-map.php:945
+#: framework/modules/header/options-map/header-map.php:1102
+#: framework/modules/header/options-map/header-map.php:1246
+#: framework/modules/header/options-map/header-map.php:1392
+#: framework/modules/header/options-map/header-map.php:1493
+#: framework/modules/header/options-map/header-map.php:1601
+#: framework/modules/header/options-map/header-map.php:1709
+#: framework/modules/search/options-map/map.php:292
+#: framework/modules/search/options-map/map.php:493
+#: framework/modules/search/options-map/map.php:595
+#: framework/modules/sidearea/options-map/map.php:368
+#: framework/modules/sidearea/options-map/map.php:636
+#: framework/modules/sidearea/options-map/map.php:753
+#: framework/modules/sidearea/options-map/map.php:879
+#: framework/modules/title/options-map/map.php:511
+#: framework/modules/title/options-map/map.php:605
+#: framework/modules/title/options-map/map.php:699
+msgid "Text Transform"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:90
+#: framework/admin/options/fonts/map.php:185
+#: framework/admin/options/fonts/map.php:280
+#: framework/admin/options/fonts/map.php:375
+#: framework/admin/options/fonts/map.php:470
+#: framework/admin/options/fonts/map.php:565
+#: framework/admin/options/fonts/map.php:670
+#: framework/admin/options/general/map.php:32
+#: framework/admin/options/general/map.php:68
+#: framework/admin/options/general/map.php:79
+#: framework/admin/options/general/map.php:90
+#: framework/admin/options/general/map.php:101
+#: framework/admin/options/general/map.php:112
+#: framework/modules/contactform7/options-map/map.php:82
+#: framework/modules/contactform7/options-map/map.php:178
+#: framework/modules/contactform7/options-map/map.php:493
+#: framework/modules/contactform7/options-map/map.php:751
+#: framework/modules/contactform7/options-map/map.php:847
+#: framework/modules/contactform7/options-map/map.php:1162
+#: framework/modules/contactform7/options-map/map.php:1420
+#: framework/modules/contactform7/options-map/map.php:1516
+#: framework/modules/contactform7/options-map/map.php:1831
+#: framework/modules/header/options-map/header-map.php:319
+#: framework/modules/header/options-map/header-map.php:663
+#: framework/modules/header/options-map/header-map.php:853
+#: framework/modules/header/options-map/header-map.php:1010
+#: framework/modules/header/options-map/header-map.php:1167
+#: framework/modules/header/options-map/header-map.php:1313
+#: framework/modules/header/options-map/header-map.php:1502
+#: framework/modules/header/options-map/header-map.php:1610
+#: framework/modules/header/options-map/header-map.php:1718
+#: framework/modules/search/options-map/map.php:303
+#: framework/modules/search/options-map/map.php:511
+#: framework/modules/search/options-map/map.php:614
+#: framework/modules/sidearea/options-map/map.php:379
+#: framework/modules/sidearea/options-map/map.php:655
+#: framework/modules/sidearea/options-map/map.php:772
+#: framework/modules/sidearea/options-map/map.php:782
+#: framework/modules/sidearea/options-map/map.php:898
+#: framework/modules/title/options-map/map.php:526
+#: framework/modules/title/options-map/map.php:620
+#: framework/modules/title/options-map/map.php:714
+msgid "Font Family"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:98
+#: framework/admin/options/fonts/map.php:193
+#: framework/admin/options/fonts/map.php:288
+#: framework/admin/options/fonts/map.php:383
+#: framework/admin/options/fonts/map.php:478
+#: framework/admin/options/fonts/map.php:573
+#: framework/admin/options/fonts/map.php:678
+#: framework/admin/options/fonts/map.php:741
+#: framework/modules/contactform7/options-map/map.php:90
+#: framework/modules/contactform7/options-map/map.php:193
+#: framework/modules/contactform7/options-map/map.php:507
+#: framework/modules/contactform7/options-map/map.php:759
+#: framework/modules/contactform7/options-map/map.php:862
+#: framework/modules/contactform7/options-map/map.php:1176
+#: framework/modules/contactform7/options-map/map.php:1428
+#: framework/modules/contactform7/options-map/map.php:1531
+#: framework/modules/contactform7/options-map/map.php:1845
+#: framework/modules/header/options-map/header-map.php:372
+#: framework/modules/header/options-map/header-map.php:696
+#: framework/modules/header/options-map/header-map.php:1510
+#: framework/modules/header/options-map/header-map.php:1618
+#: framework/modules/header/options-map/header-map.php:1726
+#: framework/modules/search/options-map/map.php:313
+#: framework/modules/search/options-map/map.php:521
+#: framework/modules/search/options-map/map.php:624
+#: framework/modules/sidearea/options-map/map.php:389
+#: framework/modules/sidearea/options-map/map.php:665
+#: framework/modules/sidearea/options-map/map.php:792
+#: framework/modules/sidearea/options-map/map.php:908
+#: framework/modules/title/options-map/map.php:534
+#: framework/modules/title/options-map/map.php:628
+#: framework/modules/title/options-map/map.php:722
+msgid "Font Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:107
+#: framework/admin/options/fonts/map.php:202
+#: framework/admin/options/fonts/map.php:297
+#: framework/admin/options/fonts/map.php:392
+#: framework/admin/options/fonts/map.php:487
+#: framework/admin/options/fonts/map.php:582
+#: framework/admin/options/fonts/map.php:687
+#: framework/admin/options/fonts/map.php:750
+#: framework/modules/contactform7/options-map/map.php:99
+#: framework/modules/contactform7/options-map/map.php:202
+#: framework/modules/contactform7/options-map/map.php:516
+#: framework/modules/contactform7/options-map/map.php:768
+#: framework/modules/contactform7/options-map/map.php:871
+#: framework/modules/contactform7/options-map/map.php:1185
+#: framework/modules/contactform7/options-map/map.php:1437
+#: framework/modules/contactform7/options-map/map.php:1540
+#: framework/modules/contactform7/options-map/map.php:1854
+#: framework/modules/header/options-map/header-map.php:383
+#: framework/modules/header/options-map/header-map.php:716
+#: framework/modules/header/options-map/header-map.php:1519
+#: framework/modules/header/options-map/header-map.php:1627
+#: framework/modules/header/options-map/header-map.php:1735
+#: framework/modules/search/options-map/map.php:324
+#: framework/modules/search/options-map/map.php:532
+#: framework/modules/search/options-map/map.php:635
+#: framework/modules/sidearea/options-map/map.php:400
+#: framework/modules/sidearea/options-map/map.php:676
+#: framework/modules/sidearea/options-map/map.php:803
+#: framework/modules/sidearea/options-map/map.php:919
+#: framework/modules/title/options-map/map.php:543
+#: framework/modules/title/options-map/map.php:637
+#: framework/modules/title/options-map/map.php:731
+msgid "Font Weight"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:116
+#: framework/admin/options/fonts/map.php:211
+#: framework/admin/options/fonts/map.php:306
+#: framework/admin/options/fonts/map.php:401
+#: framework/admin/options/fonts/map.php:496
+#: framework/admin/options/fonts/map.php:591
+#: framework/admin/options/fonts/map.php:696
+#: framework/modules/contactform7/options-map/map.php:123
+#: framework/modules/contactform7/options-map/map.php:220
+#: framework/modules/contactform7/options-map/map.php:534
+#: framework/modules/contactform7/options-map/map.php:792
+#: framework/modules/contactform7/options-map/map.php:889
+#: framework/modules/contactform7/options-map/map.php:1203
+#: framework/modules/contactform7/options-map/map.php:1461
+#: framework/modules/contactform7/options-map/map.php:1558
+#: framework/modules/contactform7/options-map/map.php:1872
+#: framework/modules/header/options-map/header-map.php:393
+#: framework/modules/header/options-map/header-map.php:727
+#: framework/modules/header/options-map/header-map.php:1534
+#: framework/modules/header/options-map/header-map.php:1642
+#: framework/modules/header/options-map/header-map.php:1750
+#: framework/modules/search/options-map/map.php:343
+#: framework/modules/search/options-map/map.php:543
+#: framework/modules/search/options-map/map.php:646
+#: framework/modules/sidearea/options-map/map.php:419
+#: framework/modules/sidearea/options-map/map.php:687
+#: framework/modules/sidearea/options-map/map.php:814
+#: framework/modules/sidearea/options-map/map.php:930
+#: framework/modules/title/options-map/map.php:552
+#: framework/modules/title/options-map/map.php:646
+#: framework/modules/title/options-map/map.php:740
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:126
+msgid "H2 Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:127
+msgid "Define styles for H2 heading"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:221
+msgid "H3 Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:222
+msgid "Define styles for H3 heading"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:316
+msgid "H4 Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:317
+msgid "Define styles for H4 heading"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:411
+msgid "H5 Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:412
+msgid "Define styles for H5 heading"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:506
+msgid "H6 Style"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:507
+msgid "Define styles for h6 heading"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:611
+msgid "Paragraph"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:612
+msgid "Define styles for paragraph text"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:705
+msgid "Links"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:706
+msgid "Define styles for link text"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:719
+msgid "Link Color"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:727
+msgid "Hover Link Color"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:759
+msgid "Link Decoration"
+msgstr ""
+
+#: framework/admin/options/fonts/map.php:768
+msgid "Hover Link Decoration"
+msgstr ""
+
+#: framework/admin/options/general/map.php:23
+msgid "Appearance"
+msgstr ""
+
+#: framework/admin/options/general/map.php:33
+msgid "Choose a default Google font for your site"
+msgstr ""
+
+#: framework/admin/options/general/map.php:43
+msgid "Additional Google Fonts"
+msgstr ""
+
+#: framework/admin/options/general/map.php:69
+#: framework/admin/options/general/map.php:80
+#: framework/admin/options/general/map.php:91
+#: framework/admin/options/general/map.php:102
+#: framework/admin/options/general/map.php:113
+msgid "Choose additional Google font for your site"
+msgstr ""
+
+#: framework/admin/options/general/map.php:122
+msgid "First Main Color"
+msgstr ""
+
+#: framework/admin/options/general/map.php:123
+msgid "Choose the most dominant theme color. Default color is #ff9800"
+msgstr ""
+
+#: framework/admin/options/general/map.php:132
+msgid "Second Main Color"
+msgstr ""
+
+#: framework/admin/options/general/map.php:133
+msgid "Choose the second dominant theme color. Default color is #afc900"
+msgstr ""
+
+#: framework/admin/options/general/map.php:143
+msgid "Choose the background color for page content. Default color is #ffffff"
+msgstr ""
+
+#: framework/admin/options/general/map.php:152
+msgid "Text Selection Color"
+msgstr ""
+
+#: framework/admin/options/general/map.php:153
+msgid "Choose the color users see when selecting text"
+msgstr ""
+
+#: framework/admin/options/general/map.php:163
+msgid "Boxed Layout"
+msgstr ""
+
+#: framework/admin/options/general/map.php:188
+msgid "Choose the page background color outside box."
+msgstr ""
+
+#: framework/admin/options/general/map.php:198
+msgid "Choose an image to be displayed in background"
+msgstr ""
+
+#: framework/admin/options/general/map.php:207
+msgid "Background Pattern"
+msgstr ""
+
+#: framework/admin/options/general/map.php:208
+msgid "Choose an image to be used as background pattern"
+msgstr ""
+
+#: framework/admin/options/general/map.php:218
+msgid "Background Image Attachment"
+msgstr ""
+
+#: framework/admin/options/general/map.php:219
+msgid "Choose background image attachment"
+msgstr ""
+
+#: framework/admin/options/general/map.php:222
+msgid "Fixed"
+msgstr ""
+
+#: framework/admin/options/general/map.php:223
+msgid "Scroll"
+msgstr ""
+
+#: framework/admin/options/general/map.php:233
+msgid "Initial Width of Content"
+msgstr ""
+
+#: framework/admin/options/general/map.php:234
+msgid "Choose the initial width of content which is in grid (Applies to pages set to Default Template and rows set to In Grid"
+msgstr ""
+
+#: framework/admin/options/general/map.php:250
+msgid "Preload Pattern Image"
+msgstr ""
+
+#: framework/admin/options/general/map.php:251
+msgid "Choose preload pattern image to be displayed until images are loaded "
+msgstr ""
+
+#: framework/admin/options/general/map.php:260
+msgid "Element Appearance"
+msgstr ""
+
+#: framework/admin/options/general/map.php:261
+msgid "For animated elements, set distance (related to browser bottom) to start the animation"
+msgstr ""
+
+#: framework/admin/options/general/map.php:274
+msgid "Behavior"
+msgstr ""
+
+#: framework/admin/options/general/map.php:283
+msgid "Smooth Scroll"
+msgstr ""
+
+#: framework/admin/options/general/map.php:284
+msgid "Enabling this option will perform a smooth scrolling effect on every page (except on Mac and touch devices)"
+msgstr ""
+
+#: framework/admin/options/general/map.php:294
+msgid "Page Transition Effect"
+msgstr ""
+
+#: framework/admin/options/general/map.php:295
+msgid "Enabling this option will perform a fade out transition between pages when clicking on links."
+msgstr ""
+
+#: framework/admin/options/general/map.php:305
+msgid "Show Back To Top Button"
+msgstr ""
+
+#: framework/admin/options/general/map.php:306
+msgid "Enabling this option will display a Back to Top button on every page"
+msgstr ""
+
+#: framework/admin/options/general/map.php:316
+msgid "Responsiveness"
+msgstr ""
+
+#: framework/admin/options/general/map.php:317
+msgid "Enabling this option will make all pages responsive"
+msgstr ""
+
+#: framework/admin/options/general/map.php:326
+msgid "Custom Code"
+msgstr ""
+
+#: framework/admin/options/general/map.php:334
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/admin/options/general/map.php:335
+msgid "Enter your custom CSS here"
+msgstr ""
+
+#: framework/admin/options/general/map.php:344
+msgid "Custom JS"
+msgstr ""
+
+#: framework/admin/options/general/map.php:345
+msgid "Enter your custom Javascript here"
+msgstr ""
+
+#: framework/admin/options/general/map.php:354
+msgid "Google API"
+msgstr ""
+
+#: framework/admin/options/general/map.php:362
+msgid "Google Maps Api Key"
+msgstr ""
+
+#: framework/admin/options/general/map.php:363
+msgid "Insert your Google Maps API key here."
+msgstr ""
+
+#: framework/admin/options/page/map.php:10
+#: framework/modules/title/title-functions.php:350
+msgid "Page"
+msgstr ""
+
+#: framework/admin/options/page/map.php:21
+msgid "Design Style"
+msgstr ""
+
+#: framework/admin/options/page/map.php:28
+#: framework/modules/blog/options-map/map.php:137
+msgid "Sidebar Layout"
+msgstr ""
+
+#: framework/admin/options/page/map.php:29
+msgid "Choose a sidebar layout for pages"
+msgstr ""
+
+#: framework/admin/options/page/map.php:47
+msgid "Choose a sidebar to display on pages. Default sidebar is Sidebar"
+msgstr ""
+
+#: framework/admin/options/page/map.php:74
+#: framework/admin/skins/mikado/templates/content-import.php:55
+msgid "Widgets"
+msgstr ""
+
+#: framework/admin/options/page/map.php:82
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: framework/admin/options/page/map.php:83
+msgid "Choose background color for sidebar"
+msgstr ""
+
+#: framework/admin/options/page/map.php:89
+#: framework/modules/sidearea/options-map/map.php:483
+msgid "Padding"
+msgstr ""
+
+#: framework/admin/options/page/map.php:102
+#: framework/modules/header/options-map/header-map.php:540
+#: framework/modules/sidearea/options-map/map.php:502
+msgid "Top Padding"
+msgstr ""
+
+#: framework/admin/options/page/map.php:113
+#: framework/modules/sidearea/options-map/map.php:515
+msgid "Right Padding"
+msgstr ""
+
+#: framework/admin/options/page/map.php:124
+#: framework/modules/header/options-map/header-map.php:553
+#: framework/modules/sidearea/options-map/map.php:528
+msgid "Bottom Padding"
+msgstr ""
+
+#: framework/admin/options/page/map.php:135
+#: framework/modules/sidearea/options-map/map.php:541
+msgid "Left Padding"
+msgstr ""
+
+#: framework/admin/options/page/map.php:146
+msgid "Text Alignment"
+msgstr ""
+
+#: framework/admin/options/page/map.php:147
+msgid "Choose text aligment"
+msgstr ""
+
+#: framework/admin/options/reset/map.php:12
+#: framework/admin/options/reset/map.php:21
+msgid "Reset"
+msgstr ""
+
+#: framework/admin/options/reset/map.php:29
+msgid "Reset to Defaults"
+msgstr ""
+
+#: framework/admin/options/reset/map.php:30
+msgid "This option will reset all Mikado Options values to defaults"
+msgstr ""
+
+#: framework/admin/options/social/map.php:10
+msgid "Social"
+msgstr ""
+
+#: framework/admin/options/social/map.php:21
+#: framework/admin/options/social/map.php:28
+msgid "Enable Social Share"
+msgstr ""
+
+#: framework/admin/options/social/map.php:29
+msgid "Enabling this option will allow social share on networks of your choice"
+msgstr ""
+
+#: framework/admin/options/social/map.php:41
+msgid "Show Social Share On"
+msgstr ""
+
+#: framework/admin/options/social/map.php:50
+msgid "Posts"
+msgstr ""
+
+#: framework/admin/options/social/map.php:51
+msgid "Show Social Share on Blog Posts"
+msgstr ""
+
+#: framework/admin/options/social/map.php:59
+msgid "Pages"
+msgstr ""
+
+#: framework/admin/options/social/map.php:60
+msgid "Show Social Share on Pages"
+msgstr ""
+
+#: framework/admin/options/social/map.php:68
+msgid "Media"
+msgstr ""
+
+#: framework/admin/options/social/map.php:69
+msgid "Show Social Share for Images and Videos"
+msgstr ""
+
+#: framework/admin/options/social/map.php:77
+msgid "Portfolio Item"
+msgstr ""
+
+#: framework/admin/options/social/map.php:78
+msgid "Show Social Share for Portfolio Items"
+msgstr ""
+
+#: framework/admin/options/social/map.php:87
+#: woocommerce/cart/cart.php:30
+#: woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: framework/admin/options/social/map.php:88
+msgid "Show Social Share for Product Items"
+msgstr ""
+
+#: framework/admin/options/social/map.php:99
+msgid "Social Networks"
+msgstr ""
+
+#: framework/admin/options/social/map.php:110
+msgid "Share on Facebook"
+msgstr ""
+
+#: framework/admin/options/social/map.php:117
+#: framework/admin/options/social/map.php:155
+#: framework/admin/options/social/map.php:201
+#: framework/admin/options/social/map.php:239
+#: framework/admin/options/social/map.php:277
+#: framework/admin/options/social/map.php:315
+#: framework/admin/options/social/map.php:353
+msgid "Enable Share"
+msgstr ""
+
+#: framework/admin/options/social/map.php:118
+msgid "Enabling this option will allow sharing via Facebook"
+msgstr ""
+
+#: framework/admin/options/social/map.php:138
+#: framework/admin/options/social/map.php:176
+#: framework/admin/options/social/map.php:222
+#: framework/admin/options/social/map.php:260
+#: framework/admin/options/social/map.php:298
+#: framework/admin/options/social/map.php:336
+#: framework/admin/options/social/map.php:374
+msgid "Upload Icon"
+msgstr ""
+
+#: framework/admin/options/social/map.php:148
+msgid "Share on Twitter"
+msgstr ""
+
+#: framework/admin/options/social/map.php:156
+msgid "Enabling this option will allow sharing via Twitter"
+msgstr ""
+
+#: framework/admin/options/social/map.php:184
+msgid "Via"
+msgstr ""
+
+#: framework/admin/options/social/map.php:194
+msgid "Share on Google Plus"
+msgstr ""
+
+#: framework/admin/options/social/map.php:202
+msgid "Enabling this option will allow sharing via Google Plus"
+msgstr ""
+
+#: framework/admin/options/social/map.php:232
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: framework/admin/options/social/map.php:240
+msgid "Enabling this option will allow sharing via LinkedIn"
+msgstr ""
+
+#: framework/admin/options/social/map.php:270
+msgid "Share on Tumblr"
+msgstr ""
+
+#: framework/admin/options/social/map.php:278
+msgid "Enabling this option will allow sharing via Tumblr"
+msgstr ""
+
+#: framework/admin/options/social/map.php:308
+msgid "Share on Pinterest"
+msgstr ""
+
+#: framework/admin/options/social/map.php:316
+msgid "Enabling this option will allow sharing via Pinterest"
+msgstr ""
+
+#: framework/admin/options/social/map.php:346
+msgid "Share on VK"
+msgstr ""
+
+#: framework/admin/options/social/map.php:354
+msgid "Enabling this option will allow sharing via VK"
+msgstr ""
+
+#: framework/admin/options/social/map.php:380
+msgid "Twitter"
+msgstr ""
+
+#: framework/admin/options/social/map.php:393
+msgid "Instagram"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/anchors.php:3
+msgid "Scroll To:"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:6
+#: framework/admin/skins/mikado/templates/content-import.php:14
+#: framework/admin/skins/mikado/templates/content-import.php:93
+msgid "Import"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:11
+msgid "Import Demo Content"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:16
+msgid "Choose demo content you want to import"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:39
+msgid "Import Type"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:41
+msgid "Enabling this option will switch to a Side Position (default is Top Position)"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:52
+msgid "Please Select"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:53
+msgid "All"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:54
+msgid "Content"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:56
+msgid "Options"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:69
+msgid "Import attachments"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:100
+msgid "The import process may take some time. Please be patient."
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:119
+msgid "Important notes:"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:121
+msgid "Please note that import process will take time needed to download all attachments from demo web site."
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:122
+msgid "If you plan to use shop, please install WooCommerce before you run import."
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:180
+#: framework/admin/skins/mikado/templates/content-import.php:206
+#: framework/admin/skins/mikado/templates/content-import.php:222
+msgid "Import is completed"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/content-import.php:264
+msgid "Import is completed."
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/header.php:5
+msgid "mkd_logo"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/header.php:14
+msgid "You should save your changes"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/header.php:15
+msgid "All your changes are successfully saved"
+msgstr ""
+
+#: framework/admin/skins/mikado/templates/header.php:19
+msgid "Save Changes"
+msgstr ""
+
+#: framework/lib/mkd.functions.php:527
+msgid ""
+"Note that writing permissions aren't set for folders containing css and js files on your server.\n"
+"\t\t\t\t\tWe recommend setting writing permissions in order to optimize your site performance.\n"
+"\t\t\t\t\tFor further instructions, please refer to our documentation."
+msgstr ""
+
+#: framework/lib/mkd.functions.php:684
+msgid ""
+"Installation of the \"Mikado\n"
+"            Core\" plugin is\n"
+"            essential for\n"
+"            proper\n"
+"            theme functioning. Please "
+msgstr ""
+
+#: framework/lib/mkd.functions.php:689
+msgid "install"
+msgstr ""
+
+#: framework/lib/mkd.functions.php:689
+msgid ""
+" this\n"
+"            plugin and activate it"
+msgstr ""
+
+#: framework/lib/mkd.icons/mkd.icons.php:58
+#: framework/lib/mkd.icons/mkd.icons.php:97
+msgid "Icon pack"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:707
+#: framework/lib/mkd.layout.php:747
+#: framework/lib/mkd.layout.php:2178
+#: framework/lib/mkd.layout.php:2229
+#: framework/lib/mkd.layout.php:2338
+#: framework/lib/mkd.layout.php:2390
+#: framework/lib/mkd.layout.php:2504
+#: framework/lib/mkd.layout.php:2558
+#: framework/lib/mkd.layout.php:2664
+#: framework/lib/mkd.layout.php:2734
+msgid "Image thumbnail"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:718
+#: framework/lib/mkd.layout.php:719
+#: framework/lib/mkd.layout.php:758
+#: framework/lib/mkd.layout.php:759
+#: framework/lib/mkd.layout.php:2197
+#: framework/lib/mkd.layout.php:2198
+#: framework/lib/mkd.layout.php:2248
+#: framework/lib/mkd.layout.php:2249
+#: framework/lib/mkd.layout.php:2358
+#: framework/lib/mkd.layout.php:2359
+#: framework/lib/mkd.layout.php:2410
+#: framework/lib/mkd.layout.php:2411
+#: framework/lib/mkd.layout.php:2511
+#: framework/lib/mkd.layout.php:2565
+#: framework/lib/mkd.layout.php:2684
+#: framework/lib/mkd.layout.php:2685
+#: framework/lib/mkd.layout.php:2754
+#: framework/lib/mkd.layout.php:2755
+msgid "Select Image"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:719
+#: framework/lib/mkd.layout.php:759
+#: framework/lib/mkd.layout.php:2110
+#: framework/lib/mkd.layout.php:2198
+#: framework/lib/mkd.layout.php:2249
+#: framework/lib/mkd.layout.php:2359
+#: framework/lib/mkd.layout.php:2411
+#: framework/lib/mkd.layout.php:2511
+#: framework/lib/mkd.layout.php:2565
+#: framework/lib/mkd.layout.php:2685
+#: framework/lib/mkd.layout.php:2755
+msgid "Upload"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:721
+#: framework/lib/mkd.layout.php:761
+#: framework/lib/mkd.layout.php:2200
+#: framework/lib/mkd.layout.php:2251
+#: framework/lib/mkd.layout.php:2361
+#: framework/lib/mkd.layout.php:2413
+#: framework/lib/mkd.layout.php:2512
+#: framework/lib/mkd.layout.php:2566
+#: framework/lib/mkd.layout.php:2687
+#: framework/lib/mkd.layout.php:2757
+#: includes/nav-menu/edit_custom_walker.php:311
+msgid "Remove"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:1144
+msgid "On"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:1146
+msgid "Off"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:1303
+#: framework/lib/mkd.layout.php:2174
+#: framework/lib/mkd.layout.php:2334
+msgid "Image"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:1305
+msgid "Video"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2112
+msgid "Remove All"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2158
+#: framework/lib/mkd.layout.php:2318
+#: framework/lib/mkd.layout.php:2516
+#: framework/lib/mkd.layout.php:2572
+#: framework/lib/mkd.layout.php:2691
+#: framework/lib/mkd.layout.php:2763
+#: framework/lib/mkd.layout.php:2984
+#: framework/lib/mkd.layout.php:3037
+msgid "Order Number"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2165
+#: framework/lib/mkd.layout.php:2325
+msgid "Image/Video title (only for gallery layout - Portfolio Style 6)"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2206
+#: framework/lib/mkd.layout.php:2367
+#: framework/lib/mkd.layout.php:2582
+msgid "Video type"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2212
+#: framework/lib/mkd.layout.php:2373
+#: framework/lib/mkd.layout.php:2587
+#: framework/lib/mkd.layout.php:2779
+msgid "Self hosted"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2225
+#: framework/lib/mkd.layout.php:2386
+msgid "Video image"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2257
+#: framework/lib/mkd.layout.php:2419
+#: framework/lib/mkd.layout.php:2598
+#: framework/lib/mkd.layout.php:2794
+msgid "Video webm"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2264
+#: framework/lib/mkd.layout.php:2426
+#: framework/lib/mkd.layout.php:2602
+#: framework/lib/mkd.layout.php:2801
+msgid "Video mp4"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2271
+#: framework/lib/mkd.layout.php:2433
+#: framework/lib/mkd.layout.php:2606
+#: framework/lib/mkd.layout.php:2808
+msgid "Video ogv"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2280
+#: framework/lib/mkd.layout.php:2442
+msgid "Remove portfolio image/video"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2459
+msgid "Add portfolio image/video"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2488
+#: framework/lib/mkd.layout.php:2647
+msgid "Image - "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2488
+#: framework/lib/mkd.layout.php:2970
+msgid "(Order Number, Image Title)"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2502
+#: framework/lib/mkd.layout.php:2661
+msgid "Image "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2520
+#: framework/lib/mkd.layout.php:2695
+msgid "Image Title (works only for Gallery portfolio type selected) "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2543
+#: framework/lib/mkd.layout.php:2718
+msgid "Video - "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2543
+msgid "(Order Number, Video Title)"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2556
+#: framework/lib/mkd.layout.php:2731
+msgid "Cover Video Image "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2576
+msgid "Video Title (works only for Gallery portfolio type selected)"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2767
+msgid "Video Title (works only for Gallery portfolio type selected) "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2832
+msgid " Add Image"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2833
+msgid " Add Video"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2835
+#: framework/lib/mkd.layout.php:3071
+msgid " Expand All"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2860
+msgid "You have successfully connected with your Twitter account. If you have any issues fetching data from Twitter try reconnecting."
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2866
+msgid "Re-connect with Twitter"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2866
+#: framework/lib/mkd.layout.php:2876
+msgid "Connect with Twitter"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2878
+msgid "Connecting with Twitter will enable you to show your latest tweets on your site"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2910
+msgid "You have successfully connected with your Instagram account. If you have any issues fetching data from Instagram try reconnecting."
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2917
+msgid "Re-connect with Instagram"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2917
+#: framework/lib/mkd.layout.php:2928
+msgid "Connect with Instagram"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2930
+msgid "Connecting with Instagram will enable you to show your latest photos on your site"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2970
+msgid "Additional Sidebar Item "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2988
+#: framework/lib/mkd.layout.php:3041
+msgid "Item Title "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:2994
+#: framework/lib/mkd.layout.php:3047
+msgid "Item Text"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:3000
+#: framework/lib/mkd.layout.php:3053
+msgid "Enter Full URL for Item Text Link"
+msgstr ""
+
+#: framework/lib/mkd.layout.php:3023
+msgid "Additional Sidebar Item - "
+msgstr ""
+
+#: framework/lib/mkd.layout.php:3068
+msgid " Add New Item"
+msgstr ""
+
+#: framework/mkd-framework.php:513
+#: includes/plugins/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/modules/blog/blog-functions.php:382
+msgid "Pingback:"
+msgstr ""
+
+#: framework/modules/blog/blog-functions.php:393
+msgid "at"
+msgstr ""
+
+#: framework/modules/blog/blog-functions.php:579
+#: framework/modules/blog/blog-functions.php:709
+msgid "Continue reading"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:25
+msgid "Blog Lists"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:32
+msgid "Blog Layout for Archive Pages"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:33
+msgid "Choose a default blog layout"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:45
+msgid "Archive and Category Sidebar"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:46
+msgid "Choose a sidebar layout for archived Blog Post Lists and Category Blog Lists"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:63
+msgid "Choose a sidebar to display on Blog Post Lists and Category Blog Lists. Default sidebar is Sidebar Page"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:74
+msgid "Pagination"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:76
+msgid "Enabling this option will display pagination links on bottom of Blog Post List"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:100
+msgid "Pagination Range limit"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:101
+msgid "Enter a number that will limit pagination to a certain range of links"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:113
+msgid "Number of Words in Excerpt"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:115
+msgid "Enter a number of words in excerpt (article summary)"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:129
+msgid "Blog Single"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:138
+msgid "Choose a sidebar layout for Blog Single pages"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:155
+msgid "Choose a sidebar to display on Blog Single pages. Default sidebar is Sidebar"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:164
+#: framework/modules/portfolio/options-map/map.php:86
+msgid "Enabling this option will show comments on your page."
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:173
+msgid "Enable Prev/Next Single Post Navigation Links"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:175
+msgid "Enable navigation links through the blog posts (left and right arrows will appear)"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:198
+msgid "Enable Navigation Only in Current Category"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:199
+msgid "Limit your navigation only through current category"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:212
+msgid "Show Author Info Box"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:214
+msgid "Enabling this option will display author name and descriptions on Blog Single pages"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:237
+msgid "Show Author Email"
+msgstr ""
+
+#: framework/modules/blog/options-map/map.php:238
+msgid "Enabling this option will show author email"
+msgstr ""
+
+#: framework/modules/blog/templates/lists/post-formats/audio-standard-whole-post.php:9
+#: framework/modules/blog/templates/lists/post-formats/audio.php:9
+#: framework/modules/blog/templates/lists/post-formats/gallery-standard-whole-post.php:9
+#: framework/modules/blog/templates/lists/post-formats/gallery.php:9
+#: framework/modules/blog/templates/lists/post-formats/link.php:9
+#: framework/modules/blog/templates/lists/post-formats/quote.php:9
+#: framework/modules/blog/templates/lists/post-formats/standard-standard-whole-post.php:9
+#: framework/modules/blog/templates/lists/post-formats/standard.php:9
+#: framework/modules/blog/templates/lists/post-formats/video-standard-whole-post.php:9
+#: framework/modules/blog/templates/lists/post-formats/video.php:9
+msgid "Sticky"
+msgstr ""
+
+#: framework/modules/blog/templates/parts/audio.php:4
+msgid "Your browser don't support audio player"
+msgstr ""
+
+#: framework/modules/blog/templates/parts/no-posts.php:2
+#: search.php:35
+msgid "No posts were found."
+msgstr ""
+
+#: framework/modules/blog/templates/parts/post-info-author-list.php:2
+msgid "By"
+msgstr ""
+
+#: framework/modules/blog/templates/parts/post-info-author.php:3
+msgid "Posted by"
+msgstr ""
+
+#: framework/modules/blog/templates/parts/post-info-category.php:4
+msgid "in "
+msgstr ""
+
+#: framework/modules/blog/templates/parts/post-info-comments.php:4
+msgid "Comments"
+msgstr ""
+
+#: framework/modules/blog/templates/parts/video.php:17
+#: framework/modules/portfolio/templates/single/media/self.php:14
+#: vc-templates/vc_row.php:225
+msgid "No video playback capabilities"
+msgstr ""
+
+#: framework/modules/blog/templates/parts/video.php:17
+msgid "Video thumb"
+msgstr ""
+
+#: framework/modules/blog/templates/single/parts/tags.php:3
+#: framework/modules/portfolio/templates/single/parts/tags.php:12
+msgid "Tags:"
+msgstr ""
+
+#: framework/modules/contactform7/contact-form-7-config.php:12
+msgid "Style"
+msgstr ""
+
+#: framework/modules/contactform7/contact-form-7-config.php:20
+msgid "You can style each form element individually in Mkd Options > Contact Form 7"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:9
+#: includes/plugins/plugins-activation.php:72
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:16
+msgid "Custom Style 1"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:23
+#: framework/modules/contactform7/options-map/map.php:692
+#: framework/modules/contactform7/options-map/map.php:1361
+msgid "Form Text Typography"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:24
+#: framework/modules/contactform7/options-map/map.php:693
+#: framework/modules/contactform7/options-map/map.php:1362
+msgid "Setup typography for form elements text"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:46
+#: framework/modules/contactform7/options-map/map.php:715
+#: framework/modules/contactform7/options-map/map.php:1384
+msgid "Focus Text Color"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:133
+#: framework/modules/contactform7/options-map/map.php:802
+#: framework/modules/contactform7/options-map/map.php:1471
+msgid "Form Label Typography"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:134
+#: framework/modules/contactform7/options-map/map.php:803
+#: framework/modules/contactform7/options-map/map.php:1472
+msgid "Setup typography for form elements label"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:230
+#: framework/modules/contactform7/options-map/map.php:899
+#: framework/modules/contactform7/options-map/map.php:1568
+msgid "Form Elements Background and Border"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:231
+#: framework/modules/contactform7/options-map/map.php:900
+#: framework/modules/contactform7/options-map/map.php:1569
+msgid "Setup form elements background and border style"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:253
+#: framework/modules/contactform7/options-map/map.php:567
+#: framework/modules/contactform7/options-map/map.php:922
+#: framework/modules/contactform7/options-map/map.php:1236
+#: framework/modules/contactform7/options-map/map.php:1591
+#: framework/modules/contactform7/options-map/map.php:1905
+msgid "Background Transparency"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:261
+#: framework/modules/contactform7/options-map/map.php:930
+#: framework/modules/contactform7/options-map/map.php:1599
+msgid "Focus Background Color"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:269
+#: framework/modules/contactform7/options-map/map.php:938
+#: framework/modules/contactform7/options-map/map.php:1607
+msgid "Focus Background Transparency"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:291
+#: framework/modules/contactform7/options-map/map.php:605
+#: framework/modules/contactform7/options-map/map.php:960
+#: framework/modules/contactform7/options-map/map.php:1274
+#: framework/modules/contactform7/options-map/map.php:1629
+#: framework/modules/contactform7/options-map/map.php:1943
+msgid "Border Transparency"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:299
+#: framework/modules/contactform7/options-map/map.php:968
+#: framework/modules/contactform7/options-map/map.php:1637
+msgid "Focus Border Color"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:307
+#: framework/modules/contactform7/options-map/map.php:976
+#: framework/modules/contactform7/options-map/map.php:1645
+msgid "Focus Border Transparency"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:321
+#: framework/modules/contactform7/options-map/map.php:635
+#: framework/modules/contactform7/options-map/map.php:990
+#: framework/modules/contactform7/options-map/map.php:1304
+#: framework/modules/contactform7/options-map/map.php:1659
+#: framework/modules/contactform7/options-map/map.php:1973
+msgid "Border Width"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:332
+#: framework/modules/contactform7/options-map/map.php:646
+#: framework/modules/contactform7/options-map/map.php:1001
+#: framework/modules/contactform7/options-map/map.php:1315
+#: framework/modules/contactform7/options-map/map.php:1670
+#: framework/modules/contactform7/options-map/map.php:1984
+msgid "Border Radius"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:342
+#: framework/modules/contactform7/options-map/map.php:1011
+#: framework/modules/contactform7/options-map/map.php:1680
+msgid "Elements Padding"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:343
+#: framework/modules/contactform7/options-map/map.php:1012
+#: framework/modules/contactform7/options-map/map.php:1681
+msgid "Setup form elements padding"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:357
+#: framework/modules/contactform7/options-map/map.php:1026
+#: framework/modules/contactform7/options-map/map.php:1695
+msgid "Padding Top"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:368
+#: framework/modules/contactform7/options-map/map.php:1037
+#: framework/modules/contactform7/options-map/map.php:1706
+#: framework/modules/search/options-map/map.php:386
+#: framework/modules/sidearea/options-map/map.php:235
+msgid "Padding Right"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:379
+#: framework/modules/contactform7/options-map/map.php:1048
+#: framework/modules/contactform7/options-map/map.php:1717
+msgid "Padding Bottom"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:390
+#: framework/modules/contactform7/options-map/map.php:1059
+#: framework/modules/contactform7/options-map/map.php:1728
+#: framework/modules/search/options-map/map.php:373
+#: framework/modules/sidearea/options-map/map.php:222
+msgid "Padding Left"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:400
+#: framework/modules/contactform7/options-map/map.php:1069
+#: framework/modules/contactform7/options-map/map.php:1738
+msgid "Elements Margin"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:401
+#: framework/modules/contactform7/options-map/map.php:1070
+#: framework/modules/contactform7/options-map/map.php:1739
+msgid "Setup form elements margin"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:415
+#: framework/modules/contactform7/options-map/map.php:1084
+#: framework/modules/contactform7/options-map/map.php:1753
+msgid "Margin Top"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:426
+#: framework/modules/contactform7/options-map/map.php:1095
+#: framework/modules/contactform7/options-map/map.php:1764
+msgid "Margin Bottom"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:439
+#: framework/modules/contactform7/options-map/map.php:1108
+#: framework/modules/contactform7/options-map/map.php:1777
+msgid "Textarea Height"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:440
+#: framework/modules/contactform7/options-map/map.php:1109
+#: framework/modules/contactform7/options-map/map.php:1778
+msgid "Enter height for textarea form element"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:451
+#: framework/modules/contactform7/options-map/map.php:1120
+#: framework/modules/contactform7/options-map/map.php:1789
+msgid "Button Typography"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:452
+#: framework/modules/contactform7/options-map/map.php:1121
+#: framework/modules/contactform7/options-map/map.php:1790
+msgid "Setup button text typography"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:474
+#: framework/modules/contactform7/options-map/map.php:1143
+#: framework/modules/contactform7/options-map/map.php:1812
+#: framework/modules/search/options-map/map.php:248
+#: framework/modules/sidearea/options-map/map.php:324
+msgid "Text Hover Color"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:544
+#: framework/modules/contactform7/options-map/map.php:1213
+#: framework/modules/contactform7/options-map/map.php:1882
+msgid "Button Background and Border"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:545
+#: framework/modules/contactform7/options-map/map.php:1214
+#: framework/modules/contactform7/options-map/map.php:1883
+msgid "Setup button background and border style"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:575
+#: framework/modules/contactform7/options-map/map.php:1244
+#: framework/modules/contactform7/options-map/map.php:1913
+msgid "Background Hover Color"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:583
+#: framework/modules/contactform7/options-map/map.php:1252
+#: framework/modules/contactform7/options-map/map.php:1921
+msgid "Background Hover Transparency"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:613
+#: framework/modules/contactform7/options-map/map.php:1282
+#: framework/modules/contactform7/options-map/map.php:1951
+msgid "Border Hover Color"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:621
+#: framework/modules/contactform7/options-map/map.php:1290
+#: framework/modules/contactform7/options-map/map.php:1959
+msgid "Border Hover Transparency"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:659
+#: framework/modules/contactform7/options-map/map.php:1328
+#: framework/modules/contactform7/options-map/map.php:1997
+msgid "Button Height"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:660
+#: framework/modules/contactform7/options-map/map.php:1329
+#: framework/modules/contactform7/options-map/map.php:1998
+msgid "Insert form button height"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:674
+#: framework/modules/contactform7/options-map/map.php:1343
+#: framework/modules/contactform7/options-map/map.php:2012
+msgid "Button Left/Right Padding"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:675
+#: framework/modules/contactform7/options-map/map.php:1344
+#: framework/modules/contactform7/options-map/map.php:2013
+msgid "Enter value for button left and right padding"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:685
+msgid "Custom Style 2"
+msgstr ""
+
+#: framework/modules/contactform7/options-map/map.php:1354
+msgid "Custom Style 3"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:30
+msgid "Uncovering Footer"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:31
+msgid "Enabling this option will make Footer gradually appear on scroll"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:41
+msgid "Footer in Grid"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:42
+msgid "Enabling this option will place Footer content in grid"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:52
+msgid "Show Footer Top"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:53
+msgid "Enabling this option will show Footer Top area"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:77
+msgid "Footer Top Columns"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:78
+msgid "Choose number of columns for Footer Top area"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:96
+msgid "Footer Top Columns Alignment"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:97
+msgid "Text Alignment in Footer Columns"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:112
+msgid "Footer Top Background Image"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:113
+msgid "Choose background image"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:123
+msgid "Show Footer Bottom"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:124
+msgid "Enabling this option will show Footer Bottom area"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:149
+msgid "Footer Bottom Columns"
+msgstr ""
+
+#: framework/modules/footer/options-map/map.php:150
+msgid "Choose number of columns for Footer Bottom area"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:8
+#: framework/modules/footer/template-functions.php:10
+msgid "Footer Column 1"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:18
+#: framework/modules/footer/template-functions.php:20
+msgid "Footer Column 2"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:28
+#: framework/modules/footer/template-functions.php:30
+msgid "Footer Column 3"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:38
+#: framework/modules/footer/template-functions.php:40
+msgid "Footer Column 4"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:48
+#: framework/modules/footer/template-functions.php:50
+msgid "Footer Bottom"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:58
+#: framework/modules/footer/template-functions.php:60
+msgid "Footer Bottom Left"
+msgstr ""
+
+#: framework/modules/footer/template-functions.php:68
+#: framework/modules/footer/template-functions.php:70
+msgid "Footer Bottom Right"
+msgstr ""
+
+#: framework/modules/header/functions.php:10
+msgid "Main Navigation"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:29
+msgid "Choose Header Type"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:30
+msgid "Select the type of header you would like to use"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:56
+msgid "Choose Header behaviour"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:57
+msgid "Select the behaviour of header when you scroll down to page"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:59
+msgid "Sticky on scrol up"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:60
+msgid "Sticky on scrol up/down"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:111
+msgid "Header Standard"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:122
+msgid "Top Header Area"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:132
+msgid "Top header area in grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:133
+msgid "Set top header area content to be in grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:143
+#: framework/modules/header/options-map/header-map.php:194
+msgid "Background color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:144
+msgid "Set background color for top header"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:155
+msgid "Enter top header height (default is 92px)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:168
+msgid "Bottom Header Area"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:178
+msgid "Bottom header area in grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:179
+msgid "Set bottom header area content to be in grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:195
+msgid "Set background color for header"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:206
+msgid "Enter header height (default is 60px)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:216
+msgid "Sticky Header"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:230
+msgid "Scroll Amount for Sticky"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:231
+msgid "Enter scroll amount for Sticky Menu to appear (deafult is header height)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:245
+msgid "Sticky Header in grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:246
+msgid "Set sticky header content to be in grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:263
+msgid "Enter transparency for sticky header (value from 0 to 1)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:273
+msgid "Sticky Header Height"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:274
+msgid "Enter height for sticky header (default is 60px)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:283
+msgid "Sticky Header Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:286
+msgid "Define styles for sticky menu items"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:305
+msgid "Hover/Active color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:342
+msgid "Line height"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:355
+msgid "Text transform"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:404
+msgid "Fixed Header"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:416
+msgid "Grid Background Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:417
+msgid "Set grid background color for fixed header"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:425
+msgid "Header Transparency Grid"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:426
+msgid "Enter transparency for fixed header grid (value from 0 to 1)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:438
+msgid "Set background color for fixed header"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:445
+msgid "Header Transparency"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:446
+msgid "Enter transparency for fixed header (value from 0 to 1)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:456
+msgid "Main Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:468
+msgid "Main Menu General Settings"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:476
+#: framework/modules/header/options-map/header-map.php:1411
+msgid "Main Dropdown Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:477
+msgid "Choose a color and transparency for the main menu background (0 = fully transparent, 1 = opaque)"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:504
+msgid "Transparency"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:514
+msgid "Item Vertical Separator Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:522
+msgid "Main Dropdown Menu Padding"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:523
+msgid "Choose a top/bottom padding for dropdown menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:566
+msgid "Main Dropdown Menu Appearance"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:567
+msgid "Choose appearance for dropdown menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:570
+msgid "Slide From Bottom"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:571
+msgid "Slide From Top"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:572
+msgid "Animate Height"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:573
+msgid "Slide From Left"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:584
+msgid "Dropdown position"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:585
+msgid "Enter value in percentage of entire header height"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:597
+msgid "1st Level Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:598
+msgid "Define styles for 1st level in Top Navigation Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:625
+msgid "Hover/Active Text Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:635
+msgid "Text Background Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:645
+msgid "Hover/Active Text Background Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:686
+msgid "Hover/Active Background Transparency"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:773
+msgid "Padding Left/Right"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:786
+msgid "Margin Left/Right"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:797
+msgid "2nd Level Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:798
+msgid "Define styles for 2nd level in Top Navigation Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:825
+#: framework/modules/header/options-map/header-map.php:982
+#: framework/modules/header/options-map/header-map.php:1139
+#: framework/modules/header/options-map/header-map.php:1285
+#: framework/modules/header/options-map/header-map.php:1457
+#: framework/modules/header/options-map/header-map.php:1565
+#: framework/modules/header/options-map/header-map.php:1673
+#: framework/modules/title/options-map/map.php:757
+msgid "Hover/Active Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:835
+#: framework/modules/header/options-map/header-map.php:992
+#: framework/modules/header/options-map/header-map.php:1149
+#: framework/modules/header/options-map/header-map.php:1295
+msgid "Hover/Active Background Color"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:889
+#: framework/modules/header/options-map/header-map.php:1046
+msgid "Padding Top/Bottom"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:910
+#: framework/modules/header/options-map/header-map.php:1067
+#: framework/modules/header/options-map/header-map.php:1211
+#: framework/modules/header/options-map/header-map.php:1357
+msgid "Font style"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:921
+#: framework/modules/header/options-map/header-map.php:1078
+#: framework/modules/header/options-map/header-map.php:1222
+#: framework/modules/header/options-map/header-map.php:1368
+msgid "Font weight"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:932
+#: framework/modules/header/options-map/header-map.php:1089
+#: framework/modules/header/options-map/header-map.php:1233
+#: framework/modules/header/options-map/header-map.php:1379
+msgid "Letter spacing"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:954
+msgid "2nd Level Wide Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:955
+msgid "Define styles for 2nd level in Wide Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1111
+msgid "3nd Level Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1112
+msgid "Define styles for 3nd level in Top Navigation Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1257
+msgid "3rd Level Wide Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1258
+msgid "Define styles for 3rd level in Wide Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1399
+msgid "Vertical Main Menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1412
+msgid "Set a style for dropdown menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1435
+msgid "1st level"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1436
+msgid "Define styles for 1st level menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1543
+msgid "2nd level"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1544
+msgid "Define styles for 2nd level menu"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1651
+msgid "3rd level"
+msgstr ""
+
+#: framework/modules/header/options-map/header-map.php:1652
+msgid "Define styles for 3rd level menu"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:11
+msgid "Branding"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:21
+msgid "Hide Logo"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:22
+msgid "Enabling this option will hide logo image"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:45
+msgid "Logo Image - Default"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:46
+#: framework/modules/header/options-map/logo-map.php:57
+#: framework/modules/header/options-map/logo-map.php:68
+#: framework/modules/header/options-map/logo-map.php:79
+#: framework/modules/header/options-map/logo-map.php:90
+msgid "Choose a default logo image to display "
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:56
+msgid "Logo Image - Dark"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:67
+msgid "Logo Image - Light"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:78
+msgid "Logo Image - Sticky"
+msgstr ""
+
+#: framework/modules/header/options-map/logo-map.php:89
+msgid "Logo Image - Mobile"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:8
+msgid "Mobile Header"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:16
+msgid "Mobile Header Height"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:17
+msgid "Enter height for mobile header in pixels"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:28
+msgid "Mobile Header Background Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:29
+msgid "Choose color for mobile header"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:36
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:37
+msgid "Choose color for mobile menu"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:44
+msgid "Mobile Menu Item Separator Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:45
+msgid "Choose color for mobile menu horizontal separators"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:52
+msgid "Logo Height For Mobile Header"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:53
+msgid "Define logo height for screen size smaller than 1000px"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:64
+msgid "Logo Height For Mobile Devices"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:65
+msgid "Define logo height for screen size smaller than 480px"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:76
+#: framework/modules/title/options-map/map.php:461
+msgid "Typography"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:82
+msgid "Navigation Text Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:83
+msgid "Define color for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:90
+msgid "Navigation Hover/Active Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:91
+msgid "Define hover/active color for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:98
+msgid "Navigation Font Family"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:99
+msgid "Define font family for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:106
+msgid "Navigation Font Size"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:107
+msgid "Define font size for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:118
+msgid "Navigation Line Height"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:119
+msgid "Define line height for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:130
+msgid "Navigation Text Transform"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:131
+msgid "Define text transform for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:139
+msgid "Navigation Font Style"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:140
+msgid "Define font style for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:148
+msgid "Navigation Font Weight"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:149
+msgid "Define font weight for mobile navigation text"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:157
+msgid "Mobile Menu Opener"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:163
+msgid "Mobile Navigation Icon Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:164
+msgid "Choose color for icon header"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:171
+msgid "Mobile Navigation Icon Hover Color"
+msgstr ""
+
+#: framework/modules/header/options-map/mobile-header.php:172
+msgid "Choose hover color for mobile navigation icon "
+msgstr ""
+
+#: framework/modules/header/templates/parts/logo-sticky.php:5
+#: framework/modules/header/templates/parts/logo.php:5
+msgid "logo"
+msgstr ""
+
+#: framework/modules/header/templates/parts/logo.php:6
+msgid "dark logo"
+msgstr ""
+
+#: framework/modules/header/templates/parts/logo.php:7
+msgid "light logo"
+msgstr ""
+
+#: framework/modules/header/templates/parts/mobile-logo.php:5
+msgid "mobile logo"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:14
+msgid "Right From Logo"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:18
+msgid "Widgets added here will appear on the right hand side from logo"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:22
+msgid "Right From Main Menu"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:26
+msgid "Widgets added here will appear on the right hand side from the main menu"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:42
+msgid "Right From Mobile Logo"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:46
+msgid "Widgets added here will appear on the right hand side from the mobile logo"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:61
+msgid "Sticky Right"
+msgstr ""
+
+#: framework/modules/header/widget-areas-functions.php:65
+msgid "Widgets added here will appear on the right hand side in sticky menu"
+msgstr ""
+
+#: framework/modules/like/like.php:92
+#: framework/modules/like/like.php:112
+msgid "Likes"
+msgstr ""
+
+#: framework/modules/like/like.php:130
+#: framework/modules/like/like.php:142
+#: framework/modules/like/like.php:157
+#: framework/modules/like/like.php:169
+msgid "Like this"
+msgstr ""
+
+#: framework/modules/like/like.php:133
+#: framework/modules/like/like.php:145
+#: framework/modules/like/like.php:160
+#: framework/modules/like/like.php:172
+msgid "You already like this!"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:9
+msgid "Portfolio"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:14
+msgid "Portfolio Single"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:40
+msgid "Lightbox for Images"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:41
+msgid "Enabling this option will turn on lightbox functionality for projects with images."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:49
+msgid "Lightbox for Videos"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:50
+msgid "Enabling this option will turn on lightbox functionality for YouTube/Vimeo projects."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:58
+msgid "Hide Categories"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:59
+msgid "Enabling this option will disable category meta description on Single Projects."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:67
+msgid "Hide Date"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:68
+msgid "Enabling this option will disable date meta on Single Projects."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:76
+msgid "Hide Related Projects"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:77
+msgid "Enabling this option will disable related projects part on Single Projects."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:94
+msgid "Sticky Side Text"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:95
+msgid "Enabling this option will make side text sticky on Single Project pages"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:103
+msgid "Hide Pagination"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:104
+msgid "Enabling this option will turn off portfolio pagination functionality."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:123
+msgid "Enable Pagination Through Same Category"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:124
+msgid "Enabling this option will make portfolio pagination sort through current category."
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:132
+msgid "Number of Columns"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:134
+msgid "Enter the number of columns for Portfolio Gallery type"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:137
+msgid "2 columns"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:138
+msgid "3 columns"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:139
+msgid "4 columns"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:146
+msgid "Portfolio Single Slug"
+msgstr ""
+
+#: framework/modules/portfolio/options-map/map.php:147
+msgid "Enter if you wish to use a different Single Project slug (Note: After entering slug, navigate to Settings -> Permalinks and click Save in order for changes to take effect)"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/media/self.php:14
+#: vc-templates/vc_row.php:225
+msgid "video thumb"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/parts/categories.php:14
+msgid "Category:"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/parts/date.php:4
+msgid "Date:"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/parts/navigation.php:16
+msgid "Previous Project"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/parts/navigation.php:30
+msgid "Next Project"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/parts/print.php:4
+#: framework/modules/woocommerce/parts/shareprint.php:10
+msgid "Print"
+msgstr ""
+
+#: framework/modules/portfolio/templates/single/parts/related-portfolios.php:18
+msgid "Related Projects"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:10
+#: framework/modules/search/options-map/map.php:17
+#: framework/modules/search/templates/types/search-covers-header.php:9
+#: framework/modules/search/templates/types/search-slides-from-header-bottom.php:8
+#: framework/modules/search/templates/types/search-slides-from-window-top.php:9
+#: framework/modules/search/templates/types/search-slides-from-window-top.php:10
+#: framework/modules/title/title-functions.php:139
+msgid "Search"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:29
+msgid "Select Search Type"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:30
+msgid "Does not work with transparent header"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:32
+msgid "Slide From Header Bottom"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:33
+msgid "Search Covers Header"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:34
+msgid "Fullscreen Search"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:35
+msgid "Slide from Window Top"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:61
+msgid "Search Icon Pack"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:62
+msgid "Choose icon pack for search icon"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:87
+msgid "Search bar height"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:88
+msgid "Set search bar height"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:116
+msgid "Fullscreen Search Overlay Animation"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:117
+msgid "Choose animation for fullscreen search overlay"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:119
+msgid "Fade"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:120
+msgid "Circle appear"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:131
+msgid "Search area in grid"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:132
+msgid "Set search area to be in grid"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:140
+msgid "Initial Search Icon in Header"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:150
+#: framework/modules/search/options-map/map.php:705
+#: framework/modules/search/options-map/map.php:753
+msgid "Icon Size"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:151
+msgid "Set size for icon"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:162
+msgid "Icon Colors"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:163
+msgid "Define color style for icon"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:188
+#: framework/modules/sidearea/options-map/map.php:196
+#: framework/modules/sidearea/options-map/map.php:951
+msgid "Hover Color"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:198
+msgid "Enable Search Icon Text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:199
+msgid "Enable this option to show Search text next to search icon in header"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:220
+msgid "Search Icon Text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:222
+msgid "Define Style for Search Icon Text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:354
+msgid "Icon Spacing"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:355
+msgid "Define padding and margins for Search icon"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:399
+#: framework/modules/sidearea/options-map/map.php:248
+msgid "Margin Left"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:412
+#: framework/modules/sidearea/options-map/map.php:261
+msgid "Margin Right"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:423
+msgid "Search Bar"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:434
+msgid "Choose a background color for Select search bar"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:441
+msgid "Search Input Text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:442
+msgid "Define style for search text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:470
+msgid "Disabled Text Color"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:553
+msgid "Search Label Text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:554
+msgid "Define style for search label text"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:656
+msgid "Search Icon"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:657
+msgid "Define style for search icon"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:675
+#: framework/modules/search/options-map/map.php:733
+msgid "Icon Color"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:685
+#: framework/modules/search/options-map/map.php:743
+msgid "Icon Hover Color"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:695
+msgid "Icon Disabled Color"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:715
+msgid "Search Close"
+msgstr ""
+
+#: framework/modules/search/options-map/map.php:716
+msgid "Define style for search close icon"
+msgstr ""
+
+#: framework/modules/search/templates/types/fullscreen-search.php:14
+msgid "Search:"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:10
+#: framework/modules/sidearea/options-map/map.php:17
+#: framework/modules/sidearea/sidearea-functions.php:9
+#: framework/modules/sidearea/sidearea-functions.php:11
+msgid "Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:29
+msgid "Side Area Type"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:30
+msgid "Choose a type of Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:32
+msgid "Slide from Right Over Content"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:33
+msgid "Slide from Right With Content"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:34
+msgid "Side Area Uncovered from Content"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:71
+#: framework/modules/sidearea/options-map/map.php:124
+msgid "Side Area Width"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:72
+msgid "Enter a width for Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:86
+msgid "Content Overlay Background Color"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:87
+msgid "Choose a background color for a content overlay"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:97
+msgid "Content Overlay Background Transparency"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:98
+msgid "Choose a transparency for the content overlay background color (0 = fully transparent, 1 = opaque)"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:125
+msgid "Choose width for Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:168
+msgid "Side Area Icon Style"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:169
+msgid "Define styles for Side Area icon"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:204
+msgid "Side Area Icon Spacing"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:205
+msgid "Define padding and margin for side area icon"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:274
+msgid "Enable Side Area Icon Text"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:275
+msgid "Enable this option to show Menu text next to search icon in header"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:296
+msgid "Side Area Icon Text"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:298
+msgid "Define Style for Side Area Icon Text"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:433
+msgid "Text Aligment"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:434
+msgid "Choose text aligment for side area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:449
+msgid "Side Area Title"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:450
+msgid "Enter a title to appear in Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:464
+msgid "Choose a background color for Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:475
+msgid "Choose a background image for Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:484
+msgid "Define padding for Side Area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:554
+msgid "Close Icon Style"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:555
+msgid "Choose a type of close icon"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:569
+msgid "Close Icon Size"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:570
+msgid "Define close icon size"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:583
+msgid "Define Style for Side Area title"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:700
+msgid "Define Style for Side Area text"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:825
+msgid "Link Style"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:826
+msgid "Define styles for Side Area widget links"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:961
+msgid "Border Bottom on Elements"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:962
+msgid "Enable border bottom on elements in side area"
+msgstr ""
+
+#: framework/modules/sidearea/options-map/map.php:987
+msgid "Choose color for border bottom on elements in sidearea"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:19
+msgid "Title Settings"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:29
+msgid "This option will enable/disable Title Area"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:105
+msgid "Fade In"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:170
+msgid "Enable this option to make background image behave as pattern"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:468
+msgid "Define styles for page title"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:561
+msgid "Subtitle"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:562
+msgid "Define styles for page subtitle"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:655
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/modules/title/options-map/map.php:656
+msgid "Define styles for page breadcrumbs"
+msgstr ""
+
+#: framework/modules/title/title-functions.php:109
+msgid " Tag"
+msgstr ""
+
+#: framework/modules/title/title-functions.php:121
+msgid "Author:"
+msgstr ""
+
+#: framework/modules/title/title-functions.php:150
+msgid "Oops, this page is missing!"
+msgstr ""
+
+#: framework/modules/title/title-functions.php:179
+msgid "Archive"
+msgstr ""
+
+#: framework/modules/title/title-functions.php:274
+msgid "Search results for "
+msgstr ""
+
+#: framework/modules/title/title-functions.php:333
+msgid "Posts tagged "
+msgstr ""
+
+#: framework/modules/title/title-functions.php:337
+msgid "Articles posted by "
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:220
+msgid "No animation"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:221
+msgid "Elements Shows From Left Side"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:222
+msgid "Elements Shows From Right Side"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:223
+msgid "Elements Shows From Top Side"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:224
+msgid "Elements Shows From Bottom Side"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:225
+msgid "Elements Shows From Fade"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:231
+#: framework/modules/visualcomposer/visual-composer-config.php:480
+msgid "Row Type"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:234
+#: framework/modules/visualcomposer/visual-composer-config.php:483
+msgid "Row"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:242
+#: framework/modules/visualcomposer/visual-composer-config.php:491
+msgid "Content Width"
+msgstr ""
+
+#. Template Name of the theme
+#: framework/modules/visualcomposer/visual-composer-config.php:245
+#: framework/modules/visualcomposer/visual-composer-config.php:494
+msgid "Full Width"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:246
+#: framework/modules/visualcomposer/visual-composer-config.php:495
+msgid "In Grid"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:253
+msgid "Header Style"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:265
+msgid "Anchor ID"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:268
+msgid "For example home"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:273
+#: framework/modules/visualcomposer/visual-composer-config.php:554
+msgid "Content Aligment"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:285
+msgid "Video Background"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:298
+msgid "Video Overlay"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:311
+msgid "Video Overlay Image (pattern)"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:321
+msgid "Video Background (webm) File URL"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:331
+msgid "Video Background (mp4) file URL"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:341
+msgid "Video Background (ogv) file URL"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:351
+msgid "Video Preview Image"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:361
+#: framework/modules/visualcomposer/visual-composer-config.php:502
+msgid "Full Screen Height"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:374
+#: framework/modules/visualcomposer/visual-composer-config.php:515
+msgid "Vertically Align Content In Middle"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:386
+#: framework/modules/visualcomposer/visual-composer-config.php:527
+msgid "Section Height"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:395
+#: framework/modules/visualcomposer/visual-composer-config.php:536
+msgid "Parallax Background image"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:398
+#: framework/modules/visualcomposer/visual-composer-config.php:539
+msgid "Please note that for parallax row type, background image from Design Options will not work so you should to fill this field"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:405
+#: framework/modules/visualcomposer/visual-composer-config.php:546
+msgid "Parallax speed"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:414
+msgid "Triangle Shape in Background"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:421
+msgid "Enabling this option will display a triangular shape on the row"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:428
+msgid "Triangle Shape Position"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:431
+#: framework/modules/visualcomposer/visual-composer-config.php:446
+msgid "Default (both)"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:432
+#: framework/modules/visualcomposer/visual-composer-config.php:447
+msgid "Only Top"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:433
+#: framework/modules/visualcomposer/visual-composer-config.php:448
+msgid "Only Bottom"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:443
+msgid "Triangle Shape Color"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:456
+#: framework/modules/visualcomposer/visual-composer-config.php:565
+msgid "CSS Animation"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:465
+#: framework/modules/visualcomposer/visual-composer-config.php:576
+msgid "Transition delay (ms)"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:588
+msgid "Row Overlap - Top (px)"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:591
+msgid "Enter the amount of pixels you would like this row to overlap the row above it"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:597
+msgid "Row Overlap - Bottom (px)"
+msgstr ""
+
+#: framework/modules/visualcomposer/visual-composer-config.php:600
+msgid "Enter the amount of pixels you would like this row to overlap the row below it"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:4
+msgid "Qode Logo"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:7
+msgid "Welcome to %s"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:12
+msgid "Thank you for installing %s - %s! Everything in %s is streamlined to make your website building experience as simple and fun as possible. We hope you love using it to make a spectacular website."
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:20
+msgid "Theme Screenshot"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:24
+msgid "Please install and activate required plugins in order to gain access to all the theme functionalities and features."
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:26
+#: framework/modules/welcome/templates/welcome.php:42
+#: includes/plugins/class-tgm-plugin-activation.php:334
+#: includes/plugins/plugins-activation.php:89
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:30
+msgid "Useful Links:"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:33
+msgid "Help Center"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:36
+msgid "Theme Documentation"
+msgstr ""
+
+#: framework/modules/welcome/templates/welcome.php:39
+msgid "All Our Themes"
+msgstr ""
+
+#: framework/modules/welcome/welcome.php:86
+#: framework/modules/welcome/welcome.php:87
+msgid "About"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:13
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:25
+msgid "Product List"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:32
+msgid "Enable Full Width Template"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:34
+msgid "Enabling this option will enable full width template for shop page"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:41
+msgid "Product List Columns"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:43
+msgid "Choose number of columns for product listing and related products on single product"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:45
+msgid "3 Columns (2 with sidebar)"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:46
+msgid "4 Columns (3 with sidebar)"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:54
+msgid "Number of products per page"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:56
+msgid "Set number of products on shop page"
+msgstr ""
+
+#: framework/modules/woocommerce/options-map/map.php:66
+msgid "Products Title Tag"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:94
+#: woocommerce/loop/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:97
+msgid "Out of stock"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:113
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:126
+msgid "First name"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:114
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:127
+msgid "Last name"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:115
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:128
+msgid "Company name"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:116
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:129
+msgid "Address"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:117
+#: woocommerce/single-product-reviews.php:88
+msgid "Email"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:118
+msgid "Phone"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:119
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:130
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:120
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:131
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "State / County"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:121
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:132
+#: woocommerce/cart/shipping-calculator.php:77
+msgid "City"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:320
+msgid "Apply Coupon"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:339
+msgid "Update Cart"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:358
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:380
+msgid "Update Totals"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:403
+msgid "Pay for order"
+msgstr ""
+
+#: framework/modules/woocommerce/woocommerce-template-hooks.php:428
+msgid "Place Order"
+msgstr ""
+
+#: functions.php:715
+msgid "Loading new posts..."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/nav-menu/edit_custom_walker.php:78
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/nav-menu/edit_custom_walker.php:82
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:107
+msgid "Move up"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:120
+msgid "Move down"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:122
+#: includes/nav-menu/edit_custom_walker.php:124
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:133
+msgid "URL"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:140
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:146
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:153
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:158
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:164
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:170
+msgid "Description"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:172
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:180
+msgid "Anchor"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:191
+msgid "Don't link"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:201
+msgid "Don't show"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:206
+#: includes/plugins/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:209
+msgid "wide"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:210
+msgid "wide with icons"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:216
+msgid "Wide menu position"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:219
+msgid "left"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:220
+msgid "right"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:226
+msgid "Background image for Dropdown"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:246
+msgid "Only with \"default\" & \"wide with icons\" menu types"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:278
+msgid "Custom widget area"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:289
+msgid "Only with \"wide & wide with icons\" menu type"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:298
+msgid "Original: %s"
+msgstr ""
+
+#: includes/nav-menu/edit_custom_walker.php:312
+msgid "Cancel"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:335
+#: includes/plugins/plugins-activation.php:90
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:337
+#: includes/plugins/plugins-activation.php:91
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:340
+#: includes/plugins/plugins-activation.php:92
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: includes/plugins/class-tgm-plugin-activation.php:341
+#: includes/plugins/plugins-activation.php:93
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/plugins/class-tgm-plugin-activation.php:347
+#: includes/plugins/plugins-activation.php:94
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/plugins/class-tgm-plugin-activation.php:353
+#: includes/plugins/plugins-activation.php:99
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/plugins/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/plugins/class-tgm-plugin-activation.php:365
+#: includes/plugins/plugins-activation.php:96
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: includes/plugins/class-tgm-plugin-activation.php:371
+#: includes/plugins/plugins-activation.php:97
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:377
+#: includes/plugins/plugins-activation.php:101
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:392
+#: includes/plugins/plugins-activation.php:103
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:393
+#: includes/plugins/class-tgm-plugin-activation.php:912
+#: includes/plugins/class-tgm-plugin-activation.php:2618
+#: includes/plugins/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:394
+#: includes/plugins/class-tgm-plugin-activation.php:3244
+#: includes/plugins/plugins-activation.php:104
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:395
+#: includes/plugins/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: includes/plugins/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1019
+#: includes/plugins/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:1206
+#: includes/plugins/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: includes/plugins/class-tgm-plugin-activation.php:2067
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: includes/plugins/class-tgm-plugin-activation.php:2427
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins/class-tgm-plugin-activation.php:2473
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins/class-tgm-plugin-activation.php:2477
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins/class-tgm-plugin-activation.php:2481
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: includes/plugins/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/plugins/class-tgm-plugin-activation.php:2688
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/plugins/class-tgm-plugin-activation.php:2693
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/plugins/class-tgm-plugin-activation.php:2699
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/plugins/class-tgm-plugin-activation.php:3583
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/plugins/class-tgm-plugin-activation.php:3586
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:3588
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:3594
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/plugins/class-tgm-plugin-activation.php:3597
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/plugins/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/plugins/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/plugins/class-tgm-plugin-activation.php:3605
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:10
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:20
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:30
+msgid "Mikado Core"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:40
+msgid "Mikado Instagram Feed"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:50
+msgid "Mikado Twitter Feed"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:60
+msgid "Envato Market"
+msgstr ""
+
+#. Template Name of the theme
+#: includes/plugins/plugins-activation.php:66
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/plugins/plugins-activation.php:95
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:98
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:100
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:102
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/plugins/plugins-activation.php:105
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/sidebar/mkd-custom-sidebar.php:18
+msgid "Custom Widget Area"
+msgstr ""
+
+#: includes/sidebar/mkd-custom-sidebar.php:42
+msgid "Enter Name of the new Widget Area"
+msgstr ""
+
+#: includes/sidebar/mkd-custom-sidebar.php:43
+msgid "Add Widget Area"
+msgstr ""
+
+#: includes/sidebar/sidebar.php:12
+msgid "Default Sidebar"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Landing Page"
+msgstr ""
+
+#: searchform.php:3
+msgid "Enter Your Keywords"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid "There are no shipping methods available. Please double check your address, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33
+#: woocommerce/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55
+#: woocommerce/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:70
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91
+#: woocommerce/cart/cart-totals.php:92
+#: woocommerce/cart/cart.php:33
+#: woocommerce/cart/cart.php:123
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+#: woocommerce/cart/cart.php:96
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32
+#: woocommerce/cart/cart.php:102
+#: woocommerce/global/quantity-input.php:26
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:57
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:91
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:68
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:57
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/global/form-login.php:34
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-lost-password.php:32
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:37
+#: woocommerce/myaccount/form-login.php:42
+#: woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:40
+#: woocommerce/myaccount/form-login.php:45
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/global/form-login.php:49
+#: woocommerce/myaccount/form-login.php:54
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:53
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:26
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:30
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:85
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:105
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:26
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:42
+msgid "Reset password"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:35
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:38
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:66
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:79
+msgid "Add a review"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:79
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:81
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Submit"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:99
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:105
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:106
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:109
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:44
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related products"
+msgstr ""

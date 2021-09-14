@@ -1,0 +1,36 @@
+<wpml-config>
+    <admin-texts>
+	/*Email Tab*/
+        <key name="sumo_member_access_provider_email_subject" />        
+        <key name="sumo_member_access_provider_email_message" />
+        <key name="sumo_member_expired_email_subject" />
+        <key name="sumo_member_expired_email_message" />
+        <key name="sumo_member_going_to_expire_email_subject" />
+        <key name="sumo_member_going_to_expire_email_message" />
+	/*Message Tab*/
+        <key name="sumo_msg_for_site_users_product_view_restriction_for_membership_purchase" />
+        <key name="sumo_msg_for_guests_product_view_restriction_for_membership_purchase" />
+        <key name="sumo_msg_for_site_users_product_view_restriction_for_membership" />
+        <key name="sumo_msg_for_guests_product_view_restriction_for_membership" />
+        <key name="sumo_msg_for_site_users_product_purchase_restriction_for_membership_purchase" />
+        <key name="sumo_msg_for_guests_product_purchase_restriction_for_membership_purchase" />
+        <key name="sumo_msg_for_site_users_product_purchase_restriction_for_membership" />
+        <key name="sumo_msg_for_guests_product_purchase_restriction_for_membership" />
+        <key name="sumo_msg_product_restriction_for_membership" />
+        <key name="sumo_msg_for_site_users_content_restriction_for_membership_purchase" />
+        <key name="sumo_msg_for_guests_content_restriction_for_membership_purchase" />
+        <key name="sumo_msg_for_site_users_content_restriction_for_membership" />
+        <key name="sumo_msg_for_guests_content_restriction_for_membership" />
+        <key name="sumo_msg_content_restriction_for_membership" />
+	<key name="sumo_localization_msg_for_menu" />
+        <key name="sumo_localization_msg_for_table_title" />
+	<key name="sumo_localization_msg_for_planname" />
+	<key name="sumo_localization_msg_for_planduration" />
+	<key name="sumo_localization_msg_for_status" />
+	<key name="sumo_show_r_hide_plan_name" />
+	<key name="sumo_show_r_hide_plan_duration" />
+        <key name="sumo_show_r_hide_plan_status" />
+    </admin-texts>
+</wpml-config>
+
+

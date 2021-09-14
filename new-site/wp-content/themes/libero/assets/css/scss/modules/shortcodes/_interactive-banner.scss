@@ -1,0 +1,150 @@
+/* ==========================================================================
+# Interactive Banner style - begin
+========================================================================== */
+
+.mkd-interactive-banner {
+	position: relative;
+	-webkit-transform: translateZ(0) rotate(0.01deg); //because of the shivering image
+	margin: 25px 0;
+
+	.mkd-interactive-banner-inner {
+		position: relative;
+		width: 100%;
+	}
+
+	.mkd-interactive-banner-icon {
+		position: absolute;
+		z-index: 33;
+		left: 50%;
+		top: 0px;
+		margin: auto;
+		min-height: 50px;
+		@include mkdTransform(translateZ(0) translate(-50%,-50%));
+		.mkd-icon-element {
+			line-height: 1.2em;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+
+	.mkd-interactive-banner-image {
+		position:relative;
+		overflow: hidden;
+		margin-bottom: 20px;
+
+		img {
+			width: 100%;
+			vertical-align: middle;
+		    -webkit-filter: grayscale(100%);
+		    -moz-filter: grayscale(100%);
+		    filter: grayscale(100%);
+		    @include mkdTransform(scale3d(1,1,1));
+		    @include mkdTransition(all .25s ease-in-out);
+		}
+	}
+
+	.mkd-interactive-banner-info {
+	    position: absolute;
+	    @include mkdBoxSizing(border-box);
+	    width: 92%;
+	    left: 4%;
+	    bottom: -45px;
+	    background-color: $second-main-color;
+	    padding: 18px 20px;
+	    text-align: center;
+	    overflow: hidden;
+	}
+
+	.mkd-interactive-banner-title {
+	    line-height: 1.2em;
+	    color:#fff;
+	}
+
+	&.linked .mkd-interactive-banner-read-more {
+	    position: absolute;
+	    @include mkdBoxSizing(border-box);
+	    color: #fff;
+	    background-color: $first-main-color;
+	    padding: 18px 20px;
+	    width: 100%;
+	    height: 100%;
+	    left: 0;
+	    top: calc(100% - 3px);
+	    @include mkdTransition(top .2s ease-out);
+	    -webkit-backface-visibility:hidden; //webkit browsers pixel fix
+
+	    a {
+	        width: 100%;
+	        height: 100%;
+	        display: table;
+	        @include mkdTransform(translateZ(0));
+	    }
+
+	    .mkd-interactive-banner-read-more-inner {
+	        display: table-cell;
+	        color: #fff;
+	        vertical-align: middle;
+	        opacity: 0;
+	        @include mkdTransition(opacity .2s ease-out);
+	    }
+
+	    .mkd-interactive-banner-read-more-text {
+	        display: inline-block;
+	        vertical-align: middle;
+	        text-transform: uppercase;
+	        text-decoration: underline;
+	    }
+
+	    .mkd-interactive-banner-read-more-icon {
+	        display: inline-block;
+	        vertical-align: middle;
+	        margin: 5px;
+	    }
+	}
+
+	&.linked .mkd-interactive-banner-triangle {
+	    content: '';
+	    position: absolute;
+	    opacity: 0;
+	    left: calc(50% - 12px);
+	    @include mkdTransform(translateY(12px));
+	    width: 0;
+	    height: 0;
+	    border-left: 12px solid transparent !important;
+	    border-right: 12px solid transparent !important;
+	    border-bottom: 12px solid $first-main-color;
+	    -webkit-transition: opacity  .05s ease-out, -webkit-transform .1s .2s;
+	    transition: opacity  .05s ease-out, transform .1s .2s;
+	}
+
+	&:hover {
+
+		&.linked img {
+			@include mkdTransform(scale(1.1));
+			-webkit-filter: grayscale(0);
+			filter: none;
+		}
+		.mkd-interactive-banner-read-more {
+		    top: 0;
+		    @include mkdTransition(top .3s ease);
+
+		     .mkd-interactive-banner-read-more-inner {
+		        display: table-cell;
+		        color: #fff;
+		        vertical-align: middle;
+		        opacity: 1;
+		        @include mkdTransition(opacity .2s ease-out .15s);
+		    }
+		}
+		.mkd-interactive-banner-triangle {
+			-webkit-transition: opacity  .05s ease-out .2s, -webkit-transform .15s ease-out .2s;
+		    transition: opacity  .05s ease-out .2s, transform .15s ease-out .2s;
+		    opacity: 1;
+		    @include mkdTransform(translateY(0));
+		}
+	}
+}
+
+/* ==========================================================================
+# Interactive Banner style - end
+========================================================================== */

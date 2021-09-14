@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Tabs styles
+   ========================================================================== */
+$mkd-tabs-background-color: #fcfcfc;
+
+.mkd-tabs-wrapper {
+
+    .nav-tabs {
+        margin-top: 0;
+
+        & > li {
+            &.active {
+                & > a {
+                    @include mkd-border-radius(0);
+                    border-left-color: transparent;
+
+                    &:hover,
+                    &:focus {
+                        @include mkd-border-radius(0);
+                    }
+                }
+            }
+
+            & a > i {
+                width: 25px;
+            }
+        }
+    } //close .nav-tabs
+
+    .mkd-tabs-content {
+        background-color: $mkd-tabs-background-color;
+        padding: 20px;
+    } //close .mkd-tabs-content
+
+    /* Vertical tabs
+   ========================================================================== */
+    &.vertical {
+        .nav-tabs {
+            border-bottom: 0;
+
+            & > li {
+                float: none;
+                width: 100%;
+
+                &.active {
+                    & a,
+                    & a:focus,
+                    & a:hover {
+                        border-bottom: 1px solid $mkd-border-color;
+                        margin-bottom: 0;
+                        background-color: $mkd-tabs-background-color;
+						border-left: none;
+                    }
+
+                } //close &.active
+
+                a {
+                    border-bottom: 1px solid $mkd-border-color;
+
+                    &:focus,
+                    &:hover {
+                        background-color: transparent;
+                        border-top: 1px solid $mkd-border-color;
+                    }
+                } //close a
+
+            } //close & > li
+
+        } //close .nav-tabs
+
+        .mkd-tabs-navigation-wrapper,
+        .mkd-tabs-content {
+            min-height: 300px;
+        }
+
+        .mkd-tabs-navigation-wrapper {
+            width: 200px;
+        }
+
+        .mkd-tabs-content {
+            margin-left: 198px;
+            border-left: 1px solid $mkd-border-color;
+        }
+
+        /* Vertical left tabs
+        ========================================================================== */
+        &.left {
+            .nav-tabs > li {
+                &:first-child > a {
+                    border-top: none;
+                }
+
+                & > a {
+                    border-right-color: $mkd-tabs-background-color;
+                    margin-right: 0;
+                }
+            }
+
+            .mkd-tabs-navigation-wrapper {
+                float: left;
+            }
+        } //close &.left
+
+        /* Vertical right tabs
+        ========================================================================== */
+        &.right {
+            .mkd-tabs-navigation-wrapper,
+            .mkd-tabs-wrapper.vertical.right .mkd-tabs-content {
+                float: right;
+            }
+        }
+
+    } //close &.vertical
+
+} //close .mkd-tabs-wrapper

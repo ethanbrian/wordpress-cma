@@ -1,0 +1,105 @@
+# Copyright (C) 2019 Mikado Themes
+# This file is distributed under the same license as the Mikado Twitter Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mikado Twitter Feed 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mikado-twitter-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-12-25T16:23:28+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: mikado-twitter-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Mikado Twitter Feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds Twitter feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mikado Themes"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:232
+#: lib/mkd-twitter-api.php:299
+#: lib/mkd-twitter-api.php:363
+msgid "Internal WP error"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:248
+msgid "Redirect URL couldn\\t not be generated"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:255
+msgid "Couldn't connect with Twitter API"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:311
+msgid "Access token obtained"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:316
+msgid "Authorize token and it's secret were not obtainer"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:373
+msgid "Couldn't connect with Twitter"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:378
+msgid "It seams like you haven\\t connected with your Twitter account"
+msgstr ""
+
+#: lib/mkd-twitter-api.php:388
+msgid "Couldn't retreive content from database"
+msgstr ""
+
+#: lib/mkd-twitter-helper.php:23
+msgid "ago"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:10
+msgid "Mikado Twitter Widget"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:11
+msgid "Display tweets"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:22
+msgid "Title"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:27
+msgid "User ID"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:32
+msgid "Number of tweets"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:37
+msgid "Show tweet time"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:39
+msgid "No"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:40
+msgid "Yes"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:46
+msgid "Tweets Cache Time"
+msgstr ""
+
+#: widgets/mkd-twitter-widget.php:149
+msgid "It seams that you haven't connected with your Twitter account"
+msgstr ""

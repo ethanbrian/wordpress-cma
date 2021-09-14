@@ -1,0 +1,225 @@
+@import 'small-images';
+@import 'small-slider';
+@import 'big-images';
+@import 'big-slider';
+@import 'gallery';
+
+.mkd-portfolio-single-holder {
+
+    h4{
+        font-weight: 600;
+    }
+
+    .mkd-toolbar-holder{
+        border-bottom : 1px solid #e9e9e9;
+        text-align: center;
+        margin-bottom: 35px;
+        padding: 5px 0px 35px 0px;
+        clear: both;
+
+        .mkd-portfolio-social,
+        .mkd-like-holder{
+            display: inline-block;
+            margin: 0px 13px;
+        }
+
+        .mkd-like i{
+            display: block;
+            font-size: 26px;
+            color: #474747;
+            margin-bottom: 10px;
+        }
+
+        .mkd-social-share-title,
+        .mkd-printer-title,
+        .mkd-like-holder span{
+            font-size: 12px;
+            color: #727578;
+            margin: 0px;
+        }
+
+        .mkd-like-holder span{
+            margin: 0px 1px;
+        }
+    }
+
+
+    .mkd-portfolio-info-item {
+        margin-bottom: 20px;
+
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        h4{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+    }
+
+    .mkd-portfolio-info-holder{
+
+        .mkd-portfolio-info-item{
+            border-bottom: 1px solid #e9e9e9;
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            padding-bottom: 20px;
+
+            &:last-child {
+                padding-bottom: 0;
+                border: 0;
+            }
+        }
+
+        h4{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .mkd-info-title{
+            text-transform: uppercase;
+            float: left;
+            width: 35%
+        }
+
+        p{
+            float: right;
+            width: 65%;
+        }
+    }
+
+    .mkd-portfolio-single-nav {
+        $nav-height : 55px;
+        height: $nav-height;
+        line-height: $nav-height;
+        text-align: center;
+        position: relative;
+        margin-top: 35px;
+        margin-bottom: 42px;
+        padding: 12px 0px;
+        border-top: 1px solid #e9e9e9;
+        border-bottom: 1px solid #e9e9e9;
+
+        a{
+            width: $nav-height;
+            height: $nav-height;
+            background-color: #fff;
+            position: relative;
+            display: inline-block;
+
+            &:hover span,
+            &:hover .mkd-portfolio-back-btn span{
+            	color: $first-main-color;
+            }
+        }
+
+        span {
+            color: #474747;
+            line-height: $nav-height;
+            font-size: 21px;
+            width: $nav-height;
+            height: $nav-height;
+
+            @include mkdTransition(color 0.15s ease-in-out);
+        }
+
+        .mkd-portfolio-back-btn {
+            display: inline-block;
+
+            span{
+                font-size: 58px;
+                line-height: $nav-height+3;
+                color: #e9e9e9;
+                @include mkdTransition(color 0.15s ease-in-out);
+            }
+        }
+
+        .mkd-portfolio-next,
+        .mkd-portfolio-prev,
+        .mkd-portfolio-back-btn {
+            height: $nav-height;
+        }
+
+        .mkd-portfolio-next,
+        .mkd-portfolio-prev {
+            position: absolute;
+            top: 12px;
+        }
+
+        .mkd-portfolio-prev {
+            left: 0;
+
+            a{
+                float: left;
+            }
+        }
+
+        .mkd-portfolio-next {
+            right: 0;
+
+            a{
+                float: right;
+            }
+        }
+
+        .mkd-prev-label,
+        .mkd-next-label{
+            font-size: 13px;
+            color: #262626;
+            text-transform: uppercase;
+            width: auto;
+            position: relative;
+            display: inline-block;
+            margin: 0px 20px;
+        }
+    }
+
+    .mkd-portfolio-video-lightbox {
+        position: relative;
+        display: block;
+
+        img {
+            vertical-align: middle;
+        }
+    }
+
+    .mkd-portfolio-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+
+        .mkd-portfolio-play-icon {
+            position: absolute;
+            font-size: 20px;
+            left: 50%;
+            top: 50%;
+
+            @include mkdTransform(translate(-50%, -50%));
+        }
+    }
+
+    .mkd-related-projects{
+        h3{
+            text-transform: uppercase;
+        }
+
+        .mkd-portfolio-list-holder{
+            margin-top: 30px;
+
+            article.mix{
+                margin: 0px;
+            }
+        }
+
+    }
+
+    .mkd-comment-holder{
+        padding-top: 10px;
+    }
+}

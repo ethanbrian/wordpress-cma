@@ -1,0 +1,220 @@
+@import "blocks/logo";
+@import "blocks/main_menu";
+@import "widgets/search";
+@import "widgets/sections";
+@import "widgets/banner";
+@import "widgets/general";
+@import "types/header-standard/_header-standard";
+
+@import "types/mobile-header/_mobile-header";
+
+$logo-area-height: 92px;
+$menu-area-height: 60px;
+$sticky-header-height: 60px;
+
+.mkd-page-header {
+
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  z-index: 110;
+
+    /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+    a img {
+        display: block;
+    }
+
+    .mkd-grid{
+        height: 100%;
+
+        .mkd-vertical-align-containers{
+            padding: 0;
+            @include mkdTransition(background-color 0.3s ease);
+        }
+    }
+
+    /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+
+    /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+    .mkd-logo-area {
+        height: $logo-area-height;
+        position: relative;
+        z-index: 3; //added because of the shop dropdown
+
+        .mkd-logo-wrapper a {
+            max-height: $logo-area-height*0.9;
+        }
+    }
+    /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+
+    /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+    .mkd-menu-area {
+        height: $menu-area-height;
+        position: relative;
+        @include mkdTransition(background-color 0.3s ease);
+        box-sizing: border-box;
+
+		.mkd-logo-wrapper a {
+			max-height: $menu-area-height*0.9;
+		}
+    }
+
+    /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+
+    /* ==========================================================================
+    #Sticky header styles - start
+    ========================================================================== */
+    .mkd-sticky-header{
+        height: $sticky-header-height;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        -webkit-transition: -webkit-transform 0.33s ease;
+        transition: transform 0.3s ease;
+        -webkit-backface-visibility: hidden;
+
+        &.header-appear{
+            transform: translateY(0%);
+        }
+
+        .mkd-sticky-holder {
+            height: 100%;
+            background-color: $second-main-color;
+            position: relative;
+            z-index: 2;
+        }
+
+        .admin-bar &.header-appear{
+            top: 32px;
+        }
+
+        .mkd-position-left-inner {
+            height: 100%;
+        }
+
+        .mkd-sticky-holder .mkd-logo-wrapper a {
+            max-height: $sticky-header-height*0.9;
+        }
+
+        .mkd-sticky-right{
+            vertical-align: middle;
+        }
+    }
+
+    /* ==========================================================================
+    #Sticky header styles - start
+    ========================================================================== */
+
+    /* ==========================================================================
+    #Fixed header styles - start
+    ========================================================================== */
+    .mkd-fixed-wrapper.fixed{
+        width: 100%;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        -webkit-backface-visibility: hidden;
+    }
+
+    /* ==========================================================================
+    #Fixed header - end
+    ========================================================================== */
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+
+.mkd-light-header{
+
+    .mkd-logo-area,
+    .mkd-menu-area,
+    .mkd-vertical-menu-area{
+        color: $header-light-color !important; //Beacause of inline color styles
+
+        .widget {
+			color: $header-light-color !important; //Beacause of inline color styles
+
+            p,
+            a,
+            span,
+            i,
+            .widgettitle {
+                color: $header-light-color !important; //Beacause of inline color styles
+            }
+
+        }
+
+        .mkd-light-logo{
+            opacity: 1;
+        }
+
+        .mkd-dark-logo,
+        .mkd-normal-logo{
+            opacity: 0;
+        }
+
+    }
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+
+.mkd-dark-header{
+    .mkd-logo-area,
+    .mkd-menu-area,
+    .mkd-vertical-menu-area{
+        color: $header-dark-color !important; //Because of inline color styles
+
+        .widget {
+			color: $header-dark-color !important; //Beacause of inline color styles
+
+            p,
+            a,
+            span,
+            i,
+            .widgettitle {
+                color: $header-dark-color !important; //Beacause of inline color styles
+            }
+
+        }
+
+        .mkd-dark-logo{
+            opacity: 1;
+        }
+
+        .mkd-normal-logo,
+        .mkd-light-logo{
+            opacity: 0;
+        }
+
+    }
+
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */

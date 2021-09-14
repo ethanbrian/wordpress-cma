@@ -1,0 +1,89 @@
+.mkd-mobile-header {
+    .mkd-mobile-nav {
+        display: none;
+
+        background-color: #262626;
+
+        ul {
+            list-style-type: none;
+
+            //dropdowns
+            ul {
+                margin-left: 20px;
+                display: none;
+            }
+        }
+
+        li {
+            position: relative;
+        }
+
+        a, h4 { //h4 is here because of no link option in navigation
+            border-bottom: 1px solid #8b8e90;
+            display: block;
+
+            font-size: 14px;
+            font-weight: 400;
+            color: #8b8e90;
+            padding: 9px 0px;
+            display: block;
+            position: relative;
+            text-transform: none;
+            line-height: 17px;
+            letter-spacing: 0;
+
+            &:hover {
+                color: $first-main-color;
+            }
+        }
+
+        .mobile_arrow {
+            $mobile-arrow-height: 35px;
+
+            color: #8b8e90;
+            position: absolute;
+            right: 0;
+            top: 0;
+            line-height: $mobile-arrow-height;
+            height: $mobile-arrow-height;
+            padding-right: 10px;
+            width: 50px;
+            text-align: right;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            .mkd-sub-arrow {
+                @include mkdTransition(transform 0.2s ease-in-out);
+            }
+
+            //@TODO remove this line of code when new headers are enabled
+            .fa-angle-down {
+                display: none; //temporarily
+            }
+        }
+
+        li.mkd-opened > .mobile_arrow > .mkd-sub-arrow {
+            @include mkdTransform(rotate(90deg));
+        }
+
+        & > ul > li:last-child,
+        & > .mkd-grid > ul > li:last-child{
+			& > a,
+			& > h4,
+			&.mkd-opened ul > li:last-child > a,
+			&.mkd-opened ul > li:last-child > h4{
+				border-bottom-color: transparent;
+				@include mkdTransition(border-bottom-color 0.15s ease-out);
+			}
+
+			&.mkd-opened > a,
+			&.mkd-opened > h4,
+			&.mkd-opened ul > li.mkd-opened:last-child > a,
+			&.mkd-opened ul > li.mkd-opened:last-child > h4{
+				border-bottom-color: #8b8e90;
+			}
+        }
+    }
+}

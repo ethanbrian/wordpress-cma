@@ -1,0 +1,27 @@
+.mkd-header-standard {
+
+    .mkd-logo-area {
+        background-color: #282e3f;
+    }
+    .mkd-menu-area {
+        background-color: #333a4d;
+
+        .mkd-vertical-align-containers {
+
+            .mkd-position-left:before{
+                margin-right: -3px; /* adjusts for spacing */
+            }
+
+            .mkd-position-left:after{
+                content: "";
+                margin-right: 3px; /* adjusts for spacing */
+            }
+
+            .mkd-position-left-inner{
+                height: 100%;
+            }
+        }
+    }
+
+}
+

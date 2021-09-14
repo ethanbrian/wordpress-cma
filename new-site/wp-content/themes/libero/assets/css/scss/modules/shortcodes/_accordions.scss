@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Accordion shortcode start styles
+   ========================================================================== */
+.mkd-accordion-holder {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    border-bottom: 0;
+
+    &.mkd-boxed .mkd-accordion-content .mkd-accordion-content-inner {
+        margin: 0;
+        padding: 15px 15px 25px;
+    }
+    .mkd-title-holder {
+        cursor: pointer;
+        position: relative;
+        border-bottom: 1px solid #d8d8d8;
+        background-color: #f2f2f2;
+        padding: 0 15px;
+        box-sizing: border-box;
+        @include mkdTransform(translateZ(0px));
+        @include mkdTransition(background-color 0.15s ease-out, color 0.15s ease-out);
+
+        .mkd-tab-title,
+        .mkd-tab-title-inner {
+            color: inherit;
+            line-height: inherit;
+        }
+
+        .mkd-tab-title {
+            @include mkdTableLayout;
+            box-sizing: border-box;
+            padding-bottom: 11px;
+            padding-top: 12px;
+
+            span.mkd-tab-title-inner {
+                @include mkdTableCellLayout;
+                text-align : left;
+                padding-right: 20px;
+            }
+        }
+
+        .mkd-accordion-mark {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 15px;
+            display: block;
+            color: #262626;
+            box-sizing: border-box;
+            @include mkdTransition(background-color 0.15s ease-out, border-color 0.15s ease-out);
+        }
+
+        .mkd-accordion-mark-icon {
+            font-size: 15px;
+            @include mkdTransition(color 0.15s ease-out);
+            vertical-align: middle;
+        }
+
+        &.ui-state-active,
+        &.ui-state-hover {
+            color: $first-main-color;
+            background-color: transparent;
+
+            .mkd-accordion-mark {
+                color: $first-main-color;;
+            }
+        }
+
+        &.ui-state-active{
+            border-bottom: 0;
+        }
+
+        &.ui-state-active .mkd-accordion-mark-icon .icon-arrow-down-circle {
+            transform: rotate(180deg);
+            display: block;
+        }
+    }
+
+    .mkd-accordion-content-inner {
+        margin: 0;
+        padding: 15px 15px 25px;
+    }
+
+    .ui-accordion-content-active{
+        border-bottom: 1px solid #d8d8d8;
+    }
+
+}

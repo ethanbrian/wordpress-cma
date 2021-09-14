@@ -1,0 +1,135 @@
+/* ==========================================================================
+   Video Box shortcode start styles
+   ========================================================================== */
+.mkd-video-box{
+
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    max-width: 100%;
+
+    .mkd-video-image{
+        display: block;
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(255,255,255,.1);
+            z-index: 33;
+            opacity: 0;
+            transition: opacity .3s ease-out;
+        }
+
+        &:hover {
+
+          &:after {
+            opacity: 1;
+          }
+
+          .mkd-video-box-button-holder .mkd-video-box-button{
+            background-color: $button-border-main-color;          	
+          }
+
+          img{
+          	@include mkdTransform(scale(1.05) rotate(0.01deg));
+          }
+        }
+
+        img{
+            display: block;
+            position: relative;
+            max-width: 100%;
+            z-index: 22;
+            -webkit-transition: -webkit-transform 0.2s ease-out;
+            transition: transform 0.2s ease-out;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .mkd-video-box-button-holder{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            @include mkdTransform(translate(-50%, -50%));
+            z-index: 44;
+
+            .mkd-video-box-button{
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+                width: 75px;
+                height: 75px;
+                background-color: $first-main-color;
+                overflow: hidden;
+                @include mkdBorderRadius(3px);
+                @include mkdBoxSizing(border-box);
+                @include mkdTransition(background-color 0.15s ease-out);
+
+                .mkd-video-box-button-arrow{
+                	position: absolute;
+                	top: 22px;
+                	left: 28px;
+                	border-top: 14px solid transparent;
+                	border-left: 23px solid #fff;
+                	border-bottom: 14px solid transparent;
+                	@include mkdBoxSizing(border-box);
+                }
+            }
+
+        }
+
+        .mkd-video-box-button-holder.mkd-video-has-desc{
+            @include mkdTransform(translate(-50%, calc( -50% - 36px))); //36px is half of text holder height
+        }
+
+
+    }
+
+    .mkd-video-box-text{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: $second-main-color;
+        text-align: left;
+        padding: 18px 20px;
+        box-sizing: border-box;
+        z-index: 44;
+        opacity: 0;
+        @include mkdTransition(opacity 0.15s ease-out);
+
+        &.mkd-vtext-appear{
+        	opacity: 1;
+        }
+
+        .mkd-video-box-title{
+            display: block;
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.4em;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        p{
+            color: #ffffff;
+            font-size: 14px;
+            line-height: 23px;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+    }
+
+
+}
+
+
+/* ==========================================================================
+   Video Box shortcode end styles
+   ========================================================================== */

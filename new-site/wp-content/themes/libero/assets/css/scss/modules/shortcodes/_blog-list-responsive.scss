@@ -1,0 +1,66 @@
+@media only screen and (max-width: $ipad-landscape){
+    
+    .mkd-blog-list-holder.mkd-boxes.mkd-four-columns > ul > li{
+		width: 49%;
+		margin: 0 2% 25px 0;
+        
+        &:nth-child(2n){
+            margin: 0 0 25px;
+        }
+        &:nth-child(2n+1){
+            clear:both;
+        }        
+	}
+}
+
+@media only screen and (min-width: $phone-landscape) and (max-width: $ipad-landscape) {
+    
+    .mkd-vertical-menu-area .mkd-blog-list-holder.mkd-boxes.mkd-two-columns > ul > li,
+	.mkd-vertical-menu-area .mkd-blog-list-holder.mkd-boxes.mkd-four-columns > ul > li{
+		width: 49%;
+        margin: 0 2% 25px 0;
+        
+        &:nth-child(2n){
+            margin: 0 0 25px;
+        }
+         &:nth-child(2n+1){
+            clear:both;
+        }   
+	}    
+}
+
+@media only screen and (max-width: $phone-landscape){
+    
+	.mkd-blog-list-holder.mkd-boxes.mkd-four-columns > ul > li,
+    .mkd-blog-list-holder.mkd-boxes.mkd-three-columns > ul > li,
+    .mkd-blog-list-holder.mkd-boxes.mkd-two-columns > ul > li{
+        width: 100% !important; // important is set to override all other selectors
+        margin: 0 0 25px !important;
+    }
+    
+    .mkd-blog-list-holder.mkd-image-in-box{
+        
+        .mkd-blog-list-item-inner{
+            display: block;
+        }
+        .mkd-item-text-holder{
+            display: block;
+            padding: 20px;
+        }
+        .mkd-item-image{
+            display: block;
+            width: auto;
+        }
+
+        li:last-child .mkd-item-image{
+        	border-bottom: none;
+        }
+    }
+
+	.mkd-blog-list-holder.mkd-minimal{
+		.mkd-blog-list-item-inner .mkd-item-text-holder {
+			padding: 20px 0px 20px 38px;
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+@include ipad-landscape(){
+
+	body .mkd-search-cover,
+	body .mkd-search-slide-header-bottom,
+	body .mkd-search-slide-header-bottom.mkd-animated{
+		width: 100%;
+		left: 0;
+	}
+} 

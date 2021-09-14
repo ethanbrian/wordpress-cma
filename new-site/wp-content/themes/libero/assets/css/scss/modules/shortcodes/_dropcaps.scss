@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Dropcaps shortcodes styles
+   ========================================================================== */
+.mkd-dropcaps{
+	position: relative;
+	display: inline-block;
+	float: left;
+	height: 42px;
+	width: 42px;
+	line-height: 42px;
+	font-size: 34px;
+	color: $first-main-color;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 4px 0 0;
+
+	&.mkd-square{
+		font-size: 25px;
+		background-color: $first-main-color;
+		color: #fff;
+	}
+
+	&.mkd-circle{
+		@extend .mkd-square;
+		@include mkdBorderRadius(2em);
+	}
+}
+
+
+/* ==========================================================================
+   Dropcaps shortcode end styles
+   ========================================================================== */

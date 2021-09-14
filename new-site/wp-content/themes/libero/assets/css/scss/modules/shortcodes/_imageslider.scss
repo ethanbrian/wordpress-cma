@@ -1,0 +1,221 @@
+.mkd-image-slider {
+	opacity: 0; // opacity via JS
+
+
+	&.with-thumbs{
+		.flex-viewport {
+
+			padding: 8px;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: calc(100% - 16px);
+				height: calc(100% - 16px);
+				border: 8px solid #fff;
+				z-index: 111;
+			}
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: calc(100% - 2px);
+				height: calc(100% - 2px);
+				border: 1px #e8e8e8 solid;
+				z-index: 222;
+			}
+
+		}
+	}
+
+	.slides li {
+	    position: relative;
+
+	     	img {
+	        	display: inline-block;
+	        	vertical-align: middle;
+	        	width: 100% ;
+	    	}
+
+	}
+
+	.mkd-caption-holder {
+	    position: absolute;
+	    bottom: 0;
+	    background-color: rgba(53, 60, 78,.85);
+	    box-sizing: border-box;
+	    padding: 20px;
+	    width: 100%;
+
+	    .flex-caption {
+	        color: #fff;
+	        opacity: 0;
+	        @include mkdTransition(opacity .3s ease-out);
+	    }
+
+	    span.flex-caption{
+	    	display: block;
+	    	font-size: 16px;
+	    	line-height: 1.4em;
+	    	font-weight: 900;
+	    	text-transform: uppercase;
+	    }
+
+        p.flex-caption {
+            font-size: 14px;
+        }
+
+	}
+
+	.flex-active-slide .flex-caption {
+	    	opacity: 1;
+	 }
+
+	.flex-control-nav.flex-control-thumbs {
+	    list-style: none;
+	    margin: 7px 7px 8px 8px;
+
+		&:before,
+		&:after{
+			content: " ";
+			display: table;
+		}
+
+		&:after{
+			clear: both;
+		}
+
+	    li {
+	    	position: relative;
+	        display: inline-block;
+	        float: left;
+	        height: 78px;
+	        width: 78px;
+	        text-align: center;
+	        border: 7px solid #fff;
+	        margin-left: -7px;
+	        margin-top: -7px;
+	        cursor: pointer;
+
+            .mkd-image-slider-thumb-hover {
+            	pointer-events: none;
+                content: '';
+            	position: absolute;
+                width: 100%;
+                height: 100%;
+            	opacity: 0;
+                left: 0;
+                top: 0;
+            	background-color: rgba(53, 60, 78, 0.2);
+            	@include mkdTransition(opacity .2s cubic-bezier(0.22, 0.61, 0.36, 1));
+            } 
+
+        	&:hover .mkd-image-slider-thumb-hover {
+                opacity: 1;
+        	}
+
+	        &:before {
+	            content: '';
+	            position: absolute;
+	            width: 72px;
+	            height: 72px;
+	            border: 3px solid $first-main-color;
+	            left: 0;
+	            z-index: -1;
+	            opacity: 0;
+	            @include mkdTransition(opacity .15s ease-in-out);
+	        }
+
+			&:after{
+				content: '';
+				position: absolute;
+				top: -8px;
+				left: -8px;
+				height: calc(100% + 14px);
+				width: calc(100% + 14px);
+				border: 1px solid #e8e8e8;
+				z-index: -1;
+			}
+
+	        &.active-item:before {
+	            z-index: 1;
+	            opacity: 1;
+	        }
+
+	        img {
+	            display: block;
+	            height: 100%;
+	        }
+	    }
+	}
+
+	&:not(.with-thumbs) {
+    	position: relative;
+
+    	.flex-viewport:before {
+    	    display: none;
+    	}
+
+        .flexslider{
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slides{
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    	.mkd-caption-holder {
+            height: 70px;
+            min-height: 70px;
+    	    display: table;
+    	    text-align: center;
+
+    	    p {
+    	        padding: 0 10%;
+    	        display: table-cell;
+    	        vertical-align: middle;
+    	        box-sizing: border-box;
+    	    }
+    	}
+
+    	 .mkd-slider-navigation {
+    	    position: absolute;
+    	    bottom: 0;
+    	    width: 100%;
+    	    min-height: 70px;
+             z-index: 10;
+
+    	    a {
+    	        background-color: #fff;
+    	        @include mkdBoxSizing(border-box);
+    	        width: 55px;
+    	        height: 55px;
+    	        position: absolute;
+    	        bottom: 7px;
+    	        font-size: 22px;
+    	        line-height: 57px;
+    	        text-align: center;
+    	        color: rgba(25,25,25,.7);
+
+    	        &.flex-prev {
+    	            left: 7px;
+    	        }
+
+    	        &.flex-next {
+    	            right: 7px;
+    	        }
+
+    	        &:hover{
+    	        	color: $first-main-color;
+    	        }
+    	    }
+    	}
+	} 
+
+}

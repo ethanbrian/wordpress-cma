@@ -1,0 +1,166 @@
+//layout mixins - start
+
+@mixin mkdTableLayout(){
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+@mixin mkdTableCellLayout(){
+    position: relative;
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+//layout mixins - end
+
+//transition mixins - start
+
+@mixin mkdTransition($transition-param...) {
+    -webkit-transition: $transition-param;
+    transition: $transition-param;
+}
+
+@mixin mkdTransform($transform-param...) {
+    -webkit-transform: $transform-param;
+    transform: $transform-param;
+}
+
+@mixin mkdAnimation($animation-param...) {
+	-webkit-animation: $animation-param;
+	animation: $animation-param;
+}
+
+@mixin mkdTransformOrigin($animation-param...) {
+	-webkit-transform-origin: $animation-param;
+    transform-origin: $animation-param;
+}
+
+@mixin mkdBoxShadow($shadow-property...) {
+    -webkit-box-shadow: $shadow-property;
+    -moz-box-shadow: $shadow-property;
+    box-shadow: $shadow-property;
+}
+
+@mixin mkdBorderRadius($border-radius...) {
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    border-radius: $border-radius;
+}
+
+@mixin mkdBoxSizing($box-sizing) {
+    -webkit-box-sizing: $box-sizing;
+    -moz-box-sizing: $box-sizing;
+    box-sizing: $box-sizing;
+}
+//transition mixins - end
+
+//media query mixins - start
+
+@mixin laptop-landscape {
+    @media only screen and (max-width: $laptop-landscape) {
+        @content;
+    }
+}
+
+@mixin ipad-landscape {
+    @media only screen and (max-width: $ipad-landscape) {
+        @content;
+    }
+}
+
+@mixin ipad-portrait {
+    @media only screen and (max-width: $ipad-portrait) {
+        @content;
+    }
+}
+
+@mixin phone-landscape {
+    @media only screen and (max-width: $phone-landscape) {
+        @content;
+    }
+}
+
+@mixin phone-portrait {
+    @media only screen and (max-width: $phone-portrait) {
+        @content;
+    }
+}
+
+@mixin smaller-phone-portrait {
+    @media only screen and (max-width: $smaller-phone-portrait) {
+        @content;
+    }
+}
+
+//media query mixins - end
+
+//animation mixin - start
+
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} { @content };
+    @keyframes #{$name} { @content };
+}
+
+@mixin animation ($name, $duration, $repeat, $timing, $delay) {
+    -webkit-animation-name: $name;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-iteration-count: $repeat;
+    -webkit-animation-timing-function: $timing;
+    -webkit-animation-delay: $delay;
+    -webkit-animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-iteration-count: $repeat;
+    animation-timing-function: $timing;
+    animation-delay: $delay;
+    animation-fill-mode: forwards; /* this prevents the animation from restarting! */
+}
+
+//animation mixin - end
+
+// Placeholder text mixin - start
+@mixin placeholder($color: $input-color-placeholder) {
+  &::-moz-placeholder           { color: $color;   // Firefox
+                                  opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
+  &:-ms-input-placeholder       { color: $color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: $color; } // Safari and Chrome
+}
+
+// Placeholder text mixin - end
+
+//Widgets mixins
+
+@mixin tagCloud(){
+	display: inline-block;
+	padding: 9px 14px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	font-size: 13px !important; //because of the inline style
+	text-transform: uppercase;
+	border: 1px solid #ebebeb;
+	@include mkdBoxSizing(border-box);
+	@include mkdTransition(color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease);
+
+	&:hover{
+		background-color: $first-main-color;
+		border-color: $first-main-color;
+		color: #fff;
+	}
+}
+
+@mixin selectAndOption(){
+	width: 100%;
+	height: 40px;
+	padding-left: 5px;
+	line-height: 40px;
+	border-radius: 0;
+	font-family: inherit;
+	font-size: 13px;
+}

@@ -1,0 +1,272 @@
+
+/* ==========================================================================
+   #Animation styles - start
+   ========================================================================== */
+
+@include keyframes(element-from-left) {
+	0% {
+		opacity: 0;
+		transform: translate(-20%, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+
+@include keyframes(element-from-right) {
+	0% {
+		opacity: 0;
+		transform: translate(20%, 0);
+
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+@include keyframes(element-from-top) {
+	0% {
+		opacity: 0;
+		transform: translate(0, -30%);
+
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+@include keyframes(element-from-bottom) {
+	0% {
+		opacity: 0;
+		transform: translate(0, 30%);
+
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 30%);
+	}
+}
+
+
+.mkd-element-from-left,
+.mkd-element-from-right,
+.mkd-element-from-top,
+.mkd-element-from-bottom,
+.mkd-element-from-fade {
+	display: inline-block;
+	width: 100%;
+}
+
+.touch .mkd-no-animations-on-touch .mkd-element-from-left,
+.touch .mkd-no-animations-on-touch .mkd-element-from-right,
+.touch .mkd-no-animations-on-touch .mkd-element-from-top,
+.touch .mkd-no-animations-on-touch .mkd-element-from-bottom,
+.touch .mkd-no-animations-on-touch .mkd-element-from-fade {
+
+	> div {
+		opacity: 1;
+		@include mkdAnimation(none);
+		@include mkdTransform(scale(1));
+	}
+}
+
+.mkd-element-from-left,
+.mkd-element-from-right,
+.mkd-element-from-top,
+.mkd-element-from-bottom,
+.mkd-element-from-fade {
+	
+	> div {
+		opacity: 0;
+		display: inline-block;
+		width: 100%;
+		vertical-align: middle;
+	}
+}
+
+.mkd-element-from-fade {
+
+	&.mkd-element-from-fade-on {
+
+		> div {
+			opacity: 1;
+			@include mkdTransition(opacity .8s ease 0s);
+			-webkit-backface-visibility: hidden;
+		}
+	}
+}
+
+.mkd-element-from-left {
+
+	&.mkd-element-from-left-on {
+
+		> div {
+
+			@include mkdAnimation(element-from-left 0.7s 1 ease-in-out);
+			opacity: 1;
+			-webkit-backface-visibility: hidden;
+		}
+	}
+}
+
+.mkd-element-from-right {
+
+	&.mkd-element-from-right-on {
+
+		> div {
+			@include mkdAnimation(element-from-right 0.7s 1 ease-in-out);
+			opacity: 1;
+			-webkit-backface-visibility: hidden;
+		}
+	}
+}
+
+.mkd-element-from-top {
+
+	&.mkd-element-from-top-on {
+
+		> div {
+			@include mkdAnimation(element-from-top 0.7s 1 ease-in-out);
+			opacity: 1;
+			-webkit-backface-visibility: hidden;
+		}
+	}
+}
+
+.mkd-element-from-bottom {
+
+	&.mkd-element-from-bottom-on {
+
+		> div {
+			@include mkdAnimation(element-from-bottom 0.7s 1 ease-in-out);
+			opacity: 1;
+			-webkit-backface-visibility: hidden;
+		}
+	}
+}
+
+.touch .mkd-no-animation-on-touch .mkd-flip-in,
+.touch .mkd-no-animation-on-touch .mkd-grow-in,
+.touch .mkd-no-animation-on-touch .mkd-z-rotate,
+.touch .mkd-no-animation-on-touch .mkd-x-rotate,
+.touch .mkd-no-animation-on-touch .mkd-y-translate,
+.touch .mkd-no-animation-on-touch .mkd-fade-in-down,
+.touch .mkd-no-animation-on-touch .mkd-fade-in-left-x-rotate,
+.touch .mkd-no-animation-on-touch .mkd-fade-in{
+
+	@include mkdTransition(none !important);
+	@include mkdTransform(none !important);
+	opacity: 1 !important;
+
+}
+
+.mkd-flip-in {
+
+	opacity: 0;
+	@include mkdTransform(perspective(1000px) rotateY(25deg));
+	@include mkdTransition(all 1.1s ease-in-out);
+
+	&.mkd-flip-in-on {
+		opacity: 1;
+		@include mkdTransform(rotateY(0deg));
+	}
+}
+
+.mkd-grow-in {
+
+	opacity: 0;
+	@include mkdTransform(scale(0.8));
+	@include mkdTransition(all 1s cubic-bezier(0,1,.5,1));
+	-webkit-backface-visibility: hidden;
+
+	&.mkd-grow-in-on {
+		opacity: 1;
+		@include mkdTransform(scale(1));
+	}
+}
+
+.mkd-z-rotate {
+
+	opacity: 0;
+	@include mkdTransform(rotateZ(7deg));
+	@include mkdTransition(all 300ms cubic-bezier(0.165, 0.84, 0.44, 1));
+	@include mkdTransformOrigin(top right);
+	-webkit-backface-visibility: hidden;
+
+	&.mkd-z-rotate-on {
+		opacity: 1;
+		@include mkdTransform(rotateZ(0deg));
+	}
+}
+
+
+.mkd-x-rotate {
+
+	opacity: 0;
+	@include mkdTransform(perspective(900px) rotateX(-45deg));
+	@include mkdTransition(all .6s cubic-bezier(.785,.135,.15,.86));
+	-webkit-backface-visibility: hidden;
+
+	&.mkd-x-rotate-on {
+		opacity: 1;
+		@include mkdTransform(rotateX(0deg));
+	}
+}
+
+.mkd-y-translate {
+
+	opacity: 0;
+	@include mkdTransform(translate(0,30px));
+	@include mkdTransition(all 700ms cubic-bezier(0.680, -0.650, 0.265, 1.650));
+
+	&.mkd-y-translate-on {
+		opacity: 1;
+		@include mkdTransform(translate(0,0));
+	}
+
+}
+
+.mkd-fade-in-down {
+
+	opacity: 0;
+	@include mkdTransform(translate(0,-25px));
+	@include mkdTransition(all .9s cubic-bezier(0,1,.5,1));
+
+	&.mkd-fade-in-down-on {
+		opacity: 1;
+		@include mkdTransform(translate(0,0));
+	}
+}
+
+.mkd-fade-in-left-x-rotate {
+
+	opacity: 0;
+	@include mkdTransform(rotateZ(-5deg) translate(-30px,0));
+	@include mkdTransition(all .4s ease);
+
+	&mkd-fade-in-left-x-rotate-on {
+		opacity: 1;
+		@include mkdTransform(rotateZ(0deg) translate(0,0));
+	}
+}
+
+
+.mkd-fade-in {
+
+	opacity: 0;
+	@include mkdTransition(all 1s ease);
+
+	&.mkd-fade-in-on {
+		opacity: 1;
+	}
+}
+
+
+
+/* ==========================================================================
+   #Animation styles - end
+   ========================================================================== */

@@ -1,0 +1,65 @@
+    
+.mkd-image-with-hover-info {
+
+    .mkd-image-with-hover-info-inner {
+        position: relative;
+
+        %mkd-infos {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .mkd-info-holder {
+            @extend %mkd-infos;
+            overflow: hidden;
+
+            .mkd-iwt-title-holder h1{
+                font-weight: 400;
+            }
+        }
+
+        .mkd-link {
+            @extend %mkd-infos;
+            z-index: 100;
+        }
+
+        .mkd-info {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px 30px;
+            z-index: 33;
+            opacity: 0;
+            @include mkdTransition(opacity .15s ease-out, left .2s ease-out);
+        }
+
+        .mkd-mask {
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 60%;
+            background: url(../img/mask.png) no-repeat top center;
+            background-size: 100% 100%;
+            @include mkdTransition(top .4s ease-out);
+        }
+    }
+
+    &:hover {
+        .mkd-info {
+            left: 0;
+            opacity: 1;
+            @include mkdTransition(left .4s ease .22s);
+        }
+
+        .mkd-mask {
+            top: 0 !important;
+        }
+
+    }
+}

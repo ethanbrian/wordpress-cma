@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Fullwidth Slider shortcode responsive start styles
+   ========================================================================== */
+@include laptop-landscape{
+	.mkd-fullwidth-slider-item {
+
+		.mkd-fullwidth-slider-item-content-wrapper{
+			width: 950px;
+		}
+	}
+}
+
+@include ipad-portrait{
+
+  .mkd-fullwidth-slider-item {
+
+	height: 450px;
+
+	.mkd-fullwidth-slider-item-image-holder-wrapper {
+	  display: none;
+	}
+
+	.mkd-fullwidth-slider-item-content-holder {
+	  background: rgba(34,40,56,0.8);
+	}
+
+	.mkd-fullwidth-slider-item-content-wrapper {
+
+	  .mkd-fullwidth-slider-item-wrapper-inner {
+		width: 100vw;
+	  }
+
+	  .mkd-fullwidth-slider-item-wrapper-inner:after {
+		display: none;
+	  }
+
+	  .mkd-fullwidth-slider-item-elements-holder {
+		padding: 0 40px 0 20px;
+	  }
+
+	  .mkd-fullwidth-slider-item-title > * {
+		font-size: 22px;
+	  }
+
+	}
+  }
+
+
+	.mkd-fullwidth-slider-holder .owl-controls{
+		right: 3%;
+		left: auto;
+	}
+
+}
+
+@include ipad-landscape{
+  .mkd-fullwidth-slider-item {
+
+	height: 600px;
+
+	.mkd-fullwidth-slider-item-image-holder-wrapper {
+	  display: none;
+	}
+
+	.mkd-fullwidth-slider-item-content-wrapper{
+		width: 768px;
+	}
+  }
+}
+
+@include smaller-phone-portrait {
+
+  .mkd-fullwidth-slider-item {
+	.mkd-fullwidth-slider-item-content-wrapper {
+	  .mkd-fullwidth-slider-item-elements-holder {
+		padding: 0 35px;
+	  }
+	}
+  }
+}
+
+/* ==========================================================================
+   Fullwidth Slider shortcode responsive end styles
+   ========================================================================== */

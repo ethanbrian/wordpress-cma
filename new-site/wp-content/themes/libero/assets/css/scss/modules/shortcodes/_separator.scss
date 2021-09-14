@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Separator start style
+   ========================================================================== */
+.mkd-separator-holder {
+	position: relative;
+	height: 1px;
+	margin: 10px 0;
+	font-size: 0; //because of the spacing between inlin-block elements
+
+	&.mkd-separator-center {
+		text-align: center;
+	}
+	&.mkd-separator-left {
+		text-align: left;
+	}
+	&.mkd-separator-right {
+		text-align: right;
+	}
+
+	&.mkd-separator-full-width {
+		.mkd-separator {
+			width: 100% !important;
+		}
+	}
+
+	&.mkd-separator-with-icon{
+		.mkd-separator-icon{
+			display: inline-block;
+			@include mkdTransform(translateY(-50%));
+		}
+
+		.mkd-separator-icon img{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		&.mkd-animate {
+			.mkd-separator {
+				@include mkdTransform(scale(0));
+				-moz-transition: -moz-transform .2s ease-out .4s;
+				-webkit-transition: -webkit-transform .2s ease-out .4s;
+				transition: transform .2s ease-out .4s;
+			}
+
+			.mkd-separator:first-of-type {
+				@include mkdTransformOrigin(100% 50%);
+			}
+
+			.mkd-separator:last-of-type {
+				@include mkdTransformOrigin(0 50%);
+			}
+		}
+
+		&.mkd-animate.appeared {
+			.mkd-separator {
+				@include mkdTransform(scale(1));
+			}
+		}
+	}
+}
+.mkd-separator{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	border-bottom: 1px solid #dddddd;
+}
+
+.mkd-slider .mkd-separator-holder.mkd-separator-with-icon .mkd-separator-icon {
+	-webkit-backface-visibility: hidden; //rev slider cutting it off fix
+}
+
+/* ==========================================================================
+   End of Separator style
+   ========================================================================== */

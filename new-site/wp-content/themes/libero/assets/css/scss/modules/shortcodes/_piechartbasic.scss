@@ -1,0 +1,57 @@
+/* ==========================================================================
+# Pie Chart Basic - begin
+========================================================================== */
+
+.mkd-pie-chart-holder {
+	position: relative;
+	display: block;
+
+	.mkd-percentage {
+		position: relative;
+		display: block;
+		height: 142px;
+		width: 142px;
+		line-height: 142px;
+		text-align: center;
+		margin: 0 auto;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		@include mkdTransition(opacity .3s ease-out);
+
+		.mkd-pie-title {
+			line-height: inherit;
+		}
+
+	}
+
+	.mkd-percentage canvas {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.mkd-to-counter {
+		position: relative;
+		font-size: 32px;
+		color: #262626;
+
+		&:after{
+			content: '%';
+		}
+	}
+
+	.mkd-pie-chart-text {
+		text-align: center;
+		margin: 29px 0 0;
+
+		.mkd-pie-title {
+			margin: 0 0 19px;
+		}
+
+	}
+
+}
+
+/* ==========================================================================
+# Pie Chart Basic - end
+========================================================================== */

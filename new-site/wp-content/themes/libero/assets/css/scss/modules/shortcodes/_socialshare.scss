@@ -1,0 +1,251 @@
+/* ==========================================================================
+# Social Share style - begin
+========================================================================== */
+
+.mkd-social-share-holder {
+	
+	ul {
+		list-style: none;
+		display: inline-block;
+	}
+
+	> *,
+	i {
+		@include mkdTransition(color .15s ease-out, background-color .15s ease-out);
+	}
+	
+}
+
+/* List type - begin
+========================================================================== */
+
+
+.mkd-social-share-holder.mkd-list {
+
+	li {
+		display: inline-block;
+		margin-right: 12px;
+		padding-right: 10px;
+		padding-top: 3px;
+		border-right: 1px solid #dadada;
+
+		a{
+			display: inline-block;
+			vertical-align: top;
+
+			&:hover .mkd-social-network-icon{
+				color: #222;
+			}
+		}
+
+		.mkd-social-network-icon{
+			display: block;
+			text-align: center;
+			font-size: 23px;
+			margin-bottom: 8px;
+			@include mkdTransition(color 0.15s ease-out);
+		}
+
+		.mkd-social-network-text{
+			display: block;
+			font-size: 13px;
+			line-height: 15px;
+			color: $default-text-color;
+			text-transform: capitalize;
+		}
+	}
+
+	li:last-child{
+		border-right: none;
+	}
+
+}
+
+/* List type - end
+========================================================================== */
+
+/* Dropdown type - begin
+========================================================================== */
+
+.mkd-social-share-holder.mkd-dropdown {
+	position: relative;
+	display: inline-block;
+
+	.mkd-social-share-dropdown-opener {
+		display: block;
+		text-align: center;
+
+		.social_share{
+			display: block;
+			font-size: 26px;
+			color: #222222;
+			margin-bottom: 10px;
+		}
+
+		.mkd-social-share-title{
+			display: block;
+			font-size: 12px;
+			color: $default-text-color;
+			@include mkdTransition(color .15s ease-out, backgroud-color .15s ease-out)
+		}
+	}
+
+	.mkd-social-share-dropdown {
+		visibility: hidden;
+		z-index: 950;
+		position: absolute;
+		left: 0;
+
+		ul {
+			position: relative;
+			display: block;
+			z-index: 990;
+			padding: 0 !important;
+			min-width: 66px;
+			font-weight: 400;
+			@include mkdTransition(left .15s ease-in-out, opacity .2s ease-out, top .15s ease-in-out);
+		}
+
+		ul li {
+			visibility: hidden;
+			position: absolute;
+			text-align: center;
+			min-width: 66px;
+			float:left;
+			opacity: 0.2;
+			font-size: 20px;
+			padding: 10px 0;
+			@include mkdTransition(opacity 0.2s ease-out);
+			@include mkdBoxSizing(border-box);
+			background-color: #fff;
+			border: 1px solid $border-main-color;
+
+			a{
+				color: #474747;
+			}
+
+			a *{
+				display: block;
+			}
+
+			&:hover{
+				background-color: #f7f7f7;
+			}
+
+			&:hover a{
+				color: $first-main-color;
+			}
+
+
+			&:hover .mkd-social-network-text{
+				color: $first-main-color;
+			}
+
+			.mkd-social-network-text{
+				font-size: 12px;
+				line-height: 20px;
+				color: $default-text-color;
+				padding-top: 5px;
+			}
+		}
+
+		img {
+			width: 8px;
+			margin-right: 10px;
+		}
+
+	}
+
+}
+
+.mkd-social-share-holder.mkd-dropdown:hover {
+
+	.mkd-social-share-dropdown {
+		ul {
+			left: 0;
+			top:0;
+			opacity: 1;
+
+			li {
+			opacity: 1;
+			visibility: visible;
+			cursor: pointer;
+			}
+		}
+	}
+
+	.mkd-social-share-dropdown ul li {
+
+		@for $i from 2 through 7 {
+			&:nth-child(#{$i}) { left: 65px * ($i - 1); }
+		}
+
+	}
+
+}
+
+/*Start Blog Share additional styles*/
+.mkd-blog-share {
+
+	@include mkdTransition(color .15s ease-out, background-color .15s ease-out);
+
+	.mkd-social-share-dropdown {
+		ul {
+    		left: -100px;
+    		opacity: 0;
+		}
+	}
+
+	.mkd-social-share-dropdown-opener {
+	    position: relative;
+	    z-index: 1111;
+	    background-color: #fff;
+
+	    i {
+	    	background-color: #fff;
+	    }
+	}
+
+	&:hover {
+		background-color: #f7f7f7;
+
+		.mkd-social-share-holder > *,
+		.mkd-social-share-holder i {
+			background-color: #f7f7f7;
+		}
+
+		.mkd-social-share-holder .mkd-social-share-title,
+		.mkd-social-share-holder i.icon-share  {
+			color: $first-main-color;
+		}
+	}
+}
+
+/*End Blog Share additional styles*/
+
+
+/*Start Portfolio Share additional styles*/
+.mkd-portfolio-social {
+	.mkd-social-share-dropdown {
+		ul  {
+	    	top: -20px;
+	    	opacity: 0;
+		}
+	}
+}
+/*End Portfolio Share additional styles*/
+
+/* Dropdown type - end
+========================================================================== */
+
+/* ==========================================================================
+# Social Share style - end
+========================================================================== */
+
+
+
+
+
+
+
+

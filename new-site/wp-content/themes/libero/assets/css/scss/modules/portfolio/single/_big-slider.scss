@@ -1,0 +1,28 @@
+/* ==========================================================================
+# Portfolio Single Big Slider - begin
+========================================================================== */
+
+.big-slider {
+
+	.mkd-big-image-holder {
+		margin-bottom: 30px;
+	}
+
+    .mkd-owl-slider .owl-buttons .owl-prev{
+        top: auto;
+        @include mkdTransform(none);
+        bottom: 7px;
+        left: 7px;
+    }
+
+    .mkd-owl-slider .owl-buttons .owl-next{
+        top: auto;
+        @include mkdTransform(none);
+        bottom: 7px;
+        right: 7px;
+    }
+}
+
+/* ==========================================================================
+# Portfolio Single Big Slider - end
+========================================================================== */

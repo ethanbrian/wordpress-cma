@@ -1,0 +1,35 @@
+@media only screen and (max-width: $phone-landscape) {
+
+	.mkd-testimonials {
+
+		.mkd-testimonial-content{
+			margin-bottom: 20px;
+		}
+
+		.mkd-testimonial-content-inner {
+			float:none;
+			margin-left:0;
+			margin-top:10px;
+			max-width: 100%;
+			width: 100%;
+			box-sizing: border-box;
+
+			&:before, &:after {display: none;}
+		}
+
+		.mkd-testimonial-image-holder {
+			float: none;
+			text-align: left;
+			display: block;
+		}
+	}
+}
+
+
+@include phone-portrait{
+	.mkd-testimonials.owl-carousel{
+		.owl-pagination{
+			display: none;
+		}
+	}
+}

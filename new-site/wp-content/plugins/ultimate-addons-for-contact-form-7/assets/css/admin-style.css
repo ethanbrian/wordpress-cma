@@ -1,0 +1,56 @@
+/* Style the uacf7-tab */
+.uacf7-tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #2f3542;
+  border-bottom: 0
+}
+
+/* Style the buttons inside the uacf7-tab */
+.uacf7-tab a {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+    color: #fff;
+    border-right: 1px solid #fff
+}
+.uacf7-tab a:last-child {
+    border-right: 0
+}
+/* Change background color of buttons on hover */
+.uacf7-tab a:hover {
+  background-color: #fff;
+    color: #444
+}
+
+/* Create an active/current uacf7-tablink class */
+.uacf7-tab a.active {
+  background-color: #fff;
+    color: #444
+}
+
+/* Style the uacf7-tab content */
+.uacf7-tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+    background-color: #fff
+}
+
+.multistep_fields_row {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    clear: both;
+}
+.multistep_field_column {
+    width: 50%;
+    float: left;
+    display: inline-block
+}

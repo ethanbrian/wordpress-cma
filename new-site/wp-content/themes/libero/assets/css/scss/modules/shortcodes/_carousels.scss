@@ -1,0 +1,211 @@
+/* ==========================================================================
+# Carousels style - begin
+========================================================================== */
+
+.mkd-carousel-holder {
+
+	opacity: 0; //add opacity via JS
+
+	.mkd-carousel-item-holder {
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+		position: relative;
+
+		.mkd-carousel-item-holder-inner{
+			position: relative;
+			height: 100%;
+			width: 100%;
+			display: inline-block;
+
+			a{
+				width: 100%;
+			}
+		}
+
+
+		/* Image change on hover - begin
+		========================================================================== */
+
+		.mkd-carousel-first-image-holder {
+			display: inline-block;
+			position: relative;
+			width: 100%;
+			opacity: 1;
+			z-index: 5;
+			-webkit-transition: -webkit-transform .25s ease-out;
+			transition: transform .25s ease-out;
+
+			img {
+				-webkit-backface-visibility:hidden; //blur fix
+				width:100%;
+				vertical-align: middle;
+			}
+		}
+
+		&:hover .mkd-carousel-first-image-holder {
+		    transform: translateY(100%);
+		    opacity: 0;
+		    -webkit-transition: -webkit-transform .25s ease-out, opacity .05s ease-out .15s;
+		    transition: transform .25s ease-out, opacity .05s ease-out .15s;
+			
+		}
+
+		.mkd-carousel-second-image-holder {
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			display: inline-block;
+			top: -100%;
+			width: 100%;
+			-webkit-transition: top .25s ease-out, -webkit-transform .25s ease-out, opacity .1s ease-out .2s;
+			transition: top .25s ease-out,  transform .25s ease-out, opacity .1s ease-out .2s;
+
+			img {
+				-webkit-backface-visibility:hidden; //blur fix
+				width:100%;
+				vertical-align: middle;
+			}
+		}
+
+		&:hover .mkd-carousel-second-image-holder {
+		    opacity: 1;
+		    top: 50%;
+		    @include mkdTransform(translate(0,-50%));
+		    -webkit-transition: top .25s ease-out, -webkit-transform .25s ease-out, opacity .15s ease-out;
+		    transition: top .25s ease-out, transform .25s ease-out, opacity .15s ease-out;
+		}
+
+
+		/* Image change on hover - end
+		========================================================================== */
+
+	}
+
+		/* Carousel grid - start
+		========================================================================== */
+
+	.mkd-carousel-grid{
+		.owl-wrapper-outer{
+			width: auto;
+			margin-right: -3px;
+		}
+		.mkd-carousel-item-holder{
+			border-right: 3px solid transparent;
+
+			&:first-of-type {
+				border-bottom: 3px solid transparent;
+				@include mkdTransition(border-color .3s ease-out .7s);
+			}
+
+			&:hover .mkd-carousel-first-image-holder {
+			    transform: translateX(100%);
+			    opacity: 0;
+			    -webkit-transition: -webkit-transform .25s ease-out, opacity .05s ease-out .15s;
+			    transition: transform .25s ease-out, opacity .05s ease-out .15s;
+			}
+
+			.mkd-carousel-second-image-holder {
+				position: absolute;
+				opacity: 0;
+				display: inline-block;
+				left: -100%;
+				top:0;
+				height: 100%;
+				width: 100%;
+				@include mkdTransform(none);
+				-webkit-transition: left .25s ease-out, -webkit-transform .25s ease-out, opacity .1s ease-out .1s;
+				transition: left .25s ease-out,  transform .25s ease-out, opacity .1s ease-out .1s;
+
+				img {
+					-webkit-backface-visibility:hidden; //blur fix
+					width:100%;
+				}
+			}
+
+			&:hover .mkd-carousel-second-image-holder {
+			    opacity: 1;
+			    left:0;
+			    top:0;
+			    @include mkdTransform(none);
+			    -webkit-transition: left .25s ease-out, -webkit-transform .25s ease-out, opacity .1s ease-out;
+			    transition: left .25s ease-out, transform .25s ease-out, opacity .1s ease-out;
+			}
+
+			&.active:nth-child(3){
+				border-right: none;
+			}
+
+		}
+
+	}
+
+		/* Carousel grid - end
+		========================================================================== */
+
+	/* Carousel navigation - begin
+	========================================================================== */
+
+	.mkd-carousel.owl-carousel {
+
+		.owl-item {
+		    opacity:0;    
+		    @include mkdTransition(opacity .1s ease-out);
+		    &.active {
+		    	opacity:1; 
+		    }
+		}
+
+		.owl-pagination {
+			text-align: left;
+			margin-top: 16px;
+
+			.owl-page {
+				display: inline-block;
+			}
+
+			.owl-page span {
+				display: inline-block;
+				width: 12px;
+				height: 12px;
+				margin: 3px;
+				background-color: #fff;
+				border: 2px solid white;
+				position: relative;
+                @include mkdBorderRadius(100%);
+			}
+
+			.owl-page.active span {
+				background-color: $first-main-color;
+			}
+
+			.owl-page span:after{
+				content: '';
+				display: inline-block;
+				position:absolute;
+				height: calc(100% + 6px);
+				width: calc(100% + 6px);
+				top: -3px;
+				left: -3px;
+				background-color: #e9e9e9;
+				z-index: -1;
+                @include mkdBorderRadius(100%);
+			}
+
+		}
+
+		&.mkd-pag-right .owl-pagination{
+			text-align: right;
+		}
+
+	}
+
+	/* Carousel navigation - end
+	========================================================================== */
+
+}
+
+/* ==========================================================================
+# Carousels style - end
+========================================================================== */

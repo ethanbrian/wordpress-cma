@@ -1,0 +1,12 @@
+.mkd-tooltip {
+    display: inline-block;
+    color: #a8a8a8;
+
+    &.mkd-inline-tooltip.left {
+        margin-right: 10px;
+    }
+
+    &.mkd-inline-tooltip.right {
+        margin-left: 10px;
+    }
+}

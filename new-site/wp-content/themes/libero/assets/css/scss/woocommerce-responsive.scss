@@ -1,0 +1,411 @@
+/* ==========================================================================
+# Woocommerce responsive style - begin
+========================================================================== */
+
+/* Woocommerce product list - begin
+========================================================================== */
+
+@import 'variables';
+@import 'mixins';
+
+.mkd-woocommerce-page {
+
+	.woocommerce-result-count,
+	.woocommerce-ordering {
+
+		@include phone-portrait {
+			width: 100%;
+			margin-bottom: 2%;
+		}
+
+	}
+
+	.woocommerce-result-count {
+
+		@include  phone-portrait {
+			text-align: center;
+		}
+
+	}
+
+	.woocommerce-ordering .orderby {
+
+		@include phone-portrait {
+			display: block;
+			float: none;
+			margin: 0 auto;
+		}
+
+	}
+
+}
+
+.woocommerce.columns-4,
+.mkd-woocommerce-page.mkd-woocommerce-columns-4 {
+
+	.products .product {
+
+		@include ipad-landscape {
+			width: 32%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+
+			&:nth-child(4n){
+				margin-right: 2%;
+			}
+
+			&:nth-child(3n) {
+				margin-right: 0;
+			}
+
+			&:nth-child(3n+1) {
+				clear: both;
+				margin-right: 2%;
+			}
+
+			&:nth-child(4n+1) {
+				clear: none;
+			}
+
+		}
+
+		@include ipad-portrait {
+			width: 49%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+
+			&:nth-child(2n+1) {
+				clear: both;
+				margin-right: 2%;
+			}
+
+			&:nth-child(3n+1),
+			&:nth-child(4n+1) {
+				clear: none;
+			}
+
+		}
+
+		@include phone-landscape {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 2%;
+		}
+
+	}
+
+	.related.products .product {
+
+		@include ipad-landscape {
+			width: 49%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+
+			&:nth-child(2n+1) {
+				clear: both;
+				margin-right: 2%;
+			}
+
+			&:nth-child(3n+1),
+			&:nth-child(4n+1) {
+				clear: none;
+			}
+
+		}
+
+		@include phone-landscape {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 2%;
+		}
+
+	}
+
+	.mkd-woocommerce-with-sidebar .products .product {
+
+		@include ipad-portrait {
+			width: 49%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+
+			&:nth-child(3n){
+				margin-bottom: 2%;
+			}
+			
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+
+			&:nth-child(2n+1) {
+				clear: both;
+				margin-right: 2%;
+			}
+
+			&:nth-child(3n+1),
+			&:nth-child(4n+1) {
+				clear: none;
+			}
+
+		}
+
+		@include phone-landscape {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 2%;
+		}
+
+	}
+
+}
+
+.woocommerce.columns-3,
+.mkd-woocommerce-page.mkd-woocommerce-columns-3 {
+
+	.products .product {
+
+		@include ipad-portrait {
+			width: 49%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+
+			&:nth-child(3n){
+				margin-bottom: 2%;
+			}
+
+			&:nth-child(2n) {
+				margin-right: 0;
+			}
+
+			&:nth-child(2n+1) {
+				clear: both;
+				margin-right: 2%;
+			}
+
+			&:nth-child(3n+1),
+			&:nth-child(4n+1) {
+				clear: none;
+			}
+
+		}
+
+		@include phone-portrait {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 2%;
+		}
+
+	}
+
+	.mkd-woocommerce-with-sidebar .products .product{
+
+		@include phone-portrait {
+			width: 100%;
+			margin-right: 0;
+			margin-bottom: 2%;
+		}
+
+	}
+
+}
+
+/* Woocommerce product list - end
+========================================================================== */
+
+/* Woocommerce single product - begin
+========================================================================== */
+
+.mkd-single-product-images,
+.mkd-single-product-summary {
+
+
+	.mkd-btn-solid.single_add_to_cart_button{
+
+		@media only screen and (max-width: $ipad-landscape) and (min-width: $ipad-portrait){
+			margin-top: 15px;
+		}
+
+		@include phone-portrait{
+			margin-top: 15px;
+		}
+	}
+
+	@include ipad-portrait {
+		width: 100%;
+		margin: 0;
+	}
+
+}
+
+/* Woocommerce single product - end
+========================================================================== */
+/* Woocommerce account - begin
+========================================================================== */
+
+@include ipad-landscape {
+   .woocommerce-account {
+
+    .woocommerce-MyAccount-navigation {
+      width: 28%;
+      padding: 0 15px 0 0;
+  }
+  .woocommerce-MyAccount-content {
+   width: 72%;
+   padding: 0 0 0 15px;
+  }
+ }
+}
+
+@include ipad-portrait {
+   .woocommerce-account {
+
+  .woocommerce-MyAccount-navigation,
+  .woocommerce-MyAccount-content {
+   float: none;
+   width: 100%;
+   padding: 0;
+  }
+  .woocommerce-MyAccount-content {
+   margin: 50px 0 0;
+  }
+ }
+}
+/* Woocommerce account - end
+========================================================================== */
+
+
+/* Woocommerce table - begin
+========================================================================== */
+
+.mkd-woocommerce-page {
+
+	table td {
+		@include phone-landscape {
+			padding: 5px 5px;
+		}
+
+	}
+
+	td.product-thumbnail img{
+		@include phone-portrait {
+			display: none;
+		}
+	}
+
+	td.actions {
+
+		.coupon,
+		.mkd-cart-proceed-update {
+			@include phone-landscape {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+		}
+
+		.mkd-cart-proceed-update .checkout-button {
+			@include phone-landscape {
+				float: left;
+			}
+		}
+	}
+
+	.coupon {
+
+		input[type="text"] {
+			@include ipad-portrait {
+				width: 150px;
+			}
+		}
+
+	}
+
+}
+
+/* Woocommerce table - end
+========================================================================== */
+
+/* Woocommerce shipping calculator - begin
+========================================================================== */
+
+.mkd-woocommerce-page {
+
+	.mkd-shipping-calculator {
+
+		@include phone-landscape {
+			width: 100%;
+			margin-bottom: 25px;
+		}
+
+	}
+
+}
+
+/* Woocommerce shipping calculator - end
+========================================================================== */
+
+/* Woocommerce totals - begin
+========================================================================== */
+
+.mkd-woocommerce-page {
+
+	.mkd-cart-totals {
+		@include phone-landscape {
+			width: 100%;
+		}
+	}
+
+}
+
+/* Woocommerce totals - end
+========================================================================== */
+
+/* Woocommerce checkout - begin
+========================================================================== */
+
+.mkd-woocommerce-page {
+
+	.woocommerce-checkout .col-1,
+	.woocommerce-checkout .col-2 {
+		@include ipad-portrait {
+			width: 100%;
+		}
+	}
+
+}
+
+/* Woocommerce checkout - end
+========================================================================== */
+
+/* Woocommerce dropdown cart - begin
+========================================================================== */
+
+@media only screen and (max-width: $ipad-landscape) {
+    .mkd-shopping-cart-outer:hover{
+        .mkd-shopping-cart-dropdown{
+            display: none;
+            visibility: hidden;
+        }
+    }
+    .mkd-top-bar .mkd-shopping-cart-outer{
+        float: none;
+    }    
+}
+
+@media only screen and (max-width: $smaller-phone-portrait) {
+    .mkd-shopping-cart-outer{
+        display: none;
+    }
+}
+
+/* Woocommerce dropdown cart - begin
+========================================================================== */
+/* ==========================================================================
+# Woocommerce responsive style - end
+========================================================================== */

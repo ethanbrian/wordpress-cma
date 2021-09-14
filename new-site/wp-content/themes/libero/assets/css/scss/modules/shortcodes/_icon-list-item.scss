@@ -1,0 +1,50 @@
+/* ==========================================================================
+# Icon List Item style - begin
+========================================================================== */
+.mkd-icon-list-item{
+    display: table;
+    table-layout: fixed;
+    height: 27px;
+	position: relative;
+    
+    .mkd-icon-list-icon-holder{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .mkd-icon-list-icon-holder-inner i,
+    .mkd-icon-list-icon-holder-inner .font_elegant{
+        display: block;
+        color: $first-main-color;
+        font-size: 18px;
+        text-align: center;
+    }
+    .mkd-icon-list-text{
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        padding-left: 17px;
+        font-size: 18px;
+    }
+
+	.mkd-content-aligment-center &,
+	.mkd-horizontal-alignment-center &{
+		margin: auto;
+	}
+
+	.mkd-content-aligment-right &,
+	.mkd-horizontal-alignment-right &{
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	.mkd-horizontal-alignment-left &{
+		margin-left: 0;
+		margin-right: auto;
+	}
+}
+
+
+/* ==========================================================================
+# Icon List Item style - end
+========================================================================== */
+
